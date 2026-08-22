@@ -1,5 +1,13 @@
 # Validation
 
+## Local component documentation
+
+```bash
+pnpm --filter docs dev --hostname 127.0.0.1 --port 3000
+```
+
+Open `http://localhost:3000/en/components/confirmation`. The explicit English prefix is required because the docs application stores every rendered route under `[lang]`; hiding the only locale causes a rewrite/redirect loop with the pinned Next.js and Fumadocs versions.
+
 ## Penpot binding tooling
 
 ```bash

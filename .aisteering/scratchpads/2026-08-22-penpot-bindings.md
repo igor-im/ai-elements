@@ -19,3 +19,4 @@ Date: 2026-08-22
 - Instantiate concrete `LibraryVariantComponent` objects in consumer files. `switchVariant()` silently left new copies on `Request/Light` during this pilot.
 - Binding validation: 9 focused tooling tests pass; Confirmation behavior: 17 tests pass.
 - Full Elements baseline currently has eight unrelated React Flow zero-size failures in `controls.test.tsx` and `panel.test.tsx`.
+- The docs app must use explicit locale routes such as `/en/components/confirmation`; `hideLocale: "default-locale"` loops between the hidden path and `[lang]` route with the pinned Next.js/Fumadocs runtime.
