@@ -23,3 +23,15 @@ An integer that versions the metadata shape and resolution semantics. It is sepa
 ## Variant mapping
 
 An exhaustive translation from Penpot variant values to React state, approval data, compound exports, or theme context. Missing mappings are errors; the tooling does not guess.
+
+## Penpot page export
+
+A versioned JSON scene graph captured through Penpot MCP. It records a board's native nodes, linked component identities, reference dimensions, and explicit implementation contract without embedding an expected screenshot or generated code.
+
+## Implementation contract
+
+Board metadata that names the target source file, route, theme, and binding manifest for a design-to-code task. Missing contract values block implementation rather than selecting defaults.
+
+## Blind implementation run
+
+An evaluation in which an agent receives only the implementation skill, raw design export, binding manifest, target project, and user-level request. It does not receive the design conversation, expected screenshot, or a hand-written solution.
