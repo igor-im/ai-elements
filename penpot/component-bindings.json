@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "components": [
+    {
+      "id": "ai.confirmation",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/confirmation.tsx",
+        "sha256": "7cc0befed99499ed9010643e7a90ec619180a3f6e79cba5668cfc84126b96a10"
+      },
+      "code": {
+        "module": "@repo/elements/confirmation",
+        "exports": [
+          "Confirmation",
+          "ConfirmationTitle",
+          "ConfirmationRequest",
+          "ConfirmationAccepted",
+          "ConfirmationRejected",
+          "ConfirmationActions",
+          "ConfirmationAction"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "a46a744a-db75-80c4-8008-85fc2b7972aa",
+        "variantContainerId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+        "variantComponentIds": {
+          "Request|Light": "a46a744a-db75-80c4-8008-85fc2b7972aa",
+          "Accepted|Light": "a46a744a-db75-80c4-8008-85fc2b79db51",
+          "Rejected|Light": "a46a744a-db75-80c4-8008-85fc2b7a2d49",
+          "Request|Dark": "42dae7f1-b943-80fb-8008-85fcaeb9ee17",
+          "Accepted|Dark": "42dae7f1-b943-80fb-8008-85fcaec560cc",
+          "Rejected|Dark": "42dae7f1-b943-80fb-8008-85fcaec8570b"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "15a57ee0-be05-809c-8008-8618768ee905"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "State": {
+          "Request": {
+            "state": "approval-requested",
+            "approval": "pending",
+            "contentExport": "ConfirmationRequest",
+            "showsActions": true
+          },
+          "Accepted": {
+            "state": "approval-responded",
+            "approval": true,
+            "contentExport": "ConfirmationAccepted",
+            "showsActions": false
+          },
+          "Rejected": {
+            "state": "output-denied",
+            "approval": false,
+            "contentExport": "ConfirmationRejected",
+            "showsActions": false
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": ["input-streaming", "input-available"]
+    }
+  ]
+}

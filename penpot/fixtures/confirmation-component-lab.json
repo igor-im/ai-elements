@@ -1,0 +1,67 @@
+{
+  "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+  "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+  "galleryId": "15a57ee0-be05-809c-8008-8618768ee905",
+  "instances": [
+    {
+      "id": "15a57ee0-be05-809c-8008-8618d5d1c2fe",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "a46a744a-db75-80c4-8008-85fc2b7972aa",
+      "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+      "variantProps": {
+        "State": "Request",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "15a57ee0-be05-809c-8008-8618d5d5cfab",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "a46a744a-db75-80c4-8008-85fc2b79db51",
+      "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+      "variantProps": {
+        "State": "Accepted",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "15a57ee0-be05-809c-8008-8618d5d876a8",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "a46a744a-db75-80c4-8008-85fc2b7a2d49",
+      "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+      "variantProps": {
+        "State": "Rejected",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "15a57ee0-be05-809c-8008-8618d5dac4fd",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "42dae7f1-b943-80fb-8008-85fcaeb9ee17",
+      "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+      "variantProps": {
+        "State": "Request",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "15a57ee0-be05-809c-8008-8618d5ded038",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "42dae7f1-b943-80fb-8008-85fcaec560cc",
+      "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+      "variantProps": {
+        "State": "Accepted",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "15a57ee0-be05-809c-8008-8618d5e1a617",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "42dae7f1-b943-80fb-8008-85fcaec8570b",
+      "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+      "variantProps": {
+        "State": "Rejected",
+        "Theme": "Dark"
+      }
+    }
+  ]
+}
