@@ -20,3 +20,7 @@ Date: 2026-08-22
 - Binding validation: 9 focused tooling tests pass; Confirmation behavior: 17 tests pass.
 - Full Elements baseline currently has eight unrelated React Flow zero-size failures in `controls.test.tsx` and `panel.test.tsx`.
 - The docs app must use explicit locale routes such as `/en/components/confirmation`; `hideLocale: "default-locale"` loops between the hidden path and `[lang]` route with the pinned Next.js/Fumadocs runtime.
+- Implementation-test page: `Implementation Test` (`15a57ee0-be05-809c-8008-86250cb64c01`), board `Approval Workspace` (`15a57ee0-be05-809c-8008-86250cc51d90`).
+- Raw page artifact: `penpot/exports/approval-workspace.penpot.json`; implementation skill: `skills/implement-penpot-design`; demo: `apps/penpot-demo`.
+- The blind run reproduced exact major geometry and correct bindings but missed compound-content color/alignment without a reference raster. The skill now requires agents to export the board PNG through MCP themselves.
+- Source Sans Pro 400/600/700 assets were copied from the local Penpot frontend into the demo, with the Adobe OFL-1.1 license.

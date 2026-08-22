@@ -80,8 +80,10 @@ const RecentDecisions = () => (
       >
         <ConfirmationTitle>
           <ConfirmationAccepted>
-            <CheckIcon aria-hidden="true" className="decision-icon accepted-icon" />
-            <span>You approved this tool execution</span>
+            <span className="decision-content">
+              <CheckIcon aria-hidden="true" className="decision-icon" />
+              <span>You approved this tool execution</span>
+            </span>
           </ConfirmationAccepted>
         </ConfirmationTitle>
       </Confirmation>
@@ -93,8 +95,10 @@ const RecentDecisions = () => (
       >
         <ConfirmationTitle>
           <ConfirmationRejected>
-            <XIcon aria-hidden="true" className="decision-icon rejected-icon" />
-            <span>You rejected this tool execution</span>
+            <span className="decision-content">
+              <XIcon aria-hidden="true" className="decision-icon" />
+              <span>You rejected this tool execution</span>
+            </span>
           </ConfirmationRejected>
         </ConfirmationTitle>
       </Confirmation>

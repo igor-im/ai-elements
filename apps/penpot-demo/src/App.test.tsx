@@ -60,6 +60,20 @@ describe("Penpot implementation contract", () => {
     ).toBeInTheDocument();
   });
 
+  it("keeps each resolved response icon and message in one content row", () => {
+    render(<App />);
+
+    for (const message of [
+      "You approved this tool execution",
+      "You rejected this tool execution",
+    ]) {
+      const content = screen.getByText(message).closest(".decision-content");
+
+      expect(content).toBeInTheDocument();
+      expect(content?.querySelector("svg")).toBeInTheDocument();
+    }
+  });
+
   it("imports the pinned Confirmation implementation instead of redrawing it", () => {
     const source = readFileSync(resolve(process.cwd(), "src/App.tsx"), "utf8");
 

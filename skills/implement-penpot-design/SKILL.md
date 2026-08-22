@@ -27,6 +27,7 @@ Read [references/export-contract.md](references/export-contract.md) completely. 
 3. Inspect the target package's scripts, framework, styling conventions, and existing tests before choosing implementation details.
 4. Run `pnpm penpot:bindings:validate`. A failed source pin, hash, file ID, or component ID blocks implementation.
 5. Run `pnpm penpot:bindings:resolve <export-path>`. Preserve the resolver result as implementation evidence. Every linked instance must resolve; an unmapped instance is an error.
+6. When Penpot MCP is connected, export the contracted board by ID as a PNG before implementation and preserve it as the visual reference. Do not wait for the user to supply a screenshot. If neither MCP nor an exported reference raster is available, report pixel-level comparison as blocked rather than treating geometry checks as visual comparison.
 
 ### 2. Plan from the scene graph
 
@@ -50,6 +51,7 @@ For each `component-instance`:
 3. Inspect the pinned source and repository examples to learn the public React API and canonical content composition.
 4. Derive state and theme from the resolved `variantProps`. Do not decide state from a visually similar native frame.
 5. Place the imported component at the instance's exported position and size within the semantic page layout.
+6. Compare compound content inside the instance—icons, text color, wrapping, alignment, and actions—to the reference raster. Correct the composition around public content slots; never fork or redraw the bound component to force a match.
 
 If the component's required content is not present in the export, source, examples, or implementation contract, stop and identify the missing design data. Never substitute a different component or silently approximate it.
 
@@ -64,9 +66,9 @@ Run, in order:
 3. `pnpm penpot:bindings:validate` again;
 4. the real application on an explicit unused port;
 5. a browser smoke test at the contracted route and viewport;
-6. a screenshot comparison against the Penpot board.
+6. a screenshot comparison against the MCP-exported Penpot board at the exact reference viewport.
 
-Check geometry, type scale, wrapping, colors, radii, component states, overflow, keyboard focus, and one narrower viewport. Fix implementation differences rather than weakening tests or changing the export.
+Inspect the reference and implementation images, not only bounding-box measurements. Check geometry, type scale, wrapping, colors, radii, component-internal alignment, component states, overflow, keyboard focus, missing-resource console errors, and one narrower viewport. Fix implementation differences rather than weakening tests or changing the export.
 
 ## Completion report
 
