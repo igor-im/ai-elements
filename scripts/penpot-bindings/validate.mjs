@@ -18,12 +18,6 @@ const defaultManifestPath = join(
   "component-bindings.json"
 );
 
-const REQUIRED_STATE_VALUES = ["Request", "Accepted", "Rejected"];
-const REQUIRED_THEME_VALUES = ["Light", "Dark"];
-const REQUIRED_HIDDEN_STATES = ["input-streaming", "input-available"];
-const REQUIRED_VARIANT_KEYS = REQUIRED_THEME_VALUES.flatMap((theme) =>
-  REQUIRED_STATE_VALUES.map((state) => `${state}|${theme}`)
-);
 const UUID_PATTERN =
   /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
 const REVISION_PATTERN = /^[0-9a-f]{40}$/;
@@ -51,13 +45,49 @@ const isPathInside = (repoRoot, filePath) => {
 };
 
 const sourceExports = (source) => {
-  const exports = new Set();
+  const runtime = new Set();
+  const types = new Set();
   const exportPattern =
-    /export\s+(?:declare\s+)?(?:const|function|class|type|interface)\s+([A-Za-z_$][\w$]*)/g;
+    /export\s+(?:declare\s+)?(const|function|class|type|interface)\s+([A-Za-z_$][\w$]*)/g;
   for (const match of source.matchAll(exportPattern)) {
-    exports.add(match[1]);
+    if (match[1] === "type" || match[1] === "interface") {
+      types.add(match[2]);
+    } else {
+      runtime.add(match[2]);
+    }
   }
-  return exports;
+  return { runtime, types };
+};
+
+const cartesianKeys = (properties, variants) => {
+  let keys = [""];
+  for (const property of properties) {
+    const values = sortedKeys(variants?.[property]);
+    keys = keys.flatMap((prefix) =>
+      values.map((value) => (prefix ? `${prefix}|${value}` : value))
+    );
+  }
+  return keys;
+};
+
+const pathExists = (repoRoot, relativePath) => {
+  if (
+    typeof relativePath !== "string" ||
+    relativePath.length === 0 ||
+    isAbsolute(relativePath)
+  ) {
+    return false;
+  }
+  const absolutePath = normalize(join(repoRoot, relativePath));
+  if (!isPathInside(repoRoot, absolutePath)) {
+    return false;
+  }
+  try {
+    readFileSync(absolutePath);
+    return true;
+  } catch {
+    return false;
+  }
 };
 
 export const readBindingManifest = (manifestPath = defaultManifestPath) =>
@@ -177,8 +207,47 @@ export const validateBindingManifest = (
     } else if (source) {
       const availableExports = sourceExports(source);
       for (const exportName of component.code.exports) {
-        if (!availableExports.has(exportName)) {
+        if (!availableExports.runtime.has(exportName)) {
           errors.push(`${prefix}source does not export ${exportName}`);
+        }
+      }
+      if (
+        JSON.stringify(component.code.exports.toSorted()) !==
+        JSON.stringify([...availableExports.runtime].toSorted())
+      ) {
+        errors.push(
+          `${prefix}code.exports must inventory every public runtime export`
+        );
+      }
+    }
+    if (!Array.isArray(component?.code?.typeExports)) {
+      errors.push(`${prefix}code.typeExports must be an array`);
+    } else if (source) {
+      const availableExports = sourceExports(source);
+      if (
+        JSON.stringify(component.code.typeExports.toSorted()) !==
+        JSON.stringify([...availableExports.types].toSorted())
+      ) {
+        errors.push(
+          `${prefix}code.typeExports must inventory every public type export`
+        );
+      }
+    }
+
+    if (!pathExists(repoRoot, component?.documentation?.page)) {
+      errors.push(`${prefix}documentation.page does not exist`);
+    }
+    if (
+      !Array.isArray(component?.documentation?.examples) ||
+      component.documentation.examples.length === 0
+    ) {
+      errors.push(`${prefix}documentation.examples must be a non-empty array`);
+    } else {
+      for (const example of component.documentation.examples) {
+        if (!pathExists(repoRoot, example)) {
+          errors.push(
+            `${prefix}documentation example does not exist: ${example}`
+          );
         }
       }
     }
@@ -207,7 +276,40 @@ export const validateBindingManifest = (
     if (design?.sharedPluginData?.contractVersion !== manifest.schemaVersion) {
       errors.push(`${prefix}binding contract version must match schemaVersion`);
     }
-    if (hasExactKeys(design?.variantComponentIds, REQUIRED_VARIANT_KEYS)) {
+    if (
+      !Array.isArray(design?.variantProperties) ||
+      design.variantProperties.length === 0 ||
+      design.variantProperties.some(
+        (property) => typeof property !== "string" || property.length === 0
+      ) ||
+      new Set(design.variantProperties).size !== design.variantProperties.length
+    ) {
+      errors.push(
+        `${prefix}design.variantProperties must be explicit and unique`
+      );
+    }
+    const variantProperties = Array.isArray(design?.variantProperties)
+      ? design.variantProperties
+      : [];
+    if (!hasExactKeys(component?.variants, variantProperties)) {
+      errors.push(
+        `${prefix}variants must define exactly ${variantProperties.join(" × ")}`
+      );
+    }
+    for (const property of variantProperties) {
+      if (
+        typeof component?.variants?.[property] !== "object" ||
+        component.variants[property] === null ||
+        sortedKeys(component.variants[property]).length === 0
+      ) {
+        errors.push(`${prefix}variants.${property} must not be empty`);
+      }
+    }
+    const requiredVariantKeys = cartesianKeys(
+      variantProperties,
+      component?.variants
+    );
+    if (hasExactKeys(design?.variantComponentIds, requiredVariantKeys)) {
       for (const variantComponentId of Object.values(
         design.variantComponentIds
       )) {
@@ -219,14 +321,19 @@ export const validateBindingManifest = (
       }
     } else {
       errors.push(
-        `${prefix}variantComponentIds must cover every State and Theme combination`
+        `${prefix}variantComponentIds must exhaust ${variantProperties.join(" × ")}`
       );
     }
     if (
-      design?.componentId !== design?.variantComponentIds?.["Request|Light"]
+      typeof design?.rootVariant !== "string" ||
+      !requiredVariantKeys.includes(design.rootVariant)
+    ) {
+      errors.push(`${prefix}design.rootVariant must name a mapped variant`);
+    } else if (
+      design?.componentId !== design?.variantComponentIds?.[design.rootVariant]
     ) {
       errors.push(
-        `${prefix}design.componentId must identify the Request|Light root variant`
+        `${prefix}design.componentId must identify design.rootVariant`
       );
     }
     for (const field of ["fileId", "pageId", "galleryId"]) {
@@ -236,56 +343,77 @@ export const validateBindingManifest = (
         );
       }
     }
-
-    if (!hasExactKeys(component?.variants?.State, REQUIRED_STATE_VALUES)) {
+    if (
+      !UUID_PATTERN.test(design?.referenceExport?.shapeId ?? "") ||
+      design?.referenceExport?.format !== "png"
+    ) {
       errors.push(
-        `${prefix}State mappings must be exactly Request, Accepted, and Rejected`
+        `${prefix}design.referenceExport must name a Penpot UUID and png format`
       );
     }
-    if (!hasExactKeys(component?.variants?.Theme, REQUIRED_THEME_VALUES)) {
-      errors.push(`${prefix}Theme mappings must be exactly Light and Dark`);
+
+    if (component?.variants?.Theme) {
+      if (!hasExactKeys(component.variants.Theme, ["Light", "Dark"])) {
+        errors.push(`${prefix}Theme mappings must be exactly Light and Dark`);
+      }
+      for (const themeName of ["Light", "Dark"]) {
+        const themeMapping = component.variants.Theme[themeName];
+        if (themeMapping?.colorScheme !== themeName.toLowerCase()) {
+          errors.push(
+            `${prefix}Theme.${themeName}.colorScheme must equal ${themeName.toLowerCase()}`
+          );
+        }
+      }
+    } else {
+      errors.push(`${prefix}visual components must define a Theme axis`);
     }
-    for (const stateName of REQUIRED_STATE_VALUES) {
-      const stateMapping = component?.variants?.State?.[stateName];
-      if (
-        typeof stateMapping?.state !== "string" ||
-        stateMapping.state === ""
-      ) {
-        errors.push(`${prefix}State.${stateName}.state must be explicit`);
-      }
-      if (!["pending", true, false].includes(stateMapping?.approval)) {
-        errors.push(
-          `${prefix}State.${stateName}.approval must be pending, true, or false`
-        );
-      }
-      if (
-        typeof stateMapping?.contentExport !== "string" ||
-        !component?.code?.exports?.includes(stateMapping.contentExport)
-      ) {
-        errors.push(
-          `${prefix}State.${stateName}.contentExport must name a declared code export`
-        );
-      }
-      if (typeof stateMapping?.showsActions !== "boolean") {
-        errors.push(`${prefix}State.${stateName}.showsActions must be boolean`);
-      }
-    }
-    for (const themeName of REQUIRED_THEME_VALUES) {
-      const themeMapping = component?.variants?.Theme?.[themeName];
-      if (themeMapping?.colorScheme !== themeName.toLowerCase()) {
-        errors.push(
-          `${prefix}Theme.${themeName}.colorScheme must equal ${themeName.toLowerCase()}`
-        );
+    for (const property of variantProperties) {
+      for (const [valueName, mapping] of Object.entries(
+        component?.variants?.[property] ?? {}
+      )) {
+        if (
+          typeof mapping !== "object" ||
+          mapping === null ||
+          Array.isArray(mapping) ||
+          Object.keys(mapping).length === 0
+        ) {
+          errors.push(
+            `${prefix}${property}.${valueName} mapping must be a non-empty object`
+          );
+        }
+        for (const [mappingKey, mappingValue] of Object.entries(
+          mapping ?? {}
+        )) {
+          if (
+            mappingKey.endsWith("Export") &&
+            (typeof mappingValue !== "string" ||
+              !component?.code?.exports?.includes(mappingValue))
+          ) {
+            errors.push(
+              `${prefix}${property}.${valueName}.${mappingKey} must name a declared code export`
+            );
+          }
+          if (
+            mappingKey.endsWith("Exports") &&
+            (!Array.isArray(mappingValue) ||
+              mappingValue.some(
+                (exportName) => !component?.code?.exports?.includes(exportName)
+              ))
+          ) {
+            errors.push(
+              `${prefix}${property}.${valueName}.${mappingKey} must name declared code exports`
+            );
+          }
+        }
       }
     }
     if (
       !Array.isArray(component?.hiddenRuntimeStates) ||
-      JSON.stringify(component.hiddenRuntimeStates.toSorted()) !==
-        JSON.stringify(REQUIRED_HIDDEN_STATES.toSorted())
+      component.hiddenRuntimeStates.some(
+        (state) => typeof state !== "string" || state.length === 0
+      )
     ) {
-      errors.push(
-        `${prefix}hiddenRuntimeStates must be exactly input-streaming and input-available`
-      );
+      errors.push(`${prefix}hiddenRuntimeStates must be an explicit array`);
     }
   }
 

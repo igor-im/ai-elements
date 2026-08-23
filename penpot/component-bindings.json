@@ -2,6 +2,260 @@
   "schemaVersion": 1,
   "components": [
     {
+      "id": "ai.attachments",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/attachments.tsx",
+        "sha256": "91c42be9a592fe8ff2468352b8636f6bc364567779618ac3a075f1080b378fad"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/attachments.mdx",
+        "examples": [
+          "packages/examples/src/attachments.tsx",
+          "packages/examples/src/attachments-inline.tsx",
+          "packages/examples/src/attachments-list.tsx"
+        ]
+      },
+      "code": {
+        "module": "@repo/elements/attachments",
+        "exports": [
+          "getMediaCategory",
+          "getAttachmentLabel",
+          "useAttachmentsContext",
+          "useAttachmentContext",
+          "Attachments",
+          "Attachment",
+          "AttachmentPreview",
+          "AttachmentInfo",
+          "AttachmentRemove",
+          "AttachmentHoverCard",
+          "AttachmentHoverCardTrigger",
+          "AttachmentHoverCardContent",
+          "AttachmentEmpty"
+        ],
+        "typeExports": [
+          "AttachmentData",
+          "AttachmentMediaCategory",
+          "AttachmentVariant",
+          "AttachmentsProps",
+          "AttachmentProps",
+          "AttachmentPreviewProps",
+          "AttachmentInfoProps",
+          "AttachmentRemoveProps",
+          "AttachmentHoverCardProps",
+          "AttachmentHoverCardTriggerProps",
+          "AttachmentHoverCardContentProps",
+          "AttachmentEmptyProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "471d208c-a0a6-80ee-8008-864c14bd1430",
+        "variantContainerId": "471d208c-a0a6-80ee-8008-864c1592627f",
+        "variantProperties": ["Variant", "Theme"],
+        "rootVariant": "Grid|Light",
+        "variantComponentIds": {
+          "Grid|Light": "471d208c-a0a6-80ee-8008-864c14bd1430",
+          "Grid|Dark": "471d208c-a0a6-80ee-8008-864c14fd1ba7",
+          "Inline|Light": "471d208c-a0a6-80ee-8008-864c15168744",
+          "Inline|Dark": "471d208c-a0a6-80ee-8008-864c152f26e1",
+          "List|Light": "471d208c-a0a6-80ee-8008-864c1560d694",
+          "List|Dark": "471d208c-a0a6-80ee-8008-864c1591c9bc"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "471d208c-a0a6-80ee-8008-864c1592627f",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "Variant": {
+          "Grid": {
+            "variant": "grid",
+            "sampleData": "four mixed file attachments"
+          },
+          "Inline": {
+            "variant": "inline",
+            "sampleData": "three mixed inline attachments"
+          },
+          "List": {
+            "variant": "list",
+            "sampleData": "three mixed list attachments"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.chain-of-thought",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/chain-of-thought.tsx",
+        "sha256": "ddc63b036299d636483b2041599248226e05ef01afd9c5e32724e3a849def8c4"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/chain-of-thought.mdx",
+        "examples": ["packages/examples/src/chain-of-thought.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/chain-of-thought",
+        "exports": [
+          "ChainOfThought",
+          "ChainOfThoughtHeader",
+          "ChainOfThoughtStep",
+          "ChainOfThoughtSearchResults",
+          "ChainOfThoughtSearchResult",
+          "ChainOfThoughtContent",
+          "ChainOfThoughtImage"
+        ],
+        "typeExports": [
+          "ChainOfThoughtProps",
+          "ChainOfThoughtHeaderProps",
+          "ChainOfThoughtStepProps",
+          "ChainOfThoughtSearchResultsProps",
+          "ChainOfThoughtSearchResultProps",
+          "ChainOfThoughtContentProps",
+          "ChainOfThoughtImageProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "471d208c-a0a6-80ee-8008-864c15a8e02f",
+        "variantContainerId": "471d208c-a0a6-80ee-8008-864c161ef050",
+        "variantProperties": ["State", "Theme"],
+        "rootVariant": "Collapsed|Light",
+        "variantComponentIds": {
+          "Collapsed|Light": "471d208c-a0a6-80ee-8008-864c15a8e02f",
+          "Collapsed|Dark": "471d208c-a0a6-80ee-8008-864c15b224e8",
+          "Open|Light": "471d208c-a0a6-80ee-8008-864c15ea7080",
+          "Open|Dark": "471d208c-a0a6-80ee-8008-864c161e29ff"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "471d208c-a0a6-80ee-8008-864c161ef050",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "State": {
+          "Collapsed": {
+            "open": false
+          },
+          "Open": {
+            "open": true,
+            "sampleData": "complete and active reasoning steps"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.checkpoint",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/checkpoint.tsx",
+        "sha256": "8649b28c7969c6c58bd9a8643279810c13da332198a4fcbc5b8a75000673eb5b"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/checkpoint.mdx",
+        "examples": ["packages/examples/src/checkpoint.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/checkpoint",
+        "exports": ["Checkpoint", "CheckpointIcon", "CheckpointTrigger"],
+        "typeExports": [
+          "CheckpointProps",
+          "CheckpointIconProps",
+          "CheckpointTriggerProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "471d208c-a0a6-80ee-8008-864c1634141d",
+        "variantContainerId": "471d208c-a0a6-80ee-8008-864c163f8d6d",
+        "variantProperties": ["Theme"],
+        "rootVariant": "Light",
+        "variantComponentIds": {
+          "Light": "471d208c-a0a6-80ee-8008-864c1634141d",
+          "Dark": "471d208c-a0a6-80ee-8008-864c163f411c"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "471d208c-a0a6-80ee-8008-864c163f8d6d",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
       "id": "ai.confirmation",
       "sourcePin": {
         "kind": "git-commit+sha256",
@@ -9,6 +263,10 @@
         "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
         "file": "packages/elements/src/confirmation.tsx",
         "sha256": "7cc0befed99499ed9010643e7a90ec619180a3f6e79cba5668cfc84126b96a10"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/confirmation.mdx",
+        "examples": ["packages/examples/src/confirmation.tsx"]
       },
       "code": {
         "module": "@repo/elements/confirmation",
@@ -20,6 +278,15 @@
           "ConfirmationRejected",
           "ConfirmationActions",
           "ConfirmationAction"
+        ],
+        "typeExports": [
+          "ConfirmationProps",
+          "ConfirmationTitleProps",
+          "ConfirmationRequestProps",
+          "ConfirmationAcceptedProps",
+          "ConfirmationRejectedProps",
+          "ConfirmationActionsProps",
+          "ConfirmationActionProps"
         ]
       },
       "design": {
@@ -29,6 +296,8 @@
         "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
         "componentId": "a46a744a-db75-80c4-8008-85fc2b7972aa",
         "variantContainerId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+        "variantProperties": ["State", "Theme"],
+        "rootVariant": "Request|Light",
         "variantComponentIds": {
           "Request|Light": "a46a744a-db75-80c4-8008-85fc2b7972aa",
           "Accepted|Light": "a46a744a-db75-80c4-8008-85fc2b79db51",
@@ -41,6 +310,10 @@
           "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
           "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
           "galleryId": "15a57ee0-be05-809c-8008-8618768ee905"
+        },
+        "referenceExport": {
+          "shapeId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+          "format": "png"
         },
         "sharedPluginData": {
           "namespace": "ai-elements",
@@ -79,6 +352,1408 @@
         }
       },
       "hiddenRuntimeStates": ["input-streaming", "input-available"]
+    },
+    {
+      "id": "ai.context",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/context.tsx",
+        "sha256": "e511015bd0d58d4dcc179d672fe2de980ff923654a53541d4396f209bf02c243"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/context.mdx",
+        "examples": ["packages/examples/src/context.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/context",
+        "exports": [
+          "Context",
+          "ContextTrigger",
+          "ContextContent",
+          "ContextContentHeader",
+          "ContextContentBody",
+          "ContextContentFooter",
+          "ContextInputUsage",
+          "ContextOutputUsage",
+          "ContextReasoningUsage",
+          "ContextCacheUsage"
+        ],
+        "typeExports": [
+          "ContextProps",
+          "ContextTriggerProps",
+          "ContextContentProps",
+          "ContextContentHeaderProps",
+          "ContextContentBodyProps",
+          "ContextContentFooterProps",
+          "ContextInputUsageProps",
+          "ContextOutputUsageProps",
+          "ContextReasoningUsageProps",
+          "ContextCacheUsageProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "471d208c-a0a6-80ee-8008-864c164da3c8",
+        "variantContainerId": "471d208c-a0a6-80ee-8008-864c16c532b6",
+        "variantProperties": ["State", "Theme"],
+        "rootVariant": "Trigger|Light",
+        "variantComponentIds": {
+          "Trigger|Light": "471d208c-a0a6-80ee-8008-864c164da3c8",
+          "Trigger|Dark": "471d208c-a0a6-80ee-8008-864c1656d63c",
+          "Details|Light": "471d208c-a0a6-80ee-8008-864c168bde32",
+          "Details|Dark": "471d208c-a0a6-80ee-8008-864c16c4ec11"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "471d208c-a0a6-80ee-8008-864c16c532b6",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "State": {
+          "Trigger": {
+            "open": false,
+            "usedTokens": 40000,
+            "maxTokens": 128000,
+            "modelId": "openai:gpt-5"
+          },
+          "Details": {
+            "open": true,
+            "usedTokens": 40000,
+            "maxTokens": 128000,
+            "modelId": "openai:gpt-5"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.conversation",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/conversation.tsx",
+        "sha256": "d7ac46f1e7bc8e46bc49f67c768fc93aebdf17d816397cb35a40deff7173e875"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/conversation.mdx",
+        "examples": ["packages/examples/src/conversation.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/conversation",
+        "exports": [
+          "Conversation",
+          "ConversationContent",
+          "ConversationEmptyState",
+          "ConversationScrollButton",
+          "messagesToMarkdown",
+          "ConversationDownload"
+        ],
+        "typeExports": [
+          "ConversationProps",
+          "ConversationContentProps",
+          "ConversationEmptyStateProps",
+          "ConversationScrollButtonProps",
+          "ConversationDownloadProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "471d208c-a0a6-80ee-8008-864c16da8754",
+        "variantContainerId": "471d208c-a0a6-80ee-8008-864c17231776",
+        "variantProperties": ["State", "Theme"],
+        "rootVariant": "Empty|Light",
+        "variantComponentIds": {
+          "Empty|Light": "471d208c-a0a6-80ee-8008-864c16da8754",
+          "Empty|Dark": "471d208c-a0a6-80ee-8008-864c16e746b3",
+          "Populated|Light": "471d208c-a0a6-80ee-8008-864c17048920",
+          "Populated|Dark": "471d208c-a0a6-80ee-8008-864c1722b2d7"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "471d208c-a0a6-80ee-8008-864c17231776",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "State": {
+          "Empty": {
+            "contentExport": "ConversationEmptyState",
+            "sampleData": "no messages"
+          },
+          "Populated": {
+            "contentExport": "ConversationContent",
+            "sampleData": "one user and one assistant message"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.inline-citation",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/inline-citation.tsx",
+        "sha256": "c7dc2a67386bc06d23fa42344f48f3b45e51f1f91b22e44801a2902acdf64018"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/inline-citation.mdx",
+        "examples": ["packages/examples/src/inline-citation.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/inline-citation",
+        "exports": [
+          "InlineCitation",
+          "InlineCitationText",
+          "InlineCitationCard",
+          "InlineCitationCardTrigger",
+          "InlineCitationCardBody",
+          "InlineCitationCarousel",
+          "InlineCitationCarouselContent",
+          "InlineCitationCarouselItem",
+          "InlineCitationCarouselHeader",
+          "InlineCitationCarouselIndex",
+          "InlineCitationCarouselPrev",
+          "InlineCitationCarouselNext",
+          "InlineCitationSource",
+          "InlineCitationQuote"
+        ],
+        "typeExports": [
+          "InlineCitationProps",
+          "InlineCitationTextProps",
+          "InlineCitationCardProps",
+          "InlineCitationCardTriggerProps",
+          "InlineCitationCardBodyProps",
+          "InlineCitationCarouselProps",
+          "InlineCitationCarouselContentProps",
+          "InlineCitationCarouselItemProps",
+          "InlineCitationCarouselHeaderProps",
+          "InlineCitationCarouselIndexProps",
+          "InlineCitationCarouselPrevProps",
+          "InlineCitationCarouselNextProps",
+          "InlineCitationSourceProps",
+          "InlineCitationQuoteProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "471d208c-a0a6-80ee-8008-864c17390619",
+        "variantContainerId": "471d208c-a0a6-80ee-8008-864c1783fff0",
+        "variantProperties": ["State", "Theme"],
+        "rootVariant": "Inline|Light",
+        "variantComponentIds": {
+          "Inline|Light": "471d208c-a0a6-80ee-8008-864c17390619",
+          "Inline|Dark": "471d208c-a0a6-80ee-8008-864c1745a95b",
+          "Card|Light": "471d208c-a0a6-80ee-8008-864c176467c0",
+          "Card|Dark": "471d208c-a0a6-80ee-8008-864c1783643e"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "471d208c-a0a6-80ee-8008-864c1783fff0",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "State": {
+          "Inline": {
+            "open": false,
+            "sampleData": "six cited sources"
+          },
+          "Card": {
+            "open": true,
+            "sampleData": "first of six cited sources"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.message",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/message.tsx",
+        "sha256": "19c7755740e116f221e4247f7b6d4f20b57a44e4c4fcf66d2db5e1f111476509"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/message.mdx",
+        "examples": ["packages/examples/src/message.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/message",
+        "exports": [
+          "Message",
+          "MessageContent",
+          "MessageActions",
+          "MessageAction",
+          "MessageBranch",
+          "MessageBranchContent",
+          "MessageBranchSelector",
+          "MessageBranchPrevious",
+          "MessageBranchNext",
+          "MessageBranchPage",
+          "MessageResponse",
+          "MessageToolbar"
+        ],
+        "typeExports": [
+          "MessageProps",
+          "MessageContentProps",
+          "MessageActionsProps",
+          "MessageActionProps",
+          "MessageBranchProps",
+          "MessageBranchContentProps",
+          "MessageBranchSelectorProps",
+          "MessageBranchPreviousProps",
+          "MessageBranchNextProps",
+          "MessageBranchPageProps",
+          "MessageResponseProps",
+          "MessageToolbarProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d038ce6f8",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d042f6f43",
+        "variantProperties": ["Role", "Theme"],
+        "rootVariant": "User|Light",
+        "variantComponentIds": {
+          "User|Light": "eed21ae3-9355-80a6-8008-864d038ce6f8",
+          "User|Dark": "eed21ae3-9355-80a6-8008-864d03ac4777",
+          "Assistant|Light": "eed21ae3-9355-80a6-8008-864d03f15d69",
+          "Assistant|Dark": "eed21ae3-9355-80a6-8008-864d042edcb4"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d042f6f43",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "Role": {
+          "User": {
+            "from": "user",
+            "sampleData": "question with file attachment"
+          },
+          "Assistant": {
+            "from": "assistant",
+            "sampleData": "branched response with actions"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.model-selector",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/model-selector.tsx",
+        "sha256": "a4d51f76ddf5197cb86b7f70ba62bd62327468a9acae1351a0b1adcb3710ec0a"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/model-selector.mdx",
+        "examples": ["packages/examples/src/model-selector.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/model-selector",
+        "exports": [
+          "ModelSelector",
+          "ModelSelectorTrigger",
+          "ModelSelectorContent",
+          "ModelSelectorDialog",
+          "ModelSelectorInput",
+          "ModelSelectorList",
+          "ModelSelectorEmpty",
+          "ModelSelectorGroup",
+          "ModelSelectorItem",
+          "ModelSelectorShortcut",
+          "ModelSelectorSeparator",
+          "ModelSelectorLogo",
+          "ModelSelectorLogoGroup",
+          "ModelSelectorName"
+        ],
+        "typeExports": [
+          "ModelSelectorProps",
+          "ModelSelectorTriggerProps",
+          "ModelSelectorContentProps",
+          "ModelSelectorDialogProps",
+          "ModelSelectorInputProps",
+          "ModelSelectorListProps",
+          "ModelSelectorEmptyProps",
+          "ModelSelectorGroupProps",
+          "ModelSelectorItemProps",
+          "ModelSelectorShortcutProps",
+          "ModelSelectorSeparatorProps",
+          "ModelSelectorLogoProps",
+          "ModelSelectorLogoGroupProps",
+          "ModelSelectorNameProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d044f0668",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d04e2a288",
+        "variantProperties": ["State", "Theme"],
+        "rootVariant": "Trigger|Light",
+        "variantComponentIds": {
+          "Trigger|Light": "eed21ae3-9355-80a6-8008-864d044f0668",
+          "Trigger|Dark": "eed21ae3-9355-80a6-8008-864d045f7b12",
+          "Dialog|Light": "eed21ae3-9355-80a6-8008-864d04a22dc3",
+          "Dialog|Dark": "eed21ae3-9355-80a6-8008-864d04e21b48"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d04e2a288",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "State": {
+          "Trigger": {
+            "open": false,
+            "selectedModel": "gpt-4o"
+          },
+          "Dialog": {
+            "open": true,
+            "selectedModel": "gpt-4o",
+            "sampleData": "OpenAI model group"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.plan",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/plan.tsx",
+        "sha256": "bfa20e90199fa40e5f714be131798406dc07b23051f8c48c590e91c65ade99d8"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/plan.mdx",
+        "examples": ["packages/examples/src/plan.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/plan",
+        "exports": [
+          "Plan",
+          "PlanHeader",
+          "PlanTitle",
+          "PlanDescription",
+          "PlanAction",
+          "PlanContent",
+          "PlanFooter",
+          "PlanTrigger"
+        ],
+        "typeExports": [
+          "PlanProps",
+          "PlanHeaderProps",
+          "PlanTitleProps",
+          "PlanDescriptionProps",
+          "PlanActionProps",
+          "PlanContentProps",
+          "PlanFooterProps",
+          "PlanTriggerProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d0503ac94",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d0599464b",
+        "variantProperties": ["State", "Theme"],
+        "rootVariant": "Collapsed|Light",
+        "variantComponentIds": {
+          "Collapsed|Light": "eed21ae3-9355-80a6-8008-864d0503ac94",
+          "Collapsed|Dark": "eed21ae3-9355-80a6-8008-864d0516adcb",
+          "Expanded|Light": "eed21ae3-9355-80a6-8008-864d0555c8da",
+          "Expanded|Dark": "eed21ae3-9355-80a6-8008-864d0598c3af"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d0599464b",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "State": {
+          "Collapsed": {
+            "open": false
+          },
+          "Expanded": {
+            "open": true,
+            "sampleData": "four implementation steps"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.prompt-input",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/prompt-input.tsx",
+        "sha256": "cf43baf5baa444b4ae06d250643b3fb2efd329c85f9b31a43e3aaf481dd27305"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/prompt-input.mdx",
+        "examples": [
+          "packages/examples/src/prompt-input.tsx",
+          "packages/examples/src/prompt-input-cursor.tsx",
+          "packages/examples/src/prompt-input-tooltip.tsx"
+        ]
+      },
+      "code": {
+        "module": "@repo/elements/prompt-input",
+        "exports": [
+          "usePromptInputController",
+          "useProviderAttachments",
+          "PromptInputProvider",
+          "usePromptInputAttachments",
+          "LocalReferencedSourcesContext",
+          "usePromptInputReferencedSources",
+          "PromptInputActionAddAttachments",
+          "PromptInputActionAddScreenshot",
+          "PromptInput",
+          "PromptInputBody",
+          "PromptInputTextarea",
+          "PromptInputHeader",
+          "PromptInputFooter",
+          "PromptInputTools",
+          "PromptInputButton",
+          "PromptInputActionMenu",
+          "PromptInputActionMenuTrigger",
+          "PromptInputActionMenuContent",
+          "PromptInputActionMenuItem",
+          "PromptInputSubmit",
+          "PromptInputSelect",
+          "PromptInputSelectTrigger",
+          "PromptInputSelectContent",
+          "PromptInputSelectItem",
+          "PromptInputSelectValue",
+          "PromptInputHoverCard",
+          "PromptInputHoverCardTrigger",
+          "PromptInputHoverCardContent",
+          "PromptInputTabsList",
+          "PromptInputTab",
+          "PromptInputTabLabel",
+          "PromptInputTabBody",
+          "PromptInputTabItem",
+          "PromptInputCommand",
+          "PromptInputCommandInput",
+          "PromptInputCommandList",
+          "PromptInputCommandEmpty",
+          "PromptInputCommandGroup",
+          "PromptInputCommandItem",
+          "PromptInputCommandSeparator"
+        ],
+        "typeExports": [
+          "AttachmentsContext",
+          "TextInputContext",
+          "PromptInputControllerProps",
+          "PromptInputProviderProps",
+          "ReferencedSourcesContext",
+          "PromptInputActionAddAttachmentsProps",
+          "PromptInputActionAddScreenshotProps",
+          "PromptInputMessage",
+          "PromptInputProps",
+          "PromptInputBodyProps",
+          "PromptInputTextareaProps",
+          "PromptInputHeaderProps",
+          "PromptInputFooterProps",
+          "PromptInputToolsProps",
+          "PromptInputButtonTooltip",
+          "PromptInputButtonProps",
+          "PromptInputActionMenuProps",
+          "PromptInputActionMenuTriggerProps",
+          "PromptInputActionMenuContentProps",
+          "PromptInputActionMenuItemProps",
+          "PromptInputSubmitProps",
+          "PromptInputSelectProps",
+          "PromptInputSelectTriggerProps",
+          "PromptInputSelectContentProps",
+          "PromptInputSelectItemProps",
+          "PromptInputSelectValueProps",
+          "PromptInputHoverCardProps",
+          "PromptInputHoverCardTriggerProps",
+          "PromptInputHoverCardContentProps",
+          "PromptInputTabsListProps",
+          "PromptInputTabProps",
+          "PromptInputTabLabelProps",
+          "PromptInputTabBodyProps",
+          "PromptInputTabItemProps",
+          "PromptInputCommandProps",
+          "PromptInputCommandInputProps",
+          "PromptInputCommandListProps",
+          "PromptInputCommandEmptyProps",
+          "PromptInputCommandGroupProps",
+          "PromptInputCommandItemProps",
+          "PromptInputCommandSeparatorProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d05ce99df",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d0646acbc",
+        "variantProperties": ["Status", "Theme"],
+        "rootVariant": "Ready|Light",
+        "variantComponentIds": {
+          "Ready|Light": "eed21ae3-9355-80a6-8008-864d05ce99df",
+          "Ready|Dark": "eed21ae3-9355-80a6-8008-864d05f5b4d7",
+          "Streaming|Light": "eed21ae3-9355-80a6-8008-864d061cf3ca",
+          "Streaming|Dark": "eed21ae3-9355-80a6-8008-864d06463b3b"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d0646acbc",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "Status": {
+          "Ready": {
+            "status": "ready",
+            "sampleData": "empty composer"
+          },
+          "Streaming": {
+            "status": "streaming",
+            "sampleData": "submitted prompt"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.question",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/question.tsx",
+        "sha256": "47c69ba8f555734209bc9eae5d62d419fbd0cbe6089ec26c97d2ebcc9114fde3"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/question.mdx",
+        "examples": [
+          "packages/examples/src/question.tsx",
+          "packages/examples/src/question-single-select.tsx",
+          "packages/examples/src/question-multi-select.tsx",
+          "packages/examples/src/question-freeform.tsx"
+        ]
+      },
+      "code": {
+        "module": "@repo/elements/question",
+        "exports": [
+          "Question",
+          "QuestionPrompt",
+          "QuestionDescription",
+          "QuestionOptions",
+          "QuestionOption",
+          "QuestionInput",
+          "QuestionActions",
+          "QuestionSubmit"
+        ],
+        "typeExports": [
+          "QuestionValue",
+          "QuestionResponse",
+          "QuestionProps",
+          "QuestionPromptProps",
+          "QuestionDescriptionProps",
+          "QuestionOptionsProps",
+          "QuestionOptionProps",
+          "QuestionInputProps",
+          "QuestionActionsProps",
+          "QuestionSubmitProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d0694500f",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d0845dc47",
+        "variantProperties": ["Mode", "Theme"],
+        "rootVariant": "SingleSelect|Light",
+        "variantComponentIds": {
+          "SingleSelect|Light": "eed21ae3-9355-80a6-8008-864d0694500f",
+          "SingleSelect|Dark": "eed21ae3-9355-80a6-8008-864d06ce7198",
+          "MultiSelect|Light": "eed21ae3-9355-80a6-8008-864d07141a0a",
+          "MultiSelect|Dark": "eed21ae3-9355-80a6-8008-864d0755f154",
+          "Freeform|Light": "eed21ae3-9355-80a6-8008-864d077abb19",
+          "Freeform|Dark": "eed21ae3-9355-80a6-8008-864d07a0d1ab",
+          "OptionsAndFreeform|Light": "eed21ae3-9355-80a6-8008-864d07f69d43",
+          "OptionsAndFreeform|Dark": "eed21ae3-9355-80a6-8008-864d0845616b"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d0845dc47",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "Mode": {
+          "SingleSelect": {
+            "type": "single",
+            "allowCustom": false
+          },
+          "MultiSelect": {
+            "type": "multiple",
+            "allowCustom": false
+          },
+          "Freeform": {
+            "allowCustom": true,
+            "options": []
+          },
+          "OptionsAndFreeform": {
+            "type": "multiple",
+            "allowCustom": true
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.queue",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/queue.tsx",
+        "sha256": "c823f565e0430749ba0b09db33e76eeb675eea4838bed10245bca392bffd6cfa"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/queue.mdx",
+        "examples": [
+          "packages/examples/src/queue.tsx",
+          "packages/examples/src/queue-prompt-input.tsx"
+        ]
+      },
+      "code": {
+        "module": "@repo/elements/queue",
+        "exports": [
+          "QueueItem",
+          "QueueItemIndicator",
+          "QueueItemContent",
+          "QueueItemDescription",
+          "QueueItemActions",
+          "QueueItemAction",
+          "QueueItemAttachment",
+          "QueueItemImage",
+          "QueueItemFile",
+          "QueueList",
+          "QueueSection",
+          "QueueSectionTrigger",
+          "QueueSectionLabel",
+          "QueueSectionContent",
+          "Queue"
+        ],
+        "typeExports": [
+          "QueueMessagePart",
+          "QueueMessage",
+          "QueueTodo",
+          "QueueItemProps",
+          "QueueItemIndicatorProps",
+          "QueueItemContentProps",
+          "QueueItemDescriptionProps",
+          "QueueItemActionsProps",
+          "QueueItemActionProps",
+          "QueueItemAttachmentProps",
+          "QueueItemImageProps",
+          "QueueItemFileProps",
+          "QueueListProps",
+          "QueueSectionProps",
+          "QueueSectionTriggerProps",
+          "QueueSectionLabelProps",
+          "QueueSectionContentProps",
+          "QueueProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d08a148dc",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d097d984c",
+        "variantProperties": ["Content", "Theme"],
+        "rootVariant": "Messages|Light",
+        "variantComponentIds": {
+          "Messages|Light": "eed21ae3-9355-80a6-8008-864d08a148dc",
+          "Messages|Dark": "eed21ae3-9355-80a6-8008-864d08e328d2",
+          "Todos|Light": "eed21ae3-9355-80a6-8008-864d09301cea",
+          "Todos|Dark": "eed21ae3-9355-80a6-8008-864d097d3c49"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d097d984c",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "Content": {
+          "Messages": {
+            "sampleData": "three QueueMessage items"
+          },
+          "Todos": {
+            "sampleData": "four QueueTodo items"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.reasoning",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/reasoning.tsx",
+        "sha256": "f138cddde35854f73632ff51d48230f8d6e16e0a49a74b44a93b51993a65550e"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/reasoning.mdx",
+        "examples": ["packages/examples/src/reasoning.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/reasoning",
+        "exports": [
+          "useReasoning",
+          "Reasoning",
+          "ReasoningTrigger",
+          "ReasoningContent"
+        ],
+        "typeExports": [
+          "ReasoningProps",
+          "ReasoningTriggerProps",
+          "ReasoningContentProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d2ec52f2c",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d2f39ff16",
+        "variantProperties": ["Status", "Theme"],
+        "rootVariant": "Streaming|Light",
+        "variantComponentIds": {
+          "Streaming|Light": "eed21ae3-9355-80a6-8008-864d2ec52f2c",
+          "Streaming|Dark": "eed21ae3-9355-80a6-8008-864d2eef9904",
+          "Complete|Light": "eed21ae3-9355-80a6-8008-864d2f1407be",
+          "Complete|Dark": "eed21ae3-9355-80a6-8008-864d2f391e47"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d2f39ff16",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "Status": {
+          "Streaming": {
+            "isStreaming": true,
+            "open": true,
+            "sampleData": "partial reasoning text"
+          },
+          "Complete": {
+            "isStreaming": false,
+            "open": true,
+            "duration": 8,
+            "sampleData": "completed reasoning text"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.shimmer",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/shimmer.tsx",
+        "sha256": "89d2284ee165aa57fec960e17c6c71078d22ad3fb3798ca683d7e3d850919a46"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/shimmer.mdx",
+        "examples": [
+          "packages/examples/src/shimmer.tsx",
+          "packages/examples/src/shimmer-duration.tsx",
+          "packages/examples/src/shimmer-elements.tsx"
+        ]
+      },
+      "code": {
+        "module": "@repo/elements/shimmer",
+        "exports": ["Shimmer"],
+        "typeExports": ["TextShimmerProps"]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d2f812e83",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d2fac7c3a",
+        "variantProperties": ["Theme"],
+        "rootVariant": "Light",
+        "variantComponentIds": {
+          "Light": "eed21ae3-9355-80a6-8008-864d2f812e83",
+          "Dark": "eed21ae3-9355-80a6-8008-864d2faba9a1"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d2fac7c3a",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.sources",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/sources.tsx",
+        "sha256": "1454af3ac2c58766a155a881d119d1f9321632a4922d3f74581ba37f52b4707a"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/sources.mdx",
+        "examples": [
+          "packages/examples/src/sources.tsx",
+          "packages/examples/src/sources-custom.tsx"
+        ]
+      },
+      "code": {
+        "module": "@repo/elements/sources",
+        "exports": ["Sources", "SourcesTrigger", "SourcesContent", "Source"],
+        "typeExports": [
+          "SourcesProps",
+          "SourcesTriggerProps",
+          "SourcesContentProps",
+          "SourceProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d2fcb66c0",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d30832f62",
+        "variantProperties": ["State", "Theme"],
+        "rootVariant": "Collapsed|Light",
+        "variantComponentIds": {
+          "Collapsed|Light": "eed21ae3-9355-80a6-8008-864d2fcb66c0",
+          "Collapsed|Dark": "eed21ae3-9355-80a6-8008-864d2fdac05e",
+          "Expanded|Light": "eed21ae3-9355-80a6-8008-864d302deefc",
+          "Expanded|Dark": "eed21ae3-9355-80a6-8008-864d3082185c"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d30832f62",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "State": {
+          "Collapsed": {
+            "open": false,
+            "count": 3
+          },
+          "Expanded": {
+            "open": true,
+            "count": 3,
+            "sampleData": "three source links"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.suggestion",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/suggestion.tsx",
+        "sha256": "0703d777b4153ae20e93514acb9e8327eb03dd2ed2fd0230e03cf22271c7a249"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/suggestion.mdx",
+        "examples": [
+          "packages/examples/src/suggestion.tsx",
+          "packages/examples/src/suggestion-input.tsx"
+        ]
+      },
+      "code": {
+        "module": "@repo/elements/suggestion",
+        "exports": ["Suggestions", "Suggestion"],
+        "typeExports": ["SuggestionsProps", "SuggestionProps"]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d30dc84ab",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d311fc853",
+        "variantProperties": ["Theme"],
+        "rootVariant": "Light",
+        "variantComponentIds": {
+          "Light": "eed21ae3-9355-80a6-8008-864d30dc84ab",
+          "Dark": "eed21ae3-9355-80a6-8008-864d311f182f"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d311fc853",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.task",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/task.tsx",
+        "sha256": "cc9fb7138ded75f17c37c28a2b23425c98f4d06bead436531ad6e65ae553507e"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/task.mdx",
+        "examples": ["packages/examples/src/task.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/task",
+        "exports": [
+          "TaskItemFile",
+          "TaskItem",
+          "Task",
+          "TaskTrigger",
+          "TaskContent"
+        ],
+        "typeExports": [
+          "TaskItemFileProps",
+          "TaskItemProps",
+          "TaskProps",
+          "TaskTriggerProps",
+          "TaskContentProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d313deb86",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d324540a7",
+        "variantProperties": ["State", "Theme"],
+        "rootVariant": "Collapsed|Light",
+        "variantComponentIds": {
+          "Collapsed|Light": "eed21ae3-9355-80a6-8008-864d313deb86",
+          "Collapsed|Dark": "eed21ae3-9355-80a6-8008-864d314d8297",
+          "Expanded|Light": "eed21ae3-9355-80a6-8008-864d31c52a49",
+          "Expanded|Dark": "eed21ae3-9355-80a6-8008-864d32449958"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d324540a7",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "State": {
+          "Collapsed": {
+            "open": false,
+            "title": "Found project files"
+          },
+          "Expanded": {
+            "open": true,
+            "title": "Found project files",
+            "sampleData": "four task items"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.tool",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/tool.tsx",
+        "sha256": "5b520e0c33792cba0ceb04e1cb18c69b212cffacdb52d7297e292c7af568dda4"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(chatbot)/tool.mdx",
+        "examples": [
+          "packages/examples/src/tool.tsx",
+          "packages/examples/src/tool-input-streaming.tsx",
+          "packages/examples/src/tool-input-available.tsx",
+          "packages/examples/src/tool-output-available.tsx",
+          "packages/examples/src/tool-output-error.tsx"
+        ]
+      },
+      "code": {
+        "module": "@repo/elements/tool",
+        "exports": [
+          "Tool",
+          "getStatusBadge",
+          "ToolHeader",
+          "ToolContent",
+          "ToolInput",
+          "ToolOutput"
+        ],
+        "typeExports": [
+          "ToolProps",
+          "ToolPart",
+          "ToolHeaderProps",
+          "ToolContentProps",
+          "ToolInputProps",
+          "ToolOutputProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "eed21ae3-9355-80a6-8008-864d32a027f4",
+        "variantContainerId": "eed21ae3-9355-80a6-8008-864d34bddf2b",
+        "variantProperties": ["State", "Theme"],
+        "rootVariant": "InputStreaming|Light",
+        "variantComponentIds": {
+          "InputStreaming|Light": "eed21ae3-9355-80a6-8008-864d32a027f4",
+          "InputStreaming|Dark": "eed21ae3-9355-80a6-8008-864d32e133f5",
+          "InputAvailable|Light": "eed21ae3-9355-80a6-8008-864d331f1cde",
+          "InputAvailable|Dark": "eed21ae3-9355-80a6-8008-864d335e54f6",
+          "OutputAvailable|Light": "eed21ae3-9355-80a6-8008-864d33b4d7b3",
+          "OutputAvailable|Dark": "eed21ae3-9355-80a6-8008-864d340cab29",
+          "OutputError|Light": "eed21ae3-9355-80a6-8008-864d3464d977",
+          "OutputError|Dark": "eed21ae3-9355-80a6-8008-864d34bd16b2"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "fdc5d385-a945-806e-8008-864e7d404d82"
+        },
+        "referenceExport": {
+          "shapeId": "eed21ae3-9355-80a6-8008-864d34bddf2b",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "State": {
+          "InputStreaming": {
+            "state": "input-streaming",
+            "sampleData": "database query input"
+          },
+          "InputAvailable": {
+            "state": "input-available",
+            "sampleData": "image generation input"
+          },
+          "OutputAvailable": {
+            "state": "output-available",
+            "sampleData": "database query result"
+          },
+          "OutputError": {
+            "state": "output-error",
+            "sampleData": "API request timeout"
+          }
+        },
+        "Theme": {
+          "Light": {
+            "colorScheme": "light"
+          },
+          "Dark": {
+            "colorScheme": "dark"
+          }
+        }
+      },
+      "hiddenRuntimeStates": []
     }
   ]
 }

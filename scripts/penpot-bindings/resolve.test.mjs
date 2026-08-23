@@ -24,6 +24,34 @@ const snapshot = JSON.parse(
 );
 
 describe("penpot component binding resolution", () => {
+  it("resolves every mapped Chatbot variant without detached or guessed state", () => {
+    const instances = manifest.components.flatMap((component) =>
+      Object.entries(component.design.variantComponentIds).map(
+        ([variantKey, componentId], index) => ({
+          componentId,
+          componentLibraryId: component.design.fileId,
+          id: `${component.id}:${index}`,
+          variantProps: Object.fromEntries(
+            component.design.variantProperties.map(
+              (property, propertyIndex) => [
+                property,
+                variantKey.split("|")[propertyIndex],
+              ]
+            )
+          ),
+          variantSetId: component.design.variantContainerId,
+        })
+      )
+    );
+
+    const resolved = resolvePenpotSnapshot(manifest, { instances });
+
+    expect(resolved).toHaveLength(82);
+    expect(new Set(resolved.map(({ canonicalId }) => canonicalId))).toEqual(
+      new Set(manifest.components.map(({ id }) => id))
+    );
+  });
+
   it("resolves every linked component-lab instance", () => {
     const resolved = resolvePenpotSnapshot(manifest, snapshot);
 
@@ -63,5 +91,41 @@ describe("penpot component binding resolution", () => {
     expect(() => resolvePenpotInstance(manifest, instance)).toThrow(
       `Unmapped Penpot component instance: ${instance.id}`
     );
+  });
+
+  it("resolves component-specific axes without guessing", () => {
+    const candidateManifest = structuredClone(manifest);
+    const component = candidateManifest.components[0];
+    component.design.variantProperties = ["Variant", "Theme"];
+    component.design.rootVariant = "Grid|Dark";
+    component.design.componentId = "00000000-0000-0000-0000-000000000002";
+    component.design.variantComponentIds = {
+      "Grid|Light": "00000000-0000-0000-0000-000000000001",
+      "Grid|Dark": "00000000-0000-0000-0000-000000000002",
+    };
+    component.variants = {
+      Variant: {
+        Grid: { sampleData: "four mixed attachments", variant: "grid" },
+      },
+      Theme: {
+        Light: { colorScheme: "light" },
+        Dark: { colorScheme: "dark" },
+      },
+    };
+    component.hiddenRuntimeStates = [];
+
+    const resolved = resolvePenpotInstance(candidateManifest, {
+      componentId: component.design.componentId,
+      componentLibraryId: component.design.fileId,
+      id: "00000000-0000-0000-0000-000000000010",
+      variantProps: { Theme: "Dark", Variant: "Grid" },
+      variantSetId: component.design.variantContainerId,
+    });
+
+    expect(resolved.render).toStrictEqual({
+      colorScheme: "dark",
+      sampleData: "four mixed attachments",
+      variant: "grid",
+    });
   });
 });

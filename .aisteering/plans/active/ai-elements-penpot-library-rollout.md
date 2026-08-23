@@ -21,29 +21,31 @@ Port the remaining AI Elements component catalog into the shared Penpot `AI Elem
 
 ## Section tasks
 
-### 1. Chatbot — implementation active
+### 1. Chatbot — complete
 
-- [ ] attachments
-- [ ] chain-of-thought
-- [ ] checkpoint
+- [x] attachments
+- [x] chain-of-thought
+- [x] checkpoint
 - [x] confirmation
-- [ ] context
-- [ ] conversation
-- [ ] inline-citation
-- [ ] message
-- [ ] model-selector
-- [ ] plan
-- [ ] prompt-input
-- [ ] question
-- [ ] queue
-- [ ] reasoning
-- [ ] shimmer
-- [ ] sources
-- [ ] suggestion
-- [ ] task
-- [ ] tool
+- [x] context
+- [x] conversation
+- [x] inline-citation
+- [x] message
+- [x] model-selector
+- [x] plan
+- [x] prompt-input
+- [x] question
+- [x] queue
+- [x] reasoning
+- [x] shimmer
+- [x] sources
+- [x] suggestion
+- [x] task
+- [x] tool
 
-### 2. Code — staged after Chatbot
+Question is intentionally included from the pinned repository source and docs even though it is source-ahead of the deployed public sidebar.
+
+### 2. Code — released after Chatbot
 
 - [ ] agent
 - [ ] artifact
@@ -87,16 +89,16 @@ Port the remaining AI Elements component catalog into the shared Penpot `AI Elem
 
 ## Per-section acceptance gates
 
-- [ ] Source and documentation/example inventory is complete.
-- [ ] Every component has representative Light and Dark Penpot visuals or an explicit documented nonvisual exception.
-- [ ] Every design component has stable UUID metadata and a manifest entry.
-- [ ] Manifest source hashes and variant mappings validate mechanically.
-- [ ] A section gallery in the consumer lab resolves to library components rather than detached copies.
-- [ ] Reference PNG exports are visually checked.
-- [ ] Focused tests, binding tests, and binding validation pass.
-- [ ] `.aisteering/LANGUAGE.md`, scratchpad, and section summary are current.
-- [ ] Changes are committed on the feature branch before the next section starts.
+- [x] Source and documentation/example inventory is complete.
+- [x] Every component has representative Light and Dark Penpot visuals or an explicit documented nonvisual exception.
+- [x] Every design component has stable UUID metadata and a manifest entry.
+- [x] Manifest source hashes and variant mappings validate mechanically.
+- [x] A section gallery in the consumer lab resolves to library components rather than detached copies.
+- [x] Reference PNG exports are visually checked.
+- [x] Focused tests, binding tests, and binding validation pass.
+- [x] `.aisteering/LANGUAGE.md`, scratchpad, and section summary are current.
+- [x] Changes are committed on the feature branch before the next section starts.
 
 ## Execution order
 
-Chatbot → Code → Voice → Workflow → Utilities. Later section tasks may inventory and plan while Chatbot is active, but they must not mutate Penpot, the manifest, or shared component tooling until explicitly released.
+Chatbot → Code → Voice → Workflow → Utilities. Chatbot is accepted; the Code task owns the next writer slot but must not start until the Chatbot commit is handed off. Later section tasks may inventory and plan, but they must not mutate Penpot, the manifest, or shared component tooling until explicitly released.

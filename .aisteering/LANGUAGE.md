@@ -35,3 +35,11 @@ Board metadata that names the target source file, route, theme, and binding mani
 ## Blind implementation run
 
 An evaluation in which an agent receives only the implementation skill, raw design export, binding manifest, target project, and user-level request. It does not receive the design conversation, expected screenshot, or a hand-written solution.
+
+## Section gallery
+
+A consumer-lab board containing linked instances for every mapped variant in one rollout section. A section gallery is proof of library consumption, not a source for detached design copies.
+
+## Reference export
+
+The explicit Penpot shape UUID and PNG format recorded for visual verification of a component family. It points to the stable variant container rendered and inspected during the release gate.

@@ -11,6 +11,8 @@ const repoRoot = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
 const manifest = readBindingManifest();
 
 const cloneManifest = () => structuredClone(manifest);
+const confirmationBinding = (candidate) =>
+  candidate.components.find(({ id }) => id === "ai.confirmation");
 
 const rejectAncestorCheck = (args) => {
   if (args[0] === "merge-base") {
@@ -20,6 +22,31 @@ const rejectAncestorCheck = (args) => {
 };
 
 describe("penpot component binding validation", () => {
+  it("inventories the complete Chatbot section", () => {
+    expect(manifest.components).toHaveLength(19);
+    expect(manifest.components.map(({ id }) => id).toSorted()).toStrictEqual([
+      "ai.attachments",
+      "ai.chain-of-thought",
+      "ai.checkpoint",
+      "ai.confirmation",
+      "ai.context",
+      "ai.conversation",
+      "ai.inline-citation",
+      "ai.message",
+      "ai.model-selector",
+      "ai.plan",
+      "ai.prompt-input",
+      "ai.question",
+      "ai.queue",
+      "ai.reasoning",
+      "ai.shimmer",
+      "ai.sources",
+      "ai.suggestion",
+      "ai.task",
+      "ai.tool",
+    ]);
+  });
+
   it("accepts the checked-in Confirmation binding", () => {
     expect(
       validateBindingManifest(cloneManifest(), { repoRoot })
@@ -28,7 +55,7 @@ describe("penpot component binding validation", () => {
 
   it("rejects source checksum drift", () => {
     const candidate = cloneManifest();
-    candidate.components[0].sourcePin.sha256 = "0".repeat(64);
+    confirmationBinding(candidate).sourcePin.sha256 = "0".repeat(64);
 
     expect(validateBindingManifest(candidate, { repoRoot })).toContain(
       "ai.confirmation: source checksum does not match sourcePin.sha256"
@@ -37,16 +64,18 @@ describe("penpot component binding validation", () => {
 
   it("rejects incomplete state mappings", () => {
     const candidate = cloneManifest();
-    delete candidate.components[0].variants.State.Rejected;
+    delete confirmationBinding(candidate).variants.State.Rejected;
 
     expect(validateBindingManifest(candidate, { repoRoot })).toContain(
-      "ai.confirmation: State mappings must be exactly Request, Accepted, and Rejected"
+      "ai.confirmation: variantComponentIds must exhaust State × Theme"
     );
   });
 
   it("rejects exports that are absent from the pinned source", () => {
     const candidate = cloneManifest();
-    candidate.components[0].code.exports.push("MissingConfirmationExport");
+    confirmationBinding(candidate).code.exports.push(
+      "MissingConfirmationExport"
+    );
 
     expect(validateBindingManifest(candidate, { repoRoot })).toContain(
       "ai.confirmation: source does not export MissingConfirmationExport"
@@ -55,9 +84,9 @@ describe("penpot component binding validation", () => {
 
   it("rejects incomplete runtime mappings", () => {
     const candidate = cloneManifest();
-    candidate.components[0].variants.State.Accepted.contentExport =
+    confirmationBinding(candidate).variants.State.Accepted.contentExport =
       "MissingConfirmationExport";
-    candidate.components[0].variants.Theme.Dark.colorScheme = "light";
+    confirmationBinding(candidate).variants.Theme.Dark.colorScheme = "light";
 
     const errors = validateBindingManifest(candidate, { repoRoot });
     expect(errors).toContain(
@@ -78,6 +107,92 @@ describe("penpot component binding validation", () => {
       })
     ).toContain(
       "ai.confirmation: sourcePin.revision must be an ancestor of HEAD"
+    );
+  });
+
+  it("accepts explicit component-specific variant axes", () => {
+    const candidate = cloneManifest();
+    const component = confirmationBinding(candidate);
+    component.design.variantProperties = ["Variant", "Theme"];
+    component.design.rootVariant = "Grid|Light";
+    component.design.variantComponentIds = {
+      "Grid|Light": "00000000-0000-0000-0000-000000000001",
+      "Grid|Dark": "00000000-0000-0000-0000-000000000002",
+      "List|Light": "00000000-0000-0000-0000-000000000003",
+      "List|Dark": "00000000-0000-0000-0000-000000000004",
+    };
+    component.design.componentId =
+      component.design.variantComponentIds[component.design.rootVariant];
+    component.variants = {
+      Variant: {
+        Grid: { variant: "grid" },
+        List: { variant: "list" },
+      },
+      Theme: {
+        Light: { colorScheme: "light" },
+        Dark: { colorScheme: "dark" },
+      },
+    };
+    component.hiddenRuntimeStates = [];
+
+    expect(validateBindingManifest(candidate, { repoRoot })).toStrictEqual([]);
+  });
+
+  it("rejects a missing component-specific variant combination", () => {
+    const candidate = cloneManifest();
+    const component = confirmationBinding(candidate);
+    component.design.variantProperties = ["State", "Theme"];
+    component.design.rootVariant = "Request|Light";
+    delete component.design.variantComponentIds["Rejected|Dark"];
+
+    expect(validateBindingManifest(candidate, { repoRoot })).toContain(
+      "ai.confirmation: variantComponentIds must exhaust State × Theme"
+    );
+  });
+
+  it("rejects incomplete public export inventories", () => {
+    const candidate = cloneManifest();
+    const component = confirmationBinding(candidate);
+    component.code.typeExports = [
+      "ConfirmationProps",
+      "ConfirmationTitleProps",
+      "ConfirmationRequestProps",
+      "ConfirmationAcceptedProps",
+      "ConfirmationRejectedProps",
+      "ConfirmationActionsProps",
+    ];
+
+    const errors = validateBindingManifest(candidate, { repoRoot });
+    expect(errors).toContain(
+      "ai.confirmation: code.typeExports must inventory every public type export"
+    );
+  });
+
+  it("rejects missing documentation and example source paths", () => {
+    const candidate = cloneManifest();
+    confirmationBinding(candidate).documentation = {
+      examples: ["packages/examples/src/missing-confirmation.tsx"],
+      page: "apps/docs/content/components/(chatbot)/missing-confirmation.mdx",
+    };
+
+    const errors = validateBindingManifest(candidate, { repoRoot });
+    expect(errors).toContain(
+      "ai.confirmation: documentation.page does not exist"
+    );
+    expect(errors).toContain(
+      "ai.confirmation: documentation example does not exist: packages/examples/src/missing-confirmation.tsx"
+    );
+  });
+
+  it("rejects an invalid visual reference export", () => {
+    const candidate = cloneManifest();
+    confirmationBinding(candidate).design.referenceExport = {
+      format: "svg",
+      shapeId: "missing",
+    };
+
+    expect(validateBindingManifest(candidate, { repoRoot })).toContain(
+      "ai.confirmation: design.referenceExport must name a Penpot UUID and png format"
     );
   });
 });

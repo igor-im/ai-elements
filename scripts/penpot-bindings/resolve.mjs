@@ -6,13 +6,17 @@ import { fileURLToPath } from "node:url";
 
 import { readBindingManifest, validateBindingManifest } from "./validate.mjs";
 
-const variantKey = (variantProps) =>
-  `${variantProps?.State ?? ""}|${variantProps?.Theme ?? ""}`;
+const variantKey = (component, variantProps) =>
+  component.design.variantProperties
+    .map((property) => variantProps?.[property] ?? "")
+    .join("|");
 
 const findBinding = (manifest, instance) =>
   manifest.components.find((component) => {
     const expectedComponentId =
-      component.design.variantComponentIds?.[variantKey(instance.variantProps)];
+      component.design.variantComponentIds?.[
+        variantKey(component, instance.variantProps)
+      ];
     return (
       component.design.fileId === instance.componentLibraryId &&
       component.design.variantContainerId === instance.variantSetId &&
@@ -26,12 +30,14 @@ export const resolvePenpotInstance = (manifest, instance) => {
     throw new Error(`Unmapped Penpot component instance: ${instance.id}`);
   }
 
-  const stateName = instance.variantProps?.State;
-  const themeName = instance.variantProps?.Theme;
-  const state = binding.variants.State[stateName];
-  const theme = binding.variants.Theme[themeName];
-  if (!state || !theme) {
-    throw new Error(`Unmapped Penpot variant values: ${instance.id}`);
+  const render = {};
+  for (const property of binding.design.variantProperties) {
+    const value = instance.variantProps?.[property];
+    const mapping = binding.variants[property]?.[value];
+    if (!mapping) {
+      throw new Error(`Unmapped Penpot variant values: ${instance.id}`);
+    }
+    Object.assign(render, mapping);
   }
 
   return {
@@ -41,13 +47,7 @@ export const resolvePenpotInstance = (manifest, instance) => {
       module: binding.code.module,
     },
     instanceId: instance.id,
-    render: {
-      approval: state.approval,
-      colorScheme: theme.colorScheme,
-      contentExport: state.contentExport,
-      showsActions: state.showsActions,
-      state: state.state,
-    },
+    render,
     sourcePin: binding.sourcePin,
   };
 };

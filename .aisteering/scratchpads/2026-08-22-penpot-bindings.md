@@ -25,3 +25,11 @@ Date: 2026-08-22
 - The blind run reproduced exact major geometry and correct bindings but missed compound-content color/alignment without a reference raster. The skill now requires agents to export the board PNG through MCP themselves.
 - Source Sans Pro 400/600/700 assets were copied from the local Penpot frontend into the demo, with the Adobe OFL-1.1 license.
 - Full library rollout is section-sequenced in `.aisteering/plans/active/ai-elements-penpot-library-rollout.md`: Chatbot, Code, Voice, Workflow, then Utilities. Only one section task may mutate the shared Penpot file or binding manifest at a time.
+- Chatbot rollout adds 18 component families and 76 variants to the preserved Confirmation family, for 19 bindings and 82 mapped variants total.
+- The new consumer proof is `Chatbot Component Lab` (`fdc5d385-a945-806e-8008-864e7d404d82`): 76 linked instances, 38 Light and 38 Dark, no variant errors or detached copies.
+- Question is included from pinned `packages/elements/src/question.tsx` and its repository docs even though it is source-ahead of the deployed public sidebar.
+- Every new variant carries shared `ai-elements/code-binding` metadata with exact source SHA-256, complete runtime/type export inventory, docs/examples, and explicit variant axes.
+- Attachments and Checkpoint gained focused component tests; all 19 Chatbot suites pass with 430 tests. Binding tooling passes 17 tests and validates all 19 entries.
+- Chatbot visuals were accepted by the user after Light/Dark reference exports; Attachments and Suggestion were corrected before acceptance.
+- The already-published `AI Elements` library was verified in published state and saved as explicit version `Chatbot @ 6a9d5b1` after all section gates passed.
+- Chatbot is the completed writer slot. Code is next and must revalidate the current 19-binding baseline before mutating the shared file or manifest.
