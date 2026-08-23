@@ -41,3 +41,4 @@ Date: 2026-08-22
 - The docs production build requires `NODE_ENV=production`; the host session exports `NODE_ENV=development`, which makes Next.js production validation fail on `/_global-error` before route generation.
 - Voice is the next serialized writer slot after the verified Code commit handoff. Do not begin Voice from the Code task.
 - The already-published `AI Elements` library was verified in published state and saved as explicit version `Code @ 6a9d5b1` after every Code gate passed.
+- 2026-08-23: Corrected all Code Block filename and code-content layers to `Geist Mono`, matching the pinned React `font-mono` contract. Published version `Code Block Geist Mono @ 6a9d5b1`; all six direct consumer proofs and nested Sandbox code content updated in place without detaching or changing component identities.
