@@ -33,3 +33,11 @@ Date: 2026-08-22
 - Chatbot visuals were accepted by the user after Light/Dark reference exports; Attachments and Suggestion were corrected before acceptance.
 - The already-published `AI Elements` library was verified in published state and saved as explicit version `Chatbot @ 6a9d5b1` after all section gates passed.
 - Chatbot is the completed writer slot. Code is next and must revalidate the current 19-binding baseline before mutating the shared file or manifest.
+- Code rollout adds 15 families and 98 Light/Dark variants, bringing the manifest to 34 bindings and 180 mapped variants without changing the canonical hash of the first 19 entries (`5a8f01e461e89540d0536d8422cab75947dffac639f187b57ffd28c68a6681a4`).
+- Code variant axes are component-owned: `State`, `Variant`, `Header`, `Visibility`, or `Change`, plus the required `Theme` axis. The generalized validator/resolver remains contract version 1 and rejects incomplete Cartesian mappings.
+- Code consumer proof is `Code Component Lab` (`cebd822e-5596-8078-8008-865a8fdf6abb`): 98 linked instances, 49 Light and 49 Dark, zero detached proof shapes, and all roots from the shared library.
+- Sandbox embeds linked Code Block or Stack Trace dependencies for representative execution states; nested components remain attached.
+- Code reference PNG matrices are stored under `penpot/exports/code/`. Focused Code behavior passes 15 files and 256 tests; binding tooling passes 18 tests and validates 34 entries.
+- The docs production build requires `NODE_ENV=production`; the host session exports `NODE_ENV=development`, which makes Next.js production validation fail on `/_global-error` before route generation.
+- Voice is the next serialized writer slot after the verified Code commit handoff. Do not begin Voice from the Code task.
+- The already-published `AI Elements` library was verified in published state and saved as explicit version `Code @ 6a9d5b1` after every Code gate passed.

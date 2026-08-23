@@ -45,25 +45,27 @@ Port the remaining AI Elements component catalog into the shared Penpot `AI Elem
 
 Question is intentionally included from the pinned repository source and docs even though it is source-ahead of the deployed public sidebar.
 
-### 2. Code — released after Chatbot
+### 2. Code — complete
 
-- [ ] agent
-- [ ] artifact
-- [ ] code-block
-- [ ] commit
-- [ ] environment-variables
-- [ ] file-tree
-- [ ] jsx-preview
-- [ ] package-info
-- [ ] sandbox
-- [ ] schema-display
-- [ ] snippet
-- [ ] stack-trace
-- [ ] terminal
-- [ ] test-results
-- [ ] web-preview
+- [x] agent
+- [x] artifact
+- [x] code-block
+- [x] commit
+- [x] environment-variables
+- [x] file-tree
+- [x] jsx-preview
+- [x] package-info
+- [x] sandbox
+- [x] schema-display
+- [x] snippet
+- [x] stack-trace
+- [x] terminal
+- [x] test-results
+- [x] web-preview
 
-### 3. Voice — staged after Code
+Code adds 15 component families, 98 mapped variants, 98 linked consumer instances, and 15 checked reference PNGs. The preserved 19-entry Chatbot manifest slice retains its pre-Code canonical hash.
+
+### 3. Voice — released after Code
 
 - [ ] audio-player
 - [ ] mic-selector
@@ -101,4 +103,4 @@ Question is intentionally included from the pinned repository source and docs ev
 
 ## Execution order
 
-Chatbot → Code → Voice → Workflow → Utilities. Chatbot is accepted; the Code task owns the next writer slot but must not start until the Chatbot commit is handed off. Later section tasks may inventory and plan, but they must not mutate Penpot, the manifest, or shared component tooling until explicitly released.
+Chatbot → Code → Voice → Workflow → Utilities. Chatbot and Code are accepted; Voice owns the next writer slot after the Code commit handoff. Later section tasks may inventory and plan, but they must not mutate Penpot, the manifest, or shared component tooling until explicitly released.

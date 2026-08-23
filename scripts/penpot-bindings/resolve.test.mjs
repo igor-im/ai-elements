@@ -22,9 +22,22 @@ const snapshot = JSON.parse(
     "utf8"
   )
 );
+const codeSnapshot = JSON.parse(
+  await readFile(
+    join(
+      import.meta.dirname,
+      "..",
+      "..",
+      "penpot",
+      "fixtures",
+      "code-component-lab.json"
+    ),
+    "utf8"
+  )
+);
 
 describe("penpot component binding resolution", () => {
-  it("resolves every mapped Chatbot variant without detached or guessed state", () => {
+  it("resolves every mapped Chatbot and Code variant without detached or guessed state", () => {
     const instances = manifest.components.flatMap((component) =>
       Object.entries(component.design.variantComponentIds).map(
         ([variantKey, componentId], index) => ({
@@ -46,7 +59,7 @@ describe("penpot component binding resolution", () => {
 
     const resolved = resolvePenpotSnapshot(manifest, { instances });
 
-    expect(resolved).toHaveLength(82);
+    expect(resolved).toHaveLength(180);
     expect(new Set(resolved.map(({ canonicalId }) => canonicalId))).toEqual(
       new Set(manifest.components.map(({ id }) => id))
     );
@@ -73,6 +86,31 @@ describe("penpot component binding resolution", () => {
       showsActions: false,
       state: "output-denied",
     });
+  });
+
+  it("resolves all 98 linked Code component-lab instances", () => {
+    const resolved = resolvePenpotSnapshot(manifest, codeSnapshot);
+
+    expect(resolved).toHaveLength(98);
+    expect(new Set(resolved.map(({ canonicalId }) => canonicalId))).toEqual(
+      new Set([
+        "ai.agent",
+        "ai.artifact",
+        "ai.code-block",
+        "ai.commit",
+        "ai.environment-variables",
+        "ai.file-tree",
+        "ai.jsx-preview",
+        "ai.package-info",
+        "ai.sandbox",
+        "ai.schema-display",
+        "ai.snippet",
+        "ai.stack-trace",
+        "ai.terminal",
+        "ai.test-results",
+        "ai.web-preview",
+      ])
+    );
   });
 
   it("rejects an unknown component id", () => {

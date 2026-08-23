@@ -24,6 +24,10 @@ An integer that versions the metadata shape and resolution semantics. It is sepa
 
 An exhaustive translation from Penpot variant values to React state, approval data, compound exports, or theme context. Missing mappings are errors; the tooling does not guess.
 
+## Heterogeneous variant axes
+
+Component-owned Penpot dimensions such as `State`, `Variant`, `Header`, `Visibility`, or `Change`, followed by `Theme`. The binding validator derives the required Cartesian product from each component's declared axes rather than imposing one shared state model.
+
 ## Penpot page export
 
 A versioned JSON scene graph captured through Penpot MCP. It records a board's native nodes, linked component identities, reference dimensions, and explicit implementation contract without embedding an expected screenshot or generated code.
@@ -43,3 +47,7 @@ A consumer-lab board containing linked instances for every mapped variant in one
 ## Reference export
 
 The explicit Penpot shape UUID and PNG format recorded for visual verification of a component family. It points to the stable variant container rendered and inspected during the release gate.
+
+## Composite binding dependency
+
+A linked library instance embedded inside another bound component, such as Code Block or Stack Trace inside Sandbox. The nested instance remains attached to its source component and is never replaced by a detached copy.

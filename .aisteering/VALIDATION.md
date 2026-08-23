@@ -6,7 +6,7 @@
 pnpm --filter docs dev --hostname 127.0.0.1 --port 3000
 ```
 
-Open `http://localhost:3000/en/components/<component-slug>`. The explicit English prefix is required because the docs application stores every rendered route under `[lang]`; hiding the only locale causes a rewrite/redirect loop with the pinned Next.js and Fumadocs versions. The Chatbot release smoke-checks all 19 routes from `attachments` through `tool`, including the source-ahead `question` route.
+Open `http://localhost:3000/en/components/<component-slug>`. The explicit English prefix is required because the docs application stores every rendered route under `[lang]`; hiding the only locale causes a rewrite/redirect loop with the pinned Next.js and Fumadocs versions. The Chatbot release smoke-checks all 19 routes from `attachments` through `tool`, including the source-ahead `question` route. The Code release smoke-checks `agent`, `artifact`, `code-block`, `commit`, `environment-variables`, `file-tree`, `jsx-preview`, `package-info`, `sandbox`, `schema-display`, `snippet`, `stack-trace`, `terminal`, `test-results`, and `web-preview`.
 
 ## Penpot binding tooling
 
@@ -14,9 +14,27 @@ Open `http://localhost:3000/en/components/<component-slug>`. The explicit Englis
 pnpm penpot:bindings:test
 pnpm penpot:bindings:validate
 pnpm penpot:bindings:resolve penpot/fixtures/confirmation-component-lab.json
+pnpm penpot:bindings:resolve penpot/fixtures/code-component-lab.json
 ```
 
-The test command covers valid and intentionally corrupted manifests plus successful and failed instance resolution. It synthesizes and resolves every declared variant combination; the Chatbot manifest currently resolves 82 variants across 19 components. The validation command verifies the checked-in manifest against the current repository, source checksum, exhaustive runtime/type exports, documentation/example paths, required Penpot identities, PNG reference targets, and exhaustive variant mappings. The resolve command translates a Penpot instance snapshot into explicit React imports and render inputs.
+The test command covers valid and intentionally corrupted manifests plus successful and failed instance resolution. It synthesizes and resolves every declared variant combination; the Chatbot and Code manifest resolves 180 variants across 34 components. The validation command verifies the checked-in manifest against the current repository, source checksum, exhaustive runtime/type exports, documentation/example paths, required Penpot identities, PNG reference targets, and exhaustive variant mappings. The resolve command translates a Penpot instance snapshot into explicit React imports and render inputs.
+
+## Code component behavior
+
+```bash
+cd packages/elements
+pnpm exec vitest run \
+  __tests__/agent.test.tsx __tests__/artifact.test.tsx \
+  __tests__/code-block.test.tsx __tests__/commit.test.tsx \
+  __tests__/environment-variables.test.tsx __tests__/file-tree.test.tsx \
+  __tests__/jsx-preview.test.tsx __tests__/package-info.test.tsx \
+  __tests__/sandbox.test.tsx __tests__/schema-display.test.tsx \
+  __tests__/snippet.test.tsx __tests__/stack-trace.test.tsx \
+  __tests__/terminal.test.tsx __tests__/test-results.test.tsx \
+  __tests__/web-preview.test.tsx
+```
+
+The Code release runs 15 focused browser suites. Reference matrices are stored under `penpot/exports/code/` after visual inspection.
 
 ## Chatbot component behavior
 
@@ -52,3 +70,4 @@ The current full Elements suite has eight unrelated baseline failures in `contro
 3. Verify the `Chatbot Component Lab` gallery (`fdc5d385-a945-806e-8008-864e7d404d82`) contains 76 linked instances from library `f9c80ed1-fe5b-8098-8008-85f67c505174`, with no detached copies or variant errors.
 4. Confirm the gallery has 38 Light and 38 Dark instances and all 18 newly ported component families. Confirmation remains in its preserved six-instance gallery.
 5. Export and inspect the PNG target recorded in each binding's `design.referenceExport`.
+6. Verify `Code Component Lab` (`cebd822e-5596-8078-8008-865a8fdf6abb`) contains 98 linked instances: 49 Light, 49 Dark, 15 families, zero detached proof shapes, and no foreign-library roots.

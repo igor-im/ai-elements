@@ -22,28 +22,43 @@ const rejectAncestorCheck = (args) => {
 };
 
 describe("penpot component binding validation", () => {
-  it("inventories the complete Chatbot section", () => {
-    expect(manifest.components).toHaveLength(19);
+  it("inventories the complete Chatbot and Code sections", () => {
+    expect(manifest.components).toHaveLength(34);
     expect(manifest.components.map(({ id }) => id).toSorted()).toStrictEqual([
+      "ai.agent",
+      "ai.artifact",
       "ai.attachments",
       "ai.chain-of-thought",
       "ai.checkpoint",
+      "ai.code-block",
+      "ai.commit",
       "ai.confirmation",
       "ai.context",
       "ai.conversation",
+      "ai.environment-variables",
+      "ai.file-tree",
       "ai.inline-citation",
+      "ai.jsx-preview",
       "ai.message",
       "ai.model-selector",
+      "ai.package-info",
       "ai.plan",
       "ai.prompt-input",
       "ai.question",
       "ai.queue",
       "ai.reasoning",
+      "ai.sandbox",
+      "ai.schema-display",
       "ai.shimmer",
+      "ai.snippet",
       "ai.sources",
+      "ai.stack-trace",
       "ai.suggestion",
       "ai.task",
+      "ai.terminal",
+      "ai.test-results",
       "ai.tool",
+      "ai.web-preview",
     ]);
   });
 
