@@ -24,3 +24,4 @@ Date: 2026-08-22
 - Raw page artifact: `penpot/exports/approval-workspace.penpot.json`; implementation skill: `skills/implement-penpot-design`; demo: `apps/penpot-demo`.
 - The blind run reproduced exact major geometry and correct bindings but missed compound-content color/alignment without a reference raster. The skill now requires agents to export the board PNG through MCP themselves.
 - Source Sans Pro 400/600/700 assets were copied from the local Penpot frontend into the demo, with the Adobe OFL-1.1 license.
+- Full library rollout is section-sequenced in `.aisteering/plans/active/ai-elements-penpot-library-rollout.md`: Chatbot, Code, Voice, Workflow, then Utilities. Only one section task may mutate the shared Penpot file or binding manifest at a time.
