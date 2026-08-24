@@ -22,12 +22,13 @@ const rejectAncestorCheck = (args) => {
 };
 
 describe("penpot component binding validation", () => {
-  it("inventories the complete Chatbot and Code sections", () => {
-    expect(manifest.components).toHaveLength(34);
+  it("inventories the complete Chatbot, Code, and Voice sections", () => {
+    expect(manifest.components).toHaveLength(40);
     expect(manifest.components.map(({ id }) => id).toSorted()).toStrictEqual([
       "ai.agent",
       "ai.artifact",
       "ai.attachments",
+      "ai.audio-player",
       "ai.chain-of-thought",
       "ai.checkpoint",
       "ai.code-block",
@@ -40,8 +41,10 @@ describe("penpot component binding validation", () => {
       "ai.inline-citation",
       "ai.jsx-preview",
       "ai.message",
+      "ai.mic-selector",
       "ai.model-selector",
       "ai.package-info",
+      "ai.persona",
       "ai.plan",
       "ai.prompt-input",
       "ai.question",
@@ -52,12 +55,15 @@ describe("penpot component binding validation", () => {
       "ai.shimmer",
       "ai.snippet",
       "ai.sources",
+      "ai.speech-input",
       "ai.stack-trace",
       "ai.suggestion",
       "ai.task",
       "ai.terminal",
       "ai.test-results",
       "ai.tool",
+      "ai.transcription",
+      "ai.voice-selector",
       "ai.web-preview",
     ]);
   });

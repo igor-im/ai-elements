@@ -65,14 +65,16 @@ Question is intentionally included from the pinned repository source and docs ev
 
 Code adds 15 component families, 98 mapped variants, 98 linked consumer instances, and 15 checked reference PNGs. Code Block filenames and code-content layers use Geist Mono in every Light/Dark variant. Artifact composes linked Numbered Code Block instances, while Sandbox composes linked Code Block or Stack Trace instances according to the pinned examples. The preserved 19-entry Chatbot manifest slice retains its pre-Code canonical hash.
 
-### 3. Voice — released after Code
+### 3. Voice — complete
 
-- [ ] audio-player
-- [ ] mic-selector
-- [ ] persona
-- [ ] speech-input
-- [ ] transcription
-- [ ] voice-selector
+- [x] audio-player
+- [x] mic-selector
+- [x] persona
+- [x] speech-input
+- [x] transcription
+- [x] voice-selector
+
+Voice adds six component families, 100 mapped variants, 100 linked consumer instances, and six checked reference PNGs. Persona uses source-faithful Rive snapshots across six visual styles, five runtime states, and both themes. Device-backed selectors use deterministic synthetic devices and voices for design proof while browser permission, enumeration, and media playback remain runtime concerns.
 
 ### 4. Workflow — staged after Voice
 
@@ -103,4 +105,4 @@ Code adds 15 component families, 98 mapped variants, 98 linked consumer instance
 
 ## Execution order
 
-Chatbot → Code → Voice → Workflow → Utilities. Chatbot and Code are accepted; Voice owns the next writer slot after the Code commit handoff. Later section tasks may inventory and plan, but they must not mutate Penpot, the manifest, or shared component tooling until explicitly released.
+Chatbot → Code → Voice → Workflow → Utilities. Chatbot, Code, and Voice are accepted; Workflow owns the next writer slot after the Voice commit handoff. Later section tasks may inventory and plan, but they must not mutate Penpot, the manifest, or shared component tooling until explicitly released.

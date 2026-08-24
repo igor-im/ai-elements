@@ -6,7 +6,7 @@
 pnpm --filter docs dev --hostname 127.0.0.1 --port 3000
 ```
 
-Open `http://localhost:3000/en/components/<component-slug>`. The explicit English prefix is required because the docs application stores every rendered route under `[lang]`; hiding the only locale causes a rewrite/redirect loop with the pinned Next.js and Fumadocs versions. The Chatbot release smoke-checks all 19 routes from `attachments` through `tool`, including the source-ahead `question` route. The Code release smoke-checks `agent`, `artifact`, `code-block`, `commit`, `environment-variables`, `file-tree`, `jsx-preview`, `package-info`, `sandbox`, `schema-display`, `snippet`, `stack-trace`, `terminal`, `test-results`, and `web-preview`.
+Open `http://localhost:3000/en/components/<component-slug>`. The explicit English prefix is required because the docs application stores every rendered route under `[lang]`; hiding the only locale causes a rewrite/redirect loop with the pinned Next.js and Fumadocs versions. The Chatbot release smoke-checks all 19 routes from `attachments` through `tool`, including the source-ahead `question` route. The Code release smoke-checks `agent`, `artifact`, `code-block`, `commit`, `environment-variables`, `file-tree`, `jsx-preview`, `package-info`, `sandbox`, `schema-display`, `snippet`, `stack-trace`, `terminal`, `test-results`, and `web-preview`. The Voice release smoke-checks `audio-player`, `mic-selector`, `persona`, `speech-input`, `transcription`, and `voice-selector`.
 
 ## Penpot binding tooling
 
@@ -15,9 +15,22 @@ pnpm penpot:bindings:test
 pnpm penpot:bindings:validate
 pnpm penpot:bindings:resolve penpot/fixtures/confirmation-component-lab.json
 pnpm penpot:bindings:resolve penpot/fixtures/code-component-lab.json
+pnpm penpot:bindings:resolve penpot/fixtures/voice-component-lab.json
 ```
 
-The test command covers valid and intentionally corrupted manifests plus successful and failed instance resolution. It synthesizes and resolves every declared variant combination; the Chatbot and Code manifest resolves 180 variants across 34 components. The validation command verifies the checked-in manifest against the current repository, source checksum, exhaustive runtime/type exports, documentation/example paths, required Penpot identities, PNG reference targets, and exhaustive variant mappings. The resolve command translates a Penpot instance snapshot into explicit React imports and render inputs.
+The test command covers valid and intentionally corrupted manifests plus successful and failed instance resolution. It synthesizes and resolves every declared variant combination; the Chatbot, Code, and Voice manifest resolves 280 variants across 40 components. The validation command verifies the checked-in manifest against the current repository, source checksum, exhaustive runtime/type exports, documentation/example paths, required Penpot identities, PNG reference targets, and exhaustive variant mappings. The resolve command translates a Penpot instance snapshot into explicit React imports and render inputs.
+
+## Voice component behavior
+
+```bash
+cd packages/elements
+pnpm exec vitest run \
+  __tests__/audio-player.test.tsx __tests__/mic-selector.test.tsx \
+  __tests__/persona.test.tsx __tests__/speech-input.test.tsx \
+  __tests__/transcription.test.tsx __tests__/voice-selector.test.tsx
+```
+
+The Voice release runs six focused browser suites. Reference matrices are stored under `penpot/exports/voice/` after visual inspection. Device and media tests use deterministic browser mocks; they do not require a host microphone, permission prompt, audio output, or a live voice service.
 
 ## Code component behavior
 
@@ -71,3 +84,4 @@ The current full Elements suite has eight unrelated baseline failures in `contro
 4. Confirm the gallery has 38 Light and 38 Dark instances and all 18 newly ported component families. Confirmation remains in its preserved six-instance gallery.
 5. Export and inspect the PNG target recorded in each binding's `design.referenceExport`.
 6. Verify `Code Component Lab` (`cebd822e-5596-8078-8008-865a8fdf6abb`) contains 98 linked instances: 49 Light, 49 Dark, 15 families, zero detached proof shapes, and no foreign-library roots.
+7. Verify `Voice Component Lab` (`8633c2af-b930-8087-8008-87a4b8475c0f`) contains 100 linked instances across six families, zero detached proof shapes, no foreign-library roots, and no file validation errors.

@@ -51,3 +51,11 @@ The explicit Penpot shape UUID and PNG format recorded for visual verification o
 ## Composite binding dependency
 
 A linked library instance embedded inside another bound component, such as Code Block or Stack Trace inside Sandbox. The nested instance remains attached to its source component and is never replaced by a detached copy.
+
+## Device-conditioned state
+
+A visual state whose live data depends on browser media APIs, permissions, or hardware enumeration. Penpot proofs use named synthetic devices and record permission, loading, and error behavior explicitly rather than querying the designer's host.
+
+## Animated media snapshot
+
+A deterministic raster captured from an animated source at a declared component state. Persona snapshots preserve the pinned Rive visual for each style, runtime state, and theme while the React implementation remains responsible for animation and model playback.
