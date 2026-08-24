@@ -63,7 +63,7 @@ Question is intentionally included from the pinned repository source and docs ev
 - [x] test-results
 - [x] web-preview
 
-Code adds 15 component families, 98 mapped variants, 98 linked consumer instances, and 15 checked reference PNGs. Code Block filenames and code-content layers use Geist Mono in every Light/Dark variant, including nested Sandbox instances. The preserved 19-entry Chatbot manifest slice retains its pre-Code canonical hash.
+Code adds 15 component families, 98 mapped variants, 98 linked consumer instances, and 15 checked reference PNGs. Code Block filenames and code-content layers use Geist Mono in every Light/Dark variant. Artifact composes linked Numbered Code Block instances, while Sandbox composes linked Code Block or Stack Trace instances according to the pinned examples. The preserved 19-entry Chatbot manifest slice retains its pre-Code canonical hash.
 
 ### 3. Voice — released after Code
 
