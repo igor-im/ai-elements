@@ -9,7 +9,8 @@ Port the remaining AI Elements component catalog into the shared Penpot `AI Elem
 ## Shared contract
 
 - Repository: `/home/igor/Documents/code/design-system/ai-sdk-elements-shared`
-- Source revision: `6a9d5b1822ffb10bba4bd97175f01edd7d8651cd`
+- Upstream baseline revision: `6a9d5b1822ffb10bba4bd97175f01edd7d8651cd`
+- Audio Player SSR fix revision: `f890c939db5f092374cabfb843ba9a567b86c9d4`
 - Penpot library file: `f9c80ed1-fe5b-8098-8008-85f67c505174`
 - Consumer lab file: `f9c80ed1-fe5b-8098-8008-8618092b66d2`
 - Binding manifest: `penpot/component-bindings.json`
@@ -75,6 +76,8 @@ Code adds 15 component families, 98 mapped variants, 98 linked consumer instance
 - [x] voice-selector
 
 Voice adds six component families, 100 mapped variants, 100 linked consumer instances, and six checked reference PNGs. Persona uses source-faithful Rive snapshots across six visual styles, five runtime states, and both themes. Device-backed selectors use deterministic synthetic devices and voices for design proof while browser permission, enumeration, and media playback remain runtime concerns.
+
+Audio Player carries a repository-local source pin at `f890c939db5f092374cabfb843ba9a567b86c9d4`. It preserves the upstream component API while emitting the media controller's default `tabindex="-1"` during SSR so `media-chrome` does not introduce a client-only hydration difference.
 
 ### 4. Workflow — staged after Voice
 

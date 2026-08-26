@@ -32,6 +32,8 @@ pnpm exec vitest run \
 
 The Voice release runs six focused browser suites. Reference matrices are stored under `penpot/exports/voice/` after visual inspection. Device and media tests use deterministic browser mocks; they do not require a host microphone, permission prompt, audio output, or a live voice service.
 
+The Audio Player suite includes an SSR regression assertion for the media element's default `tabindex="-1"`. Runtime validation must also load `/en/components/audio-player` in a real browser and confirm hydration produces no console errors.
+
 ## Code component behavior
 
 ```bash
