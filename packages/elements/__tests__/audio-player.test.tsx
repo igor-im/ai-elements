@@ -1,4 +1,5 @@
 import { render, screen } from "@testing-library/react";
+import { renderToString } from "react-dom/server";
 
 import {
   AudioPlayer,
@@ -67,6 +68,14 @@ describe("audioPlayer", () => {
 });
 
 describe("audioPlayerElement", () => {
+  it("renders the media controller tab stop consistently during SSR", () => {
+    const markup = renderToString(
+      <AudioPlayerElement src="https://example.com/audio.mp3" />
+    );
+
+    expect(markup).toContain('tabindex="-1"');
+  });
+
   it("renders audio element with remote src", () => {
     const { container } = render(
       <AudioPlayerElement src="https://example.com/audio.mp3" />
