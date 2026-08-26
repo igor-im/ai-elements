@@ -3260,9 +3260,9 @@
       "sourcePin": {
         "kind": "git-commit+sha256",
         "repository": "https://github.com/vercel/ai-elements.git",
-        "revision": "f890c939db5f092374cabfb843ba9a567b86c9d4",
+        "revision": "e3292f6b2bb6c247fde4d74f716d3535a07f43e4",
         "file": "packages/elements/src/audio-player.tsx",
-        "sha256": "9fe47457e410b4cd59983c50b5ed638b6d75d591fbe360ed463d4c4bb3953615"
+        "sha256": "99b4f7321aac91db54bb8dfa605c3f8326fdcd3f4f71c762a477aea332a4311c"
       },
       "documentation": {
         "page": "apps/docs/content/components/(voice)/audio-player.mdx",
