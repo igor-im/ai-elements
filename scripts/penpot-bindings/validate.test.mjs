@@ -22,8 +22,8 @@ const rejectAncestorCheck = (args) => {
 };
 
 describe("penpot component binding validation", () => {
-  it("inventories the complete Chatbot, Code, and Voice sections", () => {
-    expect(manifest.components).toHaveLength(40);
+  it("inventories the complete Chatbot, Code, Voice, and Utilities sections", () => {
+    expect(manifest.components).toHaveLength(42);
     expect(manifest.components.map(({ id }) => id).toSorted()).toStrictEqual([
       "ai.agent",
       "ai.artifact",
@@ -38,11 +38,13 @@ describe("penpot component binding validation", () => {
       "ai.conversation",
       "ai.environment-variables",
       "ai.file-tree",
+      "ai.image",
       "ai.inline-citation",
       "ai.jsx-preview",
       "ai.message",
       "ai.mic-selector",
       "ai.model-selector",
+      "ai.open-in-chat",
       "ai.package-info",
       "ai.persona",
       "ai.plan",

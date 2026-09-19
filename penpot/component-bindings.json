@@ -3307,10 +3307,7 @@
         "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
         "componentId": "8633c2af-b930-8087-8008-879fd265da08",
         "variantContainerId": "8633c2af-b930-8087-8008-879fd8921d81",
-        "variantProperties": [
-          "State",
-          "Theme"
-        ],
+        "variantProperties": ["State", "Theme"],
         "rootVariant": "Paused|Light",
         "variantComponentIds": {
           "Paused|Light": "8633c2af-b930-8087-8008-879fd265da08",
@@ -3375,9 +3372,7 @@
       },
       "documentation": {
         "page": "apps/docs/content/components/(voice)/mic-selector.mdx",
-        "examples": [
-          "packages/examples/src/mic-selector.tsx"
-        ]
+        "examples": ["packages/examples/src/mic-selector.tsx"]
       },
       "code": {
         "module": "@repo/elements/mic-selector",
@@ -3412,10 +3407,7 @@
         "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
         "componentId": "8633c2af-b930-8087-8008-87a0ed57a311",
         "variantContainerId": "8633c2af-b930-8087-8008-87a0f19c1bb3",
-        "variantProperties": [
-          "State",
-          "Theme"
-        ],
+        "variantProperties": ["State", "Theme"],
         "rootVariant": "Placeholder|Light",
         "variantComponentIds": {
           "Placeholder|Light": "8633c2af-b930-8087-8008-87a0ed57a311",
@@ -3500,12 +3492,8 @@
       },
       "code": {
         "module": "@repo/elements/persona",
-        "exports": [
-          "Persona"
-        ],
-        "typeExports": [
-          "PersonaState"
-        ]
+        "exports": ["Persona"],
+        "typeExports": ["PersonaState"]
       },
       "design": {
         "provider": "penpot",
@@ -3514,11 +3502,7 @@
         "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
         "componentId": "8633c2af-b930-8087-8008-87a408edec54",
         "variantContainerId": "8633c2af-b930-8087-8008-87a4401f5784",
-        "variantProperties": [
-          "Variant",
-          "State",
-          "Theme"
-        ],
+        "variantProperties": ["Variant", "State", "Theme"],
         "rootVariant": "Obsidian|Idle|Light",
         "variantComponentIds": {
           "Obsidian|Idle|Light": "8633c2af-b930-8087-8008-87a408edec54",
@@ -3669,18 +3653,12 @@
       },
       "documentation": {
         "page": "apps/docs/content/components/(voice)/speech-input.mdx",
-        "examples": [
-          "packages/examples/src/speech-input.tsx"
-        ]
+        "examples": ["packages/examples/src/speech-input.tsx"]
       },
       "code": {
         "module": "@repo/elements/speech-input",
-        "exports": [
-          "SpeechInput"
-        ],
-        "typeExports": [
-          "SpeechInputProps"
-        ]
+        "exports": ["SpeechInput"],
+        "typeExports": ["SpeechInputProps"]
       },
       "design": {
         "provider": "penpot",
@@ -3689,10 +3667,7 @@
         "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
         "componentId": "8633c2af-b930-8087-8008-87a0c55050b6",
         "variantContainerId": "8633c2af-b930-8087-8008-87a0c7e3522b",
-        "variantProperties": [
-          "State",
-          "Theme"
-        ],
+        "variantProperties": ["State", "Theme"],
         "rootVariant": "Ready|Light",
         "variantComponentIds": {
           "Ready|Light": "8633c2af-b930-8087-8008-87a0c55050b6",
@@ -3764,20 +3739,12 @@
       },
       "documentation": {
         "page": "apps/docs/content/components/(voice)/transcription.mdx",
-        "examples": [
-          "packages/examples/src/transcription.tsx"
-        ]
+        "examples": ["packages/examples/src/transcription.tsx"]
       },
       "code": {
         "module": "@repo/elements/transcription",
-        "exports": [
-          "Transcription",
-          "TranscriptionSegment"
-        ],
-        "typeExports": [
-          "TranscriptionProps",
-          "TranscriptionSegmentProps"
-        ]
+        "exports": ["Transcription", "TranscriptionSegment"],
+        "typeExports": ["TranscriptionProps", "TranscriptionSegmentProps"]
       },
       "design": {
         "provider": "penpot",
@@ -3786,10 +3753,7 @@
         "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
         "componentId": "8633c2af-b930-8087-8008-87a00b804b87",
         "variantContainerId": "8633c2af-b930-8087-8008-87a00f3b64f5",
-        "variantProperties": [
-          "State",
-          "Theme"
-        ],
+        "variantProperties": ["State", "Theme"],
         "rootVariant": "Beginning|Light",
         "variantComponentIds": {
           "Beginning|Light": "8633c2af-b930-8087-8008-87a00b804b87",
@@ -3854,9 +3818,7 @@
       },
       "documentation": {
         "page": "apps/docs/content/components/(voice)/voice-selector.mdx",
-        "examples": [
-          "packages/examples/src/voice-selector.tsx"
-        ]
+        "examples": ["packages/examples/src/voice-selector.tsx"]
       },
       "code": {
         "module": "@repo/elements/voice-selector",
@@ -3911,10 +3873,7 @@
         "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
         "componentId": "8633c2af-b930-8087-8008-87a14d22cb9b",
         "variantContainerId": "8633c2af-b930-8087-8008-87a15f10ca8e",
-        "variantProperties": [
-          "State",
-          "Theme"
-        ],
+        "variantProperties": ["State", "Theme"],
         "rootVariant": "ClosedPlaceholder|Light",
         "variantComponentIds": {
           "ClosedPlaceholder|Light": "8633c2af-b930-8087-8008-87a14d22cb9b",
@@ -3983,6 +3942,152 @@
           "Dark": {
             "colorScheme": "dark"
           }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.image",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/image.tsx",
+        "sha256": "91e305eda8139c5ee8024bec75576e0608d7fbf471e1c00395a2bdfda4a65747"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(utilities)/image.mdx",
+        "examples": ["packages/examples/src/image.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/image",
+        "exports": ["Image"],
+        "typeExports": ["ImageProps"]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "ef8ecfcc-e8fd-8021-8008-a99cd9851df4",
+        "variantContainerId": "ef8ecfcc-e8fd-8021-8008-a99cd9be283f",
+        "variantProperties": ["Theme"],
+        "rootVariant": "Light",
+        "variantComponentIds": {
+          "Light": "ef8ecfcc-e8fd-8021-8008-a99cd9851df4",
+          "Dark": "ef8ecfcc-e8fd-8021-8008-a99cd9b88391"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "ef8ecfcc-e8fd-8021-8008-a99e412158e1"
+        },
+        "referenceExport": {
+          "shapeId": "ef8ecfcc-e8fd-8021-8008-a99cd9be283f",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "Theme": {
+          "Light": { "colorScheme": "light" },
+          "Dark": { "colorScheme": "dark" }
+        }
+      },
+      "hiddenRuntimeStates": []
+    },
+    {
+      "id": "ai.open-in-chat",
+      "sourcePin": {
+        "kind": "git-commit+sha256",
+        "repository": "https://github.com/vercel/ai-elements.git",
+        "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+        "file": "packages/elements/src/open-in-chat.tsx",
+        "sha256": "0370a813ed09e9b23857717cff0704a028049d2cf014dbd11e5f56d05db6db33"
+      },
+      "documentation": {
+        "page": "apps/docs/content/components/(utilities)/open-in-chat.mdx",
+        "examples": ["packages/examples/src/open-in-chat.tsx"]
+      },
+      "code": {
+        "module": "@repo/elements/open-in-chat",
+        "exports": [
+          "OpenIn",
+          "OpenInContent",
+          "OpenInItem",
+          "OpenInLabel",
+          "OpenInSeparator",
+          "OpenInTrigger",
+          "OpenInChatGPT",
+          "OpenInClaude",
+          "OpenInT3",
+          "OpenInScira",
+          "OpenInv0",
+          "OpenInCursor"
+        ],
+        "typeExports": [
+          "OpenInProps",
+          "OpenInContentProps",
+          "OpenInItemProps",
+          "OpenInLabelProps",
+          "OpenInSeparatorProps",
+          "OpenInTriggerProps",
+          "OpenInChatGPTProps",
+          "OpenInClaudeProps",
+          "OpenInT3Props",
+          "OpenInSciraProps",
+          "OpenInv0Props",
+          "OpenInCursorProps"
+        ]
+      },
+      "design": {
+        "provider": "penpot",
+        "teamId": "f9c80ed1-fe5b-8098-8008-85ef89f59a18",
+        "projectId": "f9c80ed1-fe5b-8098-8008-85f66a589731",
+        "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "ef8ecfcc-e8fd-8021-8008-a99d711f1ed5",
+        "variantContainerId": "ef8ecfcc-e8fd-8021-8008-a99d758a3438",
+        "variantProperties": ["State", "Theme"],
+        "rootVariant": "Closed|Light",
+        "variantComponentIds": {
+          "Closed|Light": "ef8ecfcc-e8fd-8021-8008-a99d711f1ed5",
+          "Open|Light": "ef8ecfcc-e8fd-8021-8008-a99d732938df",
+          "Closed|Dark": "ef8ecfcc-e8fd-8021-8008-a99d737821eb",
+          "Open|Dark": "ef8ecfcc-e8fd-8021-8008-a99d758528a1"
+        },
+        "consumerProof": {
+          "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+          "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+          "galleryId": "ef8ecfcc-e8fd-8021-8008-a99e412158e1"
+        },
+        "referenceExport": {
+          "shapeId": "ef8ecfcc-e8fd-8021-8008-a99d758a3438",
+          "format": "png"
+        },
+        "sharedPluginData": {
+          "namespace": "ai-elements",
+          "key": "code-binding",
+          "contractVersion": 1
+        }
+      },
+      "variants": {
+        "State": {
+          "Closed": {
+            "open": false,
+            "sampleData": "query supplied by consumer"
+          },
+          "Open": {
+            "open": true,
+            "sampleData": "six provider links; query supplied by consumer"
+          }
+        },
+        "Theme": {
+          "Light": { "colorScheme": "light" },
+          "Dark": { "colorScheme": "dark" }
         }
       },
       "hiddenRuntimeStates": []

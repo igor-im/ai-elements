@@ -79,7 +79,7 @@ Voice adds six component families, 100 mapped variants, 100 linked consumer inst
 
 Audio Player carries a repository-local source pin at `e3292f6b2bb6c247fde4d74f716d3535a07f43e4`. It preserves the upstream component API while emitting the media controller's default `tabindex="-1"` during SSR so `media-chrome` does not introduce a client-only hydration difference.
 
-### 4. Workflow — staged after Voice
+### 4. Workflow — staged
 
 - [ ] canvas
 - [ ] connection
@@ -89,10 +89,12 @@ Audio Player carries a repository-local source pin at `e3292f6b2bb6c247fde4d74f7
 - [ ] panel
 - [ ] toolbar
 
-### 5. Utilities — staged after Workflow
+### 5. Utilities — complete
 
-- [ ] image
-- [ ] open-in-chat
+- [x] image
+- [x] open-in-chat
+
+Utilities adds two component families, six mapped variants, six linked consumer instances, and two checked reference PNGs. Image uses the existing repository example image in Light and Dark. Open in Chat covers closed/open menu states and six provider links in both themes. The documented example now supplies `query` to the parent `OpenIn` context, with a focused regression test.
 
 ## Per-section acceptance gates
 
@@ -108,4 +110,4 @@ Audio Player carries a repository-local source pin at `e3292f6b2bb6c247fde4d74f7
 
 ## Execution order
 
-Chatbot → Code → Voice → Workflow → Utilities. Chatbot, Code, and Voice are accepted; Workflow owns the next writer slot after the Voice commit handoff. Later section tasks may inventory and plan, but they must not mutate Penpot, the manifest, or shared component tooling until explicitly released.
+Chatbot → Code → Voice → Utilities → Workflow. Chatbot, Code, Voice, and Utilities are accepted. On 2026-09-19, the user requested that Utilities be finished ahead of Workflow. Utilities is the completed writer slot; Workflow is next after the Utilities commit handoff and must revalidate the 42-binding baseline before writing.

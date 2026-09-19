@@ -1,5 +1,6 @@
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 
+import OpenInExample from "../../examples/src/open-in-chat";
 import {
   OpenIn,
   OpenInChatGPT,
@@ -23,6 +24,24 @@ const V0_REGEX = /v0/i;
 const CURSOR_REGEX = /Cursor/i;
 
 describe("openIn", () => {
+  it("passes the example query through the parent context to provider links", async () => {
+    render(<OpenInExample />);
+
+    fireEvent.pointerDown(
+      screen.getByRole("button", { name: "Open in chat" }),
+      {
+        button: 0,
+        ctrlKey: false,
+        pointerType: "mouse",
+      }
+    );
+
+    const link = await screen.findByRole("menuitem", { name: CHATGPT_REGEX });
+    expect(
+      new URL(link.getAttribute("href") ?? "").searchParams.get("prompt")
+    ).toBe("How can I implement authentication in Next.js?");
+  });
+
   it("renders children", () => {
     render(
       <OpenIn defaultOpen query="test query">

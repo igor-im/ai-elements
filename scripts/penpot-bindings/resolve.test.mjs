@@ -48,9 +48,22 @@ const voiceSnapshot = JSON.parse(
     "utf8"
   )
 );
+const utilitiesSnapshot = JSON.parse(
+  await readFile(
+    join(
+      import.meta.dirname,
+      "..",
+      "..",
+      "penpot",
+      "fixtures",
+      "utilities-component-lab.json"
+    ),
+    "utf8"
+  )
+);
 
 describe("penpot component binding resolution", () => {
-  it("resolves every mapped Chatbot, Code, and Voice variant without detached or guessed state", () => {
+  it("resolves every mapped variant without detached or guessed state", () => {
     const instances = manifest.components.flatMap((component) =>
       Object.entries(component.design.variantComponentIds).map(
         ([variantKey, componentId], index) => ({
@@ -72,7 +85,7 @@ describe("penpot component binding resolution", () => {
 
     const resolved = resolvePenpotSnapshot(manifest, { instances });
 
-    expect(resolved).toHaveLength(280);
+    expect(resolved).toHaveLength(286);
     expect(new Set(resolved.map(({ canonicalId }) => canonicalId))).toEqual(
       new Set(manifest.components.map(({ id }) => id))
     );
@@ -140,6 +153,26 @@ describe("penpot component binding resolution", () => {
         "ai.voice-selector",
       ])
     );
+  });
+
+  it("resolves all six linked Utilities component-lab instances", () => {
+    const resolved = resolvePenpotSnapshot(manifest, utilitiesSnapshot);
+
+    expect(resolved).toHaveLength(6);
+    expect(resolved.map(({ canonicalId }) => canonicalId)).toStrictEqual([
+      "ai.image",
+      "ai.image",
+      "ai.open-in-chat",
+      "ai.open-in-chat",
+      "ai.open-in-chat",
+      "ai.open-in-chat",
+    ]);
+    expect(resolved[0].render).toStrictEqual({ colorScheme: "light" });
+    expect(resolved[5].render).toStrictEqual({
+      colorScheme: "dark",
+      open: true,
+      sampleData: "six provider links; query supplied by consumer",
+    });
   });
 
   it("rejects an unknown component id", () => {

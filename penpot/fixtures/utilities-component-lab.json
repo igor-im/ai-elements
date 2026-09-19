@@ -1,0 +1,49 @@
+{
+  "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+  "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+  "galleryId": "ef8ecfcc-e8fd-8021-8008-a99e412158e1",
+  "instances": [
+    {
+      "id": "ef8ecfcc-e8fd-8021-8008-a99e4156305f",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "ef8ecfcc-e8fd-8021-8008-a99cd9851df4",
+      "variantSetId": "ef8ecfcc-e8fd-8021-8008-a99cd9be283f",
+      "variantProps": { "Theme": "Light" }
+    },
+    {
+      "id": "ef8ecfcc-e8fd-8021-8008-a99e4160c2ce",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "ef8ecfcc-e8fd-8021-8008-a99cd9b88391",
+      "variantSetId": "ef8ecfcc-e8fd-8021-8008-a99cd9be283f",
+      "variantProps": { "Theme": "Dark" }
+    },
+    {
+      "id": "ef8ecfcc-e8fd-8021-8008-a99e4168897d",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "ef8ecfcc-e8fd-8021-8008-a99d711f1ed5",
+      "variantSetId": "ef8ecfcc-e8fd-8021-8008-a99d758a3438",
+      "variantProps": { "State": "Closed", "Theme": "Light" }
+    },
+    {
+      "id": "ef8ecfcc-e8fd-8021-8008-a99e4171a79f",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "ef8ecfcc-e8fd-8021-8008-a99d732938df",
+      "variantSetId": "ef8ecfcc-e8fd-8021-8008-a99d758a3438",
+      "variantProps": { "State": "Open", "Theme": "Light" }
+    },
+    {
+      "id": "ef8ecfcc-e8fd-8021-8008-a99e41869349",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "ef8ecfcc-e8fd-8021-8008-a99d737821eb",
+      "variantSetId": "ef8ecfcc-e8fd-8021-8008-a99d758a3438",
+      "variantProps": { "State": "Closed", "Theme": "Dark" }
+    },
+    {
+      "id": "ef8ecfcc-e8fd-8021-8008-a99e418df3e7",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "ef8ecfcc-e8fd-8021-8008-a99d758528a1",
+      "variantSetId": "ef8ecfcc-e8fd-8021-8008-a99d758a3438",
+      "variantProps": { "State": "Open", "Theme": "Dark" }
+    }
+  ]
+}
