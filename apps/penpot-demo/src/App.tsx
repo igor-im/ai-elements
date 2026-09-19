@@ -53,8 +53,8 @@ const PendingApproval = () => (
     >
       <ConfirmationTitle>
         <ConfirmationRequest>
-          This tool wants to delete the file{" "}
-          <code>/tmp/example.txt</code>. Do you approve this action?
+          This tool wants to delete the file <code>/tmp/example.txt</code>. Do
+          you approve this action?
         </ConfirmationRequest>
       </ConfirmationTitle>
       <ConfirmationActions>

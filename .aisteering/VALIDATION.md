@@ -76,7 +76,7 @@ On Ubuntu 26.04, Playwright 1.58 requires its explicit compatibility override fo
 PLAYWRIGHT_HOST_PLATFORM_OVERRIDE=ubuntu24.04-x64 packages/elements/node_modules/.bin/playwright install chromium
 ```
 
-The current full Elements suite has eight unrelated baseline failures in `controls.test.tsx` and `panel.test.tsx` because React Flow reports a zero-size parent. The focused Confirmation suite passes independently.
+The full Elements suite now uses explicitly sized Canvas fixtures in `controls.test.tsx` and `panel.test.tsx`, avoiding React Flow's zero-size parent warning in browser tests. Run `pnpm test` before a PR; the September 2026 pre-PR run passed all 967 Elements tests and six Penpot demo tests.
 
 ## Live Penpot validation
 

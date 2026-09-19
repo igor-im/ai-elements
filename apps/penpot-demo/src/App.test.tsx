@@ -1,7 +1,6 @@
+import { cleanup, render, screen } from "@testing-library/react";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-
-import { cleanup, render, screen } from "@testing-library/react";
 import { afterEach, describe, expect, it } from "vitest";
 
 import design from "../../../penpot/exports/approval-workspace.penpot.json";
@@ -25,9 +24,7 @@ describe("Penpot implementation contract", () => {
   it("renders one design-system alert for each linked instance", () => {
     render(<App />);
 
-    expect(screen.getAllByRole("alert")).toHaveLength(
-      design.instances.length
-    );
+    expect(screen.getAllByRole("alert")).toHaveLength(design.instances.length);
   });
 
   it("uses accessible page, navigation, and details landmarks", () => {
@@ -39,9 +36,10 @@ describe("Penpot implementation contract", () => {
     expect(
       screen.getByRole("navigation", { name: "Primary" })
     ).toBeInTheDocument();
-    expect(
-      screen.getByRole("link", { name: "Workspace" })
-    ).toHaveAttribute("aria-current", "page");
+    expect(screen.getByRole("link", { name: "Workspace" })).toHaveAttribute(
+      "aria-current",
+      "page"
+    );
     expect(
       screen.getByRole("region", { name: "Run details" })
     ).toBeInTheDocument();
