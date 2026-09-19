@@ -1,0 +1,847 @@
+{
+  "schemaVersion": 1,
+  "provider": "penpot-mcp",
+  "capturedAt": "2026-08-22",
+  "file": {
+    "id": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+    "name": "AI Elements Component Lab"
+  },
+  "page": {
+    "id": "15a57ee0-be05-809c-8008-86250cb64c01",
+    "name": "Implementation Test"
+  },
+  "board": {
+    "id": "15a57ee0-be05-809c-8008-86250cc51d90",
+    "name": "Approval Workspace",
+    "width": 1280,
+    "height": 800,
+    "fills": [
+      {
+        "color": "#f4f4f5",
+        "opacity": 1
+      }
+    ],
+    "implementationContract": {
+      "schemaVersion": 1,
+      "target": "apps/penpot-demo/src/App.tsx",
+      "route": "/",
+      "theme": "light",
+      "bindingManifest": "penpot/component-bindings.json"
+    },
+    "children": [
+      {
+        "id": "15a57ee0-be05-809c-8008-8625673ce5f2",
+        "name": "Layout / Sidebar",
+        "type": "rectangle",
+        "x": 0,
+        "y": 0,
+        "width": 240,
+        "height": 800,
+        "borderRadius": 0,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#18181b",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": null
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-862567403303",
+        "name": "Brand / Name",
+        "type": "text",
+        "x": 32,
+        "y": 40,
+        "width": 89,
+        "height": 16,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#a1a1aa",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "AI OPERATIONS",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 13,
+          "fontWeight": 700,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625674476e5",
+        "name": "Navigation / Workspace",
+        "type": "text",
+        "x": 32,
+        "y": 96,
+        "width": 66,
+        "height": 17,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#fafafa",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Workspace",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 14,
+          "fontWeight": 600,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-862567478b5d",
+        "name": "Navigation / Runs",
+        "type": "text",
+        "x": 32,
+        "y": 136,
+        "width": 30,
+        "height": 17,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#a1a1aa",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Runs",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625674a274d",
+        "name": "Navigation / Policies",
+        "type": "text",
+        "x": 32,
+        "y": 176,
+        "width": 45,
+        "height": 17,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#a1a1aa",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Policies",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625674d689d",
+        "name": "Navigation / Active marker",
+        "type": "rectangle",
+        "x": 16,
+        "y": 88,
+        "width": 4,
+        "height": 32,
+        "borderRadius": 2,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#3b82f6",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": null
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-862567502ecc",
+        "name": "Sidebar / Environment label",
+        "type": "text",
+        "x": 32,
+        "y": 684,
+        "width": 73,
+        "height": 14,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#71717a",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "ENVIRONMENT",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 11,
+          "fontWeight": 700,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625675366df",
+        "name": "Sidebar / Environment value",
+        "type": "text",
+        "x": 32,
+        "y": 712,
+        "width": 68,
+        "height": 17,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#fafafa",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Production",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 14,
+          "fontWeight": 600,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-862567566598",
+        "name": "Sidebar / Region",
+        "type": "text",
+        "x": 32,
+        "y": 740,
+        "width": 46,
+        "height": 15,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#a1a1aa",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "us-east-1",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 12,
+          "fontWeight": 400,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-86256759789e",
+        "name": "Header / Eyebrow",
+        "type": "text",
+        "x": 288,
+        "y": 50,
+        "width": 105,
+        "height": 15,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#2563eb",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "TOOL GOVERNANCE",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 12,
+          "fontWeight": 700,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625675c9779",
+        "name": "Header / Title",
+        "type": "text",
+        "x": 288,
+        "y": 76,
+        "width": 287,
+        "height": 39,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#18181b",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Approval workspace",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 32,
+          "fontWeight": 700,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625675f81c7",
+        "name": "Header / Subtitle",
+        "type": "text",
+        "x": 288,
+        "y": 122,
+        "width": 295,
+        "height": 18,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#71717a",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Review pending tool calls and recent decisions.",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 15,
+          "fontWeight": 400,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-86256762ada4",
+        "name": "Header / Pending badge",
+        "type": "rectangle",
+        "x": 1090,
+        "y": 60,
+        "width": 142,
+        "height": 34,
+        "borderRadius": 17,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#ffffff",
+            "opacity": 1
+          }
+        ],
+        "strokes": [
+          {
+            "color": "#e4e4e7",
+            "width": 1,
+            "style": "solid",
+            "alignment": "inner"
+          }
+        ],
+        "text": null
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-86256766419e",
+        "name": "Header / Pending dot",
+        "type": "rectangle",
+        "x": 1104,
+        "y": 74,
+        "width": 8,
+        "height": 8,
+        "borderRadius": 4,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#f59e0b",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": null
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-86256768a1af",
+        "name": "Header / Pending count",
+        "type": "text",
+        "x": 1122,
+        "y": 68,
+        "width": 56,
+        "height": 16,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#3f3f46",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "1 pending",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625676bfbc8",
+        "name": "Section / Pending approval",
+        "type": "text",
+        "x": 288,
+        "y": 178,
+        "width": 114,
+        "height": 18,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#27272a",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Pending approval",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625676f96d5",
+        "name": "Section / Pending helper",
+        "type": "text",
+        "x": 778,
+        "y": 180,
+        "width": 114,
+        "height": 15,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#a1a1aa",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Requires your decision",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 12,
+          "fontWeight": 400,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-862567724fb4",
+        "name": "Details / Card",
+        "type": "rectangle",
+        "x": 958,
+        "y": 216,
+        "width": 274,
+        "height": 252,
+        "borderRadius": 12,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#ffffff",
+            "opacity": 1
+          }
+        ],
+        "strokes": [
+          {
+            "color": "#e4e4e7",
+            "width": 1,
+            "style": "solid",
+            "alignment": "inner"
+          }
+        ],
+        "text": null
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-86256775bb17",
+        "name": "Details / Title",
+        "type": "text",
+        "x": 982,
+        "y": 240,
+        "width": 73,
+        "height": 18,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#18181b",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Run details",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-86256778423a",
+        "name": "Details / Agent label",
+        "type": "text",
+        "x": 982,
+        "y": 282,
+        "width": 30,
+        "height": 12,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#a1a1aa",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "AGENT",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 10,
+          "fontWeight": 700,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625677bb719",
+        "name": "Details / Agent value",
+        "type": "text",
+        "x": 982,
+        "y": 301,
+        "width": 108,
+        "height": 16,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#3f3f46",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "filesystem-assistant",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 13,
+          "fontWeight": 400,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625677dd418",
+        "name": "Details / Action label",
+        "type": "text",
+        "x": 982,
+        "y": 338,
+        "width": 34,
+        "height": 12,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#a1a1aa",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "ACTION",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 10,
+          "fontWeight": 700,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-862567812d58",
+        "name": "Details / Action value",
+        "type": "text",
+        "x": 982,
+        "y": 357,
+        "width": 55,
+        "height": 16,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#3f3f46",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Delete file",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 13,
+          "fontWeight": 400,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-862567841ab6",
+        "name": "Details / Target label",
+        "type": "text",
+        "x": 982,
+        "y": 394,
+        "width": 35,
+        "height": 12,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#a1a1aa",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "TARGET",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 10,
+          "fontWeight": 700,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-862567870041",
+        "name": "Details / Target value",
+        "type": "text",
+        "x": 982,
+        "y": 413,
+        "width": 96,
+        "height": 16,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#3f3f46",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "/tmp/example.txt",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 13,
+          "fontWeight": 400,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-862567895279",
+        "name": "Section / Recent decisions",
+        "type": "text",
+        "x": 288,
+        "y": 374,
+        "width": 108,
+        "height": 18,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#27272a",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Recent decisions",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625678c488f",
+        "name": "Section / Recent helper",
+        "type": "text",
+        "x": 796,
+        "y": 376,
+        "width": 79,
+        "height": 15,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#a1a1aa",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Last 15 minutes",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 12,
+          "fontWeight": 400,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-862567956451",
+        "name": "Bound / Confirmation / Request",
+        "type": "component-instance",
+        "x": 288,
+        "y": 216,
+        "width": 640,
+        "height": 96,
+        "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "a46a744a-db75-80c4-8008-85fc2b7972aa",
+        "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+        "variantProps": {
+          "State": "Request",
+          "Theme": "Light"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-86256798e6ce",
+        "name": "Bound / Confirmation / Accepted",
+        "type": "component-instance",
+        "x": 288,
+        "y": 412,
+        "width": 640,
+        "height": 64,
+        "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "a46a744a-db75-80c4-8008-85fc2b79db51",
+        "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+        "variantProps": {
+          "State": "Accepted",
+          "Theme": "Light"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625679a99fe",
+        "name": "Bound / Confirmation / Rejected",
+        "type": "component-instance",
+        "x": 288,
+        "y": 520,
+        "width": 640,
+        "height": 64,
+        "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+        "componentId": "a46a744a-db75-80c4-8008-85fc2b7a2d49",
+        "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+        "variantProps": {
+          "State": "Rejected",
+          "Theme": "Light"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625679cb844",
+        "name": "Footer / Note",
+        "type": "text",
+        "x": 288,
+        "y": 708,
+        "width": 278,
+        "height": 15,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#71717a",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Decisions are logged and attached to the run audit trail.",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 12,
+          "fontWeight": 400,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      },
+      {
+        "id": "15a57ee0-be05-809c-8008-8625679f1e8e",
+        "name": "Footer / Timestamp",
+        "type": "text",
+        "x": 1128,
+        "y": 708,
+        "width": 89,
+        "height": 15,
+        "borderRadius": null,
+        "opacity": null,
+        "fills": [
+          {
+            "color": "#71717a",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "text": {
+          "characters": "Updated just now",
+          "fontFamily": "sourcesanspro",
+          "fontSize": 12,
+          "fontWeight": 400,
+          "lineHeight": "1.2",
+          "letterSpacing": "0"
+        }
+      }
+    ]
+  },
+  "instances": [
+    {
+      "id": "15a57ee0-be05-809c-8008-862567956451",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "a46a744a-db75-80c4-8008-85fc2b7972aa",
+      "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+      "variantProps": {
+        "State": "Request",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "15a57ee0-be05-809c-8008-86256798e6ce",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "a46a744a-db75-80c4-8008-85fc2b79db51",
+      "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+      "variantProps": {
+        "State": "Accepted",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "15a57ee0-be05-809c-8008-8625679a99fe",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "a46a744a-db75-80c4-8008-85fc2b7a2d49",
+      "variantSetId": "a46a744a-db75-80c4-8008-85fc2b7b94bf",
+      "variantProps": {
+        "State": "Rejected",
+        "Theme": "Light"
+      }
+    }
+  ]
+}

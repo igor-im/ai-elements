@@ -80,6 +80,7 @@ export const AudioPlayerElement = ({ ...props }: AudioPlayerElementProps) => (
   <audio
     data-slot="audio-player-element"
     slot="media"
+    tabIndex={-1}
     src={
       "src" in props
         ? props.src
