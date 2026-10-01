@@ -130,3 +130,17 @@ Run the snapshot tests and manifest validator before committing the export.
 
 This is deterministic saved evidence, not a live Penpot monitor. Live release
 validation still requires re-reading the library and its consumer instances.
+
+## Primitive composition
+
+`pnpm penpot:bindings:test` also compares `penpot/primitive-contract.json` with
+independently exported library and consumer snapshots. Every expected Button
+must remain a linked vendor instance, and all 286 consumer variants must have
+the same named primitive inventory as the owned library. A shared-library
+update that has not reached the lab fails this comparison.
+
+The two Button migration baseline fixtures additionally check 114 replacements
+for preserved geometry/paint and 94 visible labels for position/typography.
+The remaining first-batch replacements have visual and linkage evidence but
+no saved full pre-change geometry fixture. Re-export live evidence after every
+composition change; CI validates saved evidence and does not poll Penpot.

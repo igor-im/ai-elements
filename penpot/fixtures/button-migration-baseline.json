@@ -1,0 +1,3744 @@
+[
+  {
+    "family": "ai.speech-input",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0c55050b6",
+    "variantProps": {
+      "State": "Ready",
+      "Theme": "Light"
+    },
+    "kind": "default",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0c5030370",
+      "type": "ellipse",
+      "name": "SpeechInput Button",
+      "x": 5336,
+      "y": 1476,
+      "width": 48,
+      "height": 48,
+      "fills": [
+        {
+          "fillColor": "#2563eb",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a0c4ecb943"
+  },
+  {
+    "family": "ai.speech-input",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0c5c8994c",
+    "variantProps": {
+      "State": "Listening",
+      "Theme": "Light"
+    },
+    "kind": "destructive",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0c5a3fa6e",
+      "type": "ellipse",
+      "name": "SpeechInput Button",
+      "x": 5624,
+      "y": 1476,
+      "width": 48,
+      "height": 48,
+      "fills": [
+        {
+          "fillColor": "#dc2626",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a0c553c46f"
+  },
+  {
+    "family": "ai.speech-input",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0c611c808",
+    "variantProps": {
+      "State": "Processing",
+      "Theme": "Light"
+    },
+    "kind": "default",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0c5df9c2f",
+      "type": "ellipse",
+      "name": "SpeechInput Button",
+      "x": 5912,
+      "y": 1476,
+      "width": 48,
+      "height": 48,
+      "fills": [
+        {
+          "fillColor": "#2563eb",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a0c5cd15ac"
+  },
+  {
+    "family": "ai.speech-input",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0c66ed9f9",
+    "variantProps": {
+      "State": "Disabled",
+      "Theme": "Light"
+    },
+    "kind": "default",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0c6284c68",
+      "type": "ellipse",
+      "name": "SpeechInput Button",
+      "x": 6200,
+      "y": 1476,
+      "width": 48,
+      "height": 48,
+      "fills": [
+        {
+          "fillColor": "#f4f4f5",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a0c6152f6f"
+  },
+  {
+    "family": "ai.speech-input",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0c6c95eb6",
+    "variantProps": {
+      "State": "Ready",
+      "Theme": "Dark"
+    },
+    "kind": "default",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0c683c4c7",
+      "type": "ellipse",
+      "name": "SpeechInput Button",
+      "x": 5336,
+      "y": 1664,
+      "width": 48,
+      "height": 48,
+      "fills": [
+        {
+          "fillColor": "#3b82f6",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a0c672c8ae"
+  },
+  {
+    "family": "ai.speech-input",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0c73b9487",
+    "variantProps": {
+      "State": "Listening",
+      "Theme": "Dark"
+    },
+    "kind": "destructive",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0c71bdd23",
+      "type": "ellipse",
+      "name": "SpeechInput Button",
+      "x": 5624,
+      "y": 1664,
+      "width": 48,
+      "height": 48,
+      "fills": [
+        {
+          "fillColor": "#ef4444",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a0c6ccdeaa"
+  },
+  {
+    "family": "ai.speech-input",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0c780aaf8",
+    "variantProps": {
+      "State": "Processing",
+      "Theme": "Dark"
+    },
+    "kind": "default",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0c7522b40",
+      "type": "ellipse",
+      "name": "SpeechInput Button",
+      "x": 5912,
+      "y": 1664,
+      "width": 48,
+      "height": 48,
+      "fills": [
+        {
+          "fillColor": "#3b82f6",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a0c73e7cba"
+  },
+  {
+    "family": "ai.speech-input",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0c7e05ccd",
+    "variantProps": {
+      "State": "Disabled",
+      "Theme": "Dark"
+    },
+    "kind": "default",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0c799dbed",
+      "type": "ellipse",
+      "name": "SpeechInput Button",
+      "x": 6200,
+      "y": 1664,
+      "width": 48,
+      "height": 48,
+      "fills": [
+        {
+          "fillColor": "#27272a",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a0c784afc7"
+  },
+  {
+    "family": "ai.mic-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0ed57a311",
+    "variantProps": {
+      "State": "Placeholder",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0ed17b670",
+      "type": "rectangle",
+      "name": "MicSelectorTrigger",
+      "x": 5330,
+      "y": 2022,
+      "width": 320,
+      "height": 36,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a0ed31672c",
+      "type": "text",
+      "name": "MicSelectorValue",
+      "x": 5342,
+      "y": 2031,
+      "width": 118,
+      "height": 16,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "Select microphone…",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "13",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a0ecfec193"
+  },
+  {
+    "family": "ai.mic-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0eda693a2",
+    "variantProps": {
+      "State": "Selected",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0ed6dc199",
+      "type": "rectangle",
+      "name": "MicSelectorTrigger",
+      "x": 5878,
+      "y": 2022,
+      "width": 320,
+      "height": 36,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a0ed837d8b",
+      "type": "text",
+      "name": "MicSelectorValue",
+      "x": 5890,
+      "y": 2031,
+      "width": 143,
+      "height": 16,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "MacBook Pro Microphone",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "13",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a0ed5ac99e"
+  },
+  {
+    "family": "ai.mic-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0eea684a4",
+    "variantProps": {
+      "State": "OpenDevices",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0edbab04c",
+      "type": "rectangle",
+      "name": "MicSelectorTrigger",
+      "x": 6426,
+      "y": 1924,
+      "width": 320,
+      "height": 36,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a0edcf9294",
+      "type": "text",
+      "name": "MicSelectorValue",
+      "x": 6438,
+      "y": 1933,
+      "width": 143,
+      "height": 16,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "MacBook Pro Microphone",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "13",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a0edaa638a"
+  },
+  {
+    "family": "ai.mic-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0ef555bee",
+    "variantProps": {
+      "State": "OpenEmpty",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0eeba3e47",
+      "type": "rectangle",
+      "name": "MicSelectorTrigger",
+      "x": 6974,
+      "y": 1924,
+      "width": 320,
+      "height": 36,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a0eecf9cd1",
+      "type": "text",
+      "name": "MicSelectorValue",
+      "x": 6986,
+      "y": 1933,
+      "width": 143,
+      "height": 16,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "MacBook Pro Microphone",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "13",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a0eea9f61d"
+  },
+  {
+    "family": "ai.mic-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0efaad06f",
+    "variantProps": {
+      "State": "Placeholder",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0ef6bbfb0",
+      "type": "rectangle",
+      "name": "MicSelectorTrigger",
+      "x": 5330,
+      "y": 2330,
+      "width": 320,
+      "height": 36,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a0ef8435c4",
+      "type": "text",
+      "name": "MicSelectorValue",
+      "x": 5342,
+      "y": 2339,
+      "width": 118,
+      "height": 16,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "Select microphone…",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "13",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a0ef58d9f1"
+  },
+  {
+    "family": "ai.mic-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0eff811fc",
+    "variantProps": {
+      "State": "Selected",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0efbf7ed1",
+      "type": "rectangle",
+      "name": "MicSelectorTrigger",
+      "x": 5878,
+      "y": 2330,
+      "width": 320,
+      "height": 36,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a0efd6e744",
+      "type": "text",
+      "name": "MicSelectorValue",
+      "x": 5890,
+      "y": 2339,
+      "width": 143,
+      "height": 16,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "MacBook Pro Microphone",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "13",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a0efafad37"
+  },
+  {
+    "family": "ai.mic-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0f0ec19a1",
+    "variantProps": {
+      "State": "OpenDevices",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0f009c926",
+      "type": "rectangle",
+      "name": "MicSelectorTrigger",
+      "x": 6426,
+      "y": 2232,
+      "width": 320,
+      "height": 36,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a0f0239660",
+      "type": "text",
+      "name": "MicSelectorValue",
+      "x": 6438,
+      "y": 2241,
+      "width": 143,
+      "height": 16,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "MacBook Pro Microphone",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "13",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a0effb04b0"
+  },
+  {
+    "family": "ai.mic-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a0f1988bd2",
+    "variantProps": {
+      "State": "OpenEmpty",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a0f1010707",
+      "type": "rectangle",
+      "name": "MicSelectorTrigger",
+      "x": 6974,
+      "y": 2232,
+      "width": 320,
+      "height": 36,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a0f1144067",
+      "type": "text",
+      "name": "MicSelectorValue",
+      "x": 6986,
+      "y": 2241,
+      "width": 143,
+      "height": 16,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "MacBook Pro Microphone",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "13",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a0f0ef37f2"
+  },
+  {
+    "family": "ai.model-selector",
+    "outerComponentId": "eed21ae3-9355-80a6-8008-864d044f0668",
+    "variantProps": {
+      "State": "Trigger",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "eed21ae3-9355-80a6-8008-864d04449b9b",
+      "type": "board",
+      "name": "ModelSelectorTrigger",
+      "x": 916,
+      "y": 5796,
+      "width": 488,
+      "height": 32,
+      "fills": [
+        {
+          "fillColor": "#f4f4f5",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 6,
+      "opacity": null
+    },
+    "label": {
+      "id": "eed21ae3-9355-80a6-8008-864d04496faa",
+      "type": "text",
+      "name": "ModelSelectorTrigger / Label",
+      "x": 928,
+      "y": 5802,
+      "width": 152,
+      "height": 17,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "◉  GPT-4o                         ⌄",
+      "fontId": "gfont-inter",
+      "fontFamily": "Inter",
+      "fontVariantId": "500",
+      "fontSize": "12",
+      "fontWeight": "500",
+      "lineHeight": "1.35",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "eed21ae3-9355-80a6-8008-864d043fe483"
+  },
+  {
+    "family": "ai.model-selector",
+    "outerComponentId": "eed21ae3-9355-80a6-8008-864d045f7b12",
+    "variantProps": {
+      "State": "Trigger",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "eed21ae3-9355-80a6-8008-864d0453f9d5",
+      "type": "board",
+      "name": "ModelSelectorTrigger",
+      "x": 916,
+      "y": 6116,
+      "width": 488,
+      "height": 32,
+      "fills": [
+        {
+          "fillColor": "#27272a",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 6,
+      "opacity": null
+    },
+    "label": {
+      "id": "eed21ae3-9355-80a6-8008-864d0459a21b",
+      "type": "text",
+      "name": "ModelSelectorTrigger / Label",
+      "x": 928,
+      "y": 6122,
+      "width": 152,
+      "height": 17,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "◉  GPT-4o                         ⌄",
+      "fontId": "gfont-inter",
+      "fontFamily": "Inter",
+      "fontVariantId": "500",
+      "fontSize": "12",
+      "fontWeight": "500",
+      "lineHeight": "1.35",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "eed21ae3-9355-80a6-8008-864d044faed8"
+  },
+  {
+    "family": "ai.model-selector",
+    "outerComponentId": "eed21ae3-9355-80a6-8008-864d04a22dc3",
+    "variantProps": {
+      "State": "Dialog",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "eed21ae3-9355-80a6-8008-864d0463d454",
+      "type": "board",
+      "name": "ModelSelectorTrigger",
+      "x": 1464,
+      "y": 5796,
+      "width": 488,
+      "height": 32,
+      "fills": [
+        {
+          "fillColor": "#f4f4f5",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 6,
+      "opacity": null
+    },
+    "label": {
+      "id": "eed21ae3-9355-80a6-8008-864d04680f2b",
+      "type": "text",
+      "name": "ModelSelectorTrigger / Label",
+      "x": 1476,
+      "y": 5802,
+      "width": 152,
+      "height": 17,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "◉  GPT-4o                         ⌄",
+      "fontId": "gfont-inter",
+      "fontFamily": "Inter",
+      "fontVariantId": "500",
+      "fontSize": "12",
+      "fontWeight": "500",
+      "lineHeight": "1.35",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "eed21ae3-9355-80a6-8008-864d045fd6d8"
+  },
+  {
+    "family": "ai.model-selector",
+    "outerComponentId": "eed21ae3-9355-80a6-8008-864d04e21b48",
+    "variantProps": {
+      "State": "Dialog",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "eed21ae3-9355-80a6-8008-864d04a6fc8e",
+      "type": "board",
+      "name": "ModelSelectorTrigger",
+      "x": 1464,
+      "y": 6116,
+      "width": 488,
+      "height": 32,
+      "fills": [
+        {
+          "fillColor": "#27272a",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 6,
+      "opacity": null
+    },
+    "label": {
+      "id": "eed21ae3-9355-80a6-8008-864d04ac3503",
+      "type": "text",
+      "name": "ModelSelectorTrigger / Label",
+      "x": 1476,
+      "y": 6122,
+      "width": 152,
+      "height": 17,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "◉  GPT-4o                         ⌄",
+      "fontId": "gfont-inter",
+      "fontFamily": "Inter",
+      "fontVariantId": "500",
+      "fontSize": "12",
+      "fontWeight": "500",
+      "lineHeight": "1.35",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "eed21ae3-9355-80a6-8008-864d04a28092"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a14d22cb9b",
+    "variantProps": {
+      "State": "ClosedPlaceholder",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a14cfbb916",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 5280,
+      "y": 2812,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a14cd6683f"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a14d70cc66",
+    "variantProps": {
+      "State": "ClosedSelected",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a14d3b3963",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 5828,
+      "y": 2812,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a14d2881a0"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a14fff3f72",
+    "variantProps": {
+      "State": "OpenVoices",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a14d8659dc",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 6376,
+      "y": 2670,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a14d74229c"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a14fff3f72",
+    "variantProps": {
+      "State": "OpenVoices",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a14e1e4791",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 6394,
+      "y": 2782,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a14e307e37",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 6401,
+      "y": 2787,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a14d74229c"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a14fff3f72",
+    "variantProps": {
+      "State": "OpenVoices",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a14e954190",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 6394,
+      "y": 2831,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a14ea861d7",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 6401,
+      "y": 2836,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a14d74229c"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a14fff3f72",
+    "variantProps": {
+      "State": "OpenVoices",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a14f1364bd",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 6394,
+      "y": 2880,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a14f26f368",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 6401,
+      "y": 2885,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a14d74229c"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a14fff3f72",
+    "variantProps": {
+      "State": "OpenVoices",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a14f8b182c",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 6394,
+      "y": 2929,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a14f9e8533",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 6401,
+      "y": 2934,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a14d74229c"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a150ad5266",
+    "variantProps": {
+      "State": "OpenEmpty",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15015b8ab",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 6924,
+      "y": 2670,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a1500351b7"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a1535a4643",
+    "variantProps": {
+      "State": "PreviewLoading",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a150c2f5a9",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 7472,
+      "y": 2670,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a150b0e80b"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a1535a4643",
+    "variantProps": {
+      "State": "PreviewLoading",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15169039d",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Loading",
+      "x": 7490,
+      "y": 2782,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a1517cd89e",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 7497,
+      "y": 2787,
+      "width": 6,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "◌",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a150b0e80b"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a1535a4643",
+    "variantProps": {
+      "State": "PreviewLoading",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a151e2cad6",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 7490,
+      "y": 2831,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a151f69518",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 7497,
+      "y": 2836,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a150b0e80b"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a1535a4643",
+    "variantProps": {
+      "State": "PreviewLoading",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a1525bfc23",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 7490,
+      "y": 2880,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a1526d8ca0",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 7497,
+      "y": 2885,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a150b0e80b"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a1535a4643",
+    "variantProps": {
+      "State": "PreviewLoading",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a152d8995b",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 7490,
+      "y": 2929,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a152ee98ba",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 7497,
+      "y": 2934,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a150b0e80b"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a155f12885",
+    "variantProps": {
+      "State": "PreviewPlaying",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15373a6db",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 8020,
+      "y": 2670,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a1535ece21"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a155f12885",
+    "variantProps": {
+      "State": "PreviewPlaying",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a1541dd72a",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Playing",
+      "x": 8038,
+      "y": 2782,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a154300e90",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 8045,
+      "y": 2787,
+      "width": 5,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "Ⅱ",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a1535ece21"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a155f12885",
+    "variantProps": {
+      "State": "PreviewPlaying",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a154934e24",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 8038,
+      "y": 2831,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a154a5ecda",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 8045,
+      "y": 2836,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a1535ece21"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a155f12885",
+    "variantProps": {
+      "State": "PreviewPlaying",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a155093bd9",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 8038,
+      "y": 2880,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a1551b9787",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 8045,
+      "y": 2885,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a1535ece21"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a155f12885",
+    "variantProps": {
+      "State": "PreviewPlaying",
+      "Theme": "Light"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a1557df212",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 8038,
+      "y": 2929,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#ffffff",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#e4e4e7",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a15590e311",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 8045,
+      "y": 2934,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a1535ece21"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a156314d0a",
+    "variantProps": {
+      "State": "ClosedPlaceholder",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15603d4f9",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 5280,
+      "y": 3200,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a155f5399a"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a1567a8ee0",
+    "variantProps": {
+      "State": "ClosedSelected",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15643e6a9",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 5828,
+      "y": 3200,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a156343685"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a1592ac2af",
+    "variantProps": {
+      "State": "OpenVoices",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a1568f9dcd",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 6376,
+      "y": 3058,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a1567e14ab"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a1592ac2af",
+    "variantProps": {
+      "State": "OpenVoices",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a1573c8b4c",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 6394,
+      "y": 3170,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a1574fe12a",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 6401,
+      "y": 3175,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a1567e14ab"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a1592ac2af",
+    "variantProps": {
+      "State": "OpenVoices",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a157b86b57",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 6394,
+      "y": 3219,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a157cc6226",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 6401,
+      "y": 3224,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a1567e14ab"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a1592ac2af",
+    "variantProps": {
+      "State": "OpenVoices",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a1583683b0",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 6394,
+      "y": 3268,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a1584de056",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 6401,
+      "y": 3273,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a1567e14ab"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a1592ac2af",
+    "variantProps": {
+      "State": "OpenVoices",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a158baf39e",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 6394,
+      "y": 3317,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a158cd4c13",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 6401,
+      "y": 3322,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a1567e14ab"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a159e0685f",
+    "variantProps": {
+      "State": "OpenEmpty",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a1593e5dfa",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 6924,
+      "y": 3058,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a1592ea29a"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a15c7b4594",
+    "variantProps": {
+      "State": "PreviewLoading",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a159f7b751",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 7472,
+      "y": 3058,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a159e381f7"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a15c7b4594",
+    "variantProps": {
+      "State": "PreviewLoading",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15aa19783",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Loading",
+      "x": 7490,
+      "y": 3170,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a15ab5d93e",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 7497,
+      "y": 3175,
+      "width": 6,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "◌",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a159e381f7"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a15c7b4594",
+    "variantProps": {
+      "State": "PreviewLoading",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15b1351de",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 7490,
+      "y": 3219,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a15b259d7c",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 7497,
+      "y": 3224,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a159e381f7"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a15c7b4594",
+    "variantProps": {
+      "State": "PreviewLoading",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15b8648be",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 7490,
+      "y": 3268,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a15b9ac1f5",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 7497,
+      "y": 3273,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a159e381f7"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a15c7b4594",
+    "variantProps": {
+      "State": "PreviewLoading",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15bff8fee",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 7490,
+      "y": 3317,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a15c133ead",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 7497,
+      "y": 3322,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a159e381f7"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a15f0d3ab4",
+    "variantProps": {
+      "State": "PreviewPlaying",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15c8e7b9b",
+      "type": "rectangle",
+      "name": "VoiceSelectorTrigger",
+      "x": 8020,
+      "y": 3058,
+      "width": 420,
+      "height": 38,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": 7,
+      "opacity": null
+    },
+    "label": null,
+    "parentId": "8633c2af-b930-8087-8008-87a15c7f66f8"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a15f0d3ab4",
+    "variantProps": {
+      "State": "PreviewPlaying",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15d2e5393",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Playing",
+      "x": 8038,
+      "y": 3170,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a15d415a89",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 8045,
+      "y": 3175,
+      "width": 5,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "Ⅱ",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a15c7f66f8"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a15f0d3ab4",
+    "variantProps": {
+      "State": "PreviewPlaying",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15da4507a",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 8038,
+      "y": 3219,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a15db71422",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 8045,
+      "y": 3224,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a15c7f66f8"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a15f0d3ab4",
+    "variantProps": {
+      "State": "PreviewPlaying",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15e1733bf",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 8038,
+      "y": 3268,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a15e29cbfe",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 8045,
+      "y": 3273,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a15c7f66f8"
+  },
+  {
+    "family": "ai.voice-selector",
+    "outerComponentId": "8633c2af-b930-8087-8008-87a15f0d3ab4",
+    "variantProps": {
+      "State": "PreviewPlaying",
+      "Theme": "Dark"
+    },
+    "kind": "outline",
+    "shape": {
+      "id": "8633c2af-b930-8087-8008-87a15e90e25d",
+      "type": "ellipse",
+      "name": "VoiceSelectorPreview / Idle",
+      "x": 8038,
+      "y": 3317,
+      "width": 24,
+      "height": 24,
+      "fills": [
+        {
+          "fillColor": "#18181b",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [
+        {
+          "strokeColor": "#3f3f46",
+          "strokeColorRefFile": null,
+          "strokeColorRefId": null,
+          "strokeOpacity": 1,
+          "strokeStyle": "solid",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "strokeCapStart": null,
+          "strokeCapEnd": null,
+          "strokeColorGradient": null
+        }
+      ],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null
+    },
+    "label": {
+      "id": "8633c2af-b930-8087-8008-87a15ea3dc19",
+      "type": "text",
+      "name": "Preview Icon",
+      "x": 8045,
+      "y": 3322,
+      "width": 7,
+      "height": 11,
+      "fills": [
+        {
+          "fillColor": "#fafafa",
+          "fillOpacity": 1,
+          "fillColorGradient": null,
+          "fillColorRefFile": null,
+          "fillColorRefId": null,
+          "fillImage": null
+        }
+      ],
+      "strokes": [],
+      "shadows": [],
+      "borderRadius": null,
+      "opacity": null,
+      "characters": "▶",
+      "fontId": "sourcesanspro",
+      "fontFamily": "sourcesanspro",
+      "fontVariantId": "600",
+      "fontSize": "9",
+      "fontWeight": "600",
+      "lineHeight": "1.2",
+      "letterSpacing": "0",
+      "align": "left",
+      "verticalAlign": null,
+      "growType": "auto-width"
+    },
+    "parentId": "8633c2af-b930-8087-8008-87a15c7f66f8"
+  }
+]

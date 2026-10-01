@@ -125,3 +125,12 @@ Five stale Audio Player variant pins were repaired. All 286 library variants
 and all 286 linked consumer instances now match the manifest.
 
 Chatbot → Code → Voice → Utilities → Workflow. Chatbot, Code, Voice, and Utilities are accepted. On 2026-09-19, the user requested that Utilities be finished ahead of Workflow. Utilities is the completed writer slot; Workflow is next after the Utilities commit handoff and must revalidate the 42-binding baseline before writing.
+
+### Primitive migration checkpoint — 2026-10-01
+
+Button migration now has 240 direct replacements and 12 inherited copies across
+26 families. The consumer lab received all 252 vendor links, and 286 outer
+instances retain their bindings. All 26 affected matrices were visually checked.
+See `../../summaries/2026-10-01-button-primitive-migration.md` for evidence and
+the remaining Collapsible/missing-primitive work. The earlier zero-instance
+audit is historical; the full composition migration remains in progress.
