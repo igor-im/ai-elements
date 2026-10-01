@@ -1,0 +1,1819 @@
+{
+  "schemaVersion": 1,
+  "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+  "vendorFileId": "f9c80ed1-fe5b-8098-8008-85f0bfe960dc",
+  "variants": [
+    {
+      "family": "ai.confirmation",
+      "componentId": "a46a744a-db75-80c4-8008-85fc2b7972aa",
+      "buttons": [
+        {
+          "name": "Request / Approve",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        },
+        {
+          "name": "Request / Reject",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.confirmation",
+      "componentId": "42dae7f1-b943-80fb-8008-85fcaeb9ee17",
+      "buttons": [
+        {
+          "name": "Request / Approve",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        },
+        {
+          "name": "Request / Reject",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.stack-trace",
+      "componentId": "cebd822e-5596-8078-8008-865650fa5e84",
+      "buttons": [
+        {
+          "name": "StackTraceCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.stack-trace",
+      "componentId": "cebd822e-5596-8078-8008-8656514af483",
+      "buttons": [
+        {
+          "name": "StackTraceCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.stack-trace",
+      "componentId": "cebd822e-5596-8078-8008-865651f931ce",
+      "buttons": [
+        {
+          "name": "StackTraceCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.stack-trace",
+      "componentId": "cebd822e-5596-8078-8008-865652b1a4f9",
+      "buttons": [
+        {
+          "name": "StackTraceCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.stack-trace",
+      "componentId": "cebd822e-5596-8078-8008-86565340f414",
+      "buttons": [
+        {
+          "name": "StackTraceCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.stack-trace",
+      "componentId": "cebd822e-5596-8078-8008-865653d49d08",
+      "buttons": [
+        {
+          "name": "StackTraceCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.stack-trace",
+      "componentId": "cebd822e-5596-8078-8008-86565444921d",
+      "buttons": [
+        {
+          "name": "StackTraceCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.stack-trace",
+      "componentId": "cebd822e-5596-8078-8008-865654af2d67",
+      "buttons": [
+        {
+          "name": "StackTraceCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.code-block",
+      "componentId": "cebd822e-5596-8078-8008-8655d16ba430",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.code-block",
+      "componentId": "cebd822e-5596-8078-8008-8655d1b9e3dc",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.code-block",
+      "componentId": "cebd822e-5596-8078-8008-8655d2294809",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.code-block",
+      "componentId": "cebd822e-5596-8078-8008-8655d28fdfd3",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.code-block",
+      "componentId": "cebd822e-5596-8078-8008-8655d3059eb7",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.code-block",
+      "componentId": "cebd822e-5596-8078-8008-8655d37ac3d0",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.speech-input",
+      "componentId": "8633c2af-b930-8087-8008-87a0c55050b6",
+      "buttons": [
+        {
+          "name": "SpeechInput Button",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.speech-input",
+      "componentId": "8633c2af-b930-8087-8008-87a0c5c8994c",
+      "buttons": [
+        {
+          "name": "SpeechInput Button",
+          "componentId": "764cab90-b660-5c2e-ad40-78a400742d9c"
+        }
+      ]
+    },
+    {
+      "family": "ai.speech-input",
+      "componentId": "8633c2af-b930-8087-8008-87a0c611c808",
+      "buttons": [
+        {
+          "name": "SpeechInput Button",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.speech-input",
+      "componentId": "8633c2af-b930-8087-8008-87a0c66ed9f9",
+      "buttons": [
+        {
+          "name": "SpeechInput Button",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.speech-input",
+      "componentId": "8633c2af-b930-8087-8008-87a0c6c95eb6",
+      "buttons": [
+        {
+          "name": "SpeechInput Button",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.speech-input",
+      "componentId": "8633c2af-b930-8087-8008-87a0c73b9487",
+      "buttons": [
+        {
+          "name": "SpeechInput Button",
+          "componentId": "764cab90-b660-5c2e-ad40-78a400742d9c"
+        }
+      ]
+    },
+    {
+      "family": "ai.speech-input",
+      "componentId": "8633c2af-b930-8087-8008-87a0c780aaf8",
+      "buttons": [
+        {
+          "name": "SpeechInput Button",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.speech-input",
+      "componentId": "8633c2af-b930-8087-8008-87a0c7e05ccd",
+      "buttons": [
+        {
+          "name": "SpeechInput Button",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.mic-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a0ed57a311",
+      "buttons": [
+        {
+          "name": "MicSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.mic-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a0eda693a2",
+      "buttons": [
+        {
+          "name": "MicSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.mic-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a0eea684a4",
+      "buttons": [
+        {
+          "name": "MicSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.mic-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a0ef555bee",
+      "buttons": [
+        {
+          "name": "MicSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.mic-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a0efaad06f",
+      "buttons": [
+        {
+          "name": "MicSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.mic-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a0eff811fc",
+      "buttons": [
+        {
+          "name": "MicSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.mic-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a0f0ec19a1",
+      "buttons": [
+        {
+          "name": "MicSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.mic-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a0f1988bd2",
+      "buttons": [
+        {
+          "name": "MicSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.queue",
+      "componentId": "eed21ae3-9355-80a6-8008-864d08a148dc",
+      "buttons": [
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.queue",
+      "componentId": "eed21ae3-9355-80a6-8008-864d08e328d2",
+      "buttons": [
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.queue",
+      "componentId": "eed21ae3-9355-80a6-8008-864d09301cea",
+      "buttons": [
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.queue",
+      "componentId": "eed21ae3-9355-80a6-8008-864d097d3c49",
+      "buttons": [
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "QueueItemActions",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.web-preview",
+      "componentId": "cebd822e-5596-8078-8008-865802e77777",
+      "buttons": [
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewOpenButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.web-preview",
+      "componentId": "cebd822e-5596-8078-8008-865804523e5e",
+      "buttons": [
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewOpenButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.web-preview",
+      "componentId": "cebd822e-5596-8078-8008-8658061ae809",
+      "buttons": [
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewOpenButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.web-preview",
+      "componentId": "cebd822e-5596-8078-8008-865807c9f7f8",
+      "buttons": [
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewOpenButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.web-preview",
+      "componentId": "cebd822e-5596-8078-8008-8658098026c7",
+      "buttons": [
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewOpenButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.web-preview",
+      "componentId": "cebd822e-5596-8078-8008-86580b4bf787",
+      "buttons": [
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewOpenButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.web-preview",
+      "componentId": "cebd822e-5596-8078-8008-86580c6be023",
+      "buttons": [
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewOpenButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.web-preview",
+      "componentId": "cebd822e-5596-8078-8008-86580d74755e",
+      "buttons": [
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewNavigationButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "WebPreviewOpenButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.plan",
+      "componentId": "eed21ae3-9355-80a6-8008-864d0503ac94",
+      "buttons": [
+        {
+          "name": "PlanTrigger",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.plan",
+      "componentId": "eed21ae3-9355-80a6-8008-864d0516adcb",
+      "buttons": [
+        {
+          "name": "PlanTrigger",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.plan",
+      "componentId": "eed21ae3-9355-80a6-8008-864d0555c8da",
+      "buttons": [
+        {
+          "name": "PlanTrigger",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.plan",
+      "componentId": "eed21ae3-9355-80a6-8008-864d0598c3af",
+      "buttons": [
+        {
+          "name": "PlanTrigger",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.attachments",
+      "componentId": "471d208c-a0a6-80ee-8008-864c14bd1430",
+      "buttons": [
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.attachments",
+      "componentId": "471d208c-a0a6-80ee-8008-864c14fd1ba7",
+      "buttons": [
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.attachments",
+      "componentId": "471d208c-a0a6-80ee-8008-864c1560d694",
+      "buttons": [
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.attachments",
+      "componentId": "471d208c-a0a6-80ee-8008-864c1591c9bc",
+      "buttons": [
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "AttachmentRemove",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.sandbox",
+      "componentId": "cebd822e-5596-8078-8008-865870954488",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.sandbox",
+      "componentId": "cebd822e-5596-8078-8008-8658718d4fed",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.sandbox",
+      "componentId": "cebd822e-5596-8078-8008-8658728efc2e",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.sandbox",
+      "componentId": "cebd822e-5596-8078-8008-865873864f35",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.sandbox",
+      "componentId": "cebd822e-5596-8078-8008-865874dd1c2e",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.sandbox",
+      "componentId": "cebd822e-5596-8078-8008-865875eec4e2",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.sandbox",
+      "componentId": "cebd822e-5596-8078-8008-865876e4fe8a",
+      "buttons": [
+        {
+          "name": "StackTraceCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.sandbox",
+      "componentId": "cebd822e-5596-8078-8008-865877e7d66c",
+      "buttons": [
+        {
+          "name": "StackTraceCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.conversation",
+      "componentId": "471d208c-a0a6-80ee-8008-864c17048920",
+      "buttons": [
+        {
+          "name": "ConversationScrollButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.conversation",
+      "componentId": "471d208c-a0a6-80ee-8008-864c1722b2d7",
+      "buttons": [
+        {
+          "name": "ConversationScrollButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.commit",
+      "componentId": "cebd822e-5596-8078-8008-8656afda8b77",
+      "buttons": [
+        {
+          "name": "CommitCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.commit",
+      "componentId": "cebd822e-5596-8078-8008-8656b02d4990",
+      "buttons": [
+        {
+          "name": "CommitCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.commit",
+      "componentId": "cebd822e-5596-8078-8008-8656b0f420c7",
+      "buttons": [
+        {
+          "name": "CommitCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.commit",
+      "componentId": "cebd822e-5596-8078-8008-8656b1bbb0da",
+      "buttons": [
+        {
+          "name": "CommitCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.environment-variables",
+      "componentId": "cebd822e-5596-8078-8008-8656b2c9f4f2",
+      "buttons": [
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.environment-variables",
+      "componentId": "cebd822e-5596-8078-8008-8656b3bc25f7",
+      "buttons": [
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.environment-variables",
+      "componentId": "cebd822e-5596-8078-8008-8656b4b213f8",
+      "buttons": [
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.environment-variables",
+      "componentId": "cebd822e-5596-8078-8008-8656b5b30588",
+      "buttons": [
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "EnvironmentVariableCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.context",
+      "componentId": "471d208c-a0a6-80ee-8008-864c164da3c8",
+      "buttons": [
+        {
+          "name": "ContextTrigger",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.context",
+      "componentId": "471d208c-a0a6-80ee-8008-864c1656d63c",
+      "buttons": [
+        {
+          "name": "ContextTrigger",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.context",
+      "componentId": "471d208c-a0a6-80ee-8008-864c168bde32",
+      "buttons": [
+        {
+          "name": "ContextTrigger",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.context",
+      "componentId": "471d208c-a0a6-80ee-8008-864c16c4ec11",
+      "buttons": [
+        {
+          "name": "ContextTrigger",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.snippet",
+      "componentId": "cebd822e-5596-8078-8008-86564d162ef6",
+      "buttons": [
+        {
+          "name": "SnippetCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.snippet",
+      "componentId": "cebd822e-5596-8078-8008-86564d4dbb24",
+      "buttons": [
+        {
+          "name": "SnippetCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.snippet",
+      "componentId": "cebd822e-5596-8078-8008-86564d796df1",
+      "buttons": [
+        {
+          "name": "SnippetCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.snippet",
+      "componentId": "cebd822e-5596-8078-8008-86564da7467f",
+      "buttons": [
+        {
+          "name": "SnippetCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.snippet",
+      "componentId": "cebd822e-5596-8078-8008-86564dd215b9",
+      "buttons": [
+        {
+          "name": "SnippetCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.snippet",
+      "componentId": "cebd822e-5596-8078-8008-86564dfd5efa",
+      "buttons": [
+        {
+          "name": "SnippetCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.open-in-chat",
+      "componentId": "ef8ecfcc-e8fd-8021-8008-a99d711f1ed5",
+      "buttons": [
+        {
+          "name": "OpenInTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.open-in-chat",
+      "componentId": "ef8ecfcc-e8fd-8021-8008-a99d732938df",
+      "buttons": [
+        {
+          "name": "OpenInTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.open-in-chat",
+      "componentId": "ef8ecfcc-e8fd-8021-8008-a99d737821eb",
+      "buttons": [
+        {
+          "name": "OpenInTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.open-in-chat",
+      "componentId": "ef8ecfcc-e8fd-8021-8008-a99d758528a1",
+      "buttons": [
+        {
+          "name": "OpenInTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.model-selector",
+      "componentId": "eed21ae3-9355-80a6-8008-864d044f0668",
+      "buttons": [
+        {
+          "name": "ModelSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.model-selector",
+      "componentId": "eed21ae3-9355-80a6-8008-864d045f7b12",
+      "buttons": [
+        {
+          "name": "ModelSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.model-selector",
+      "componentId": "eed21ae3-9355-80a6-8008-864d04a22dc3",
+      "buttons": [
+        {
+          "name": "ModelSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.model-selector",
+      "componentId": "eed21ae3-9355-80a6-8008-864d04e21b48",
+      "buttons": [
+        {
+          "name": "ModelSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.audio-player",
+      "componentId": "8633c2af-b930-8087-8008-879fd265da08",
+      "buttons": [
+        {
+          "name": "AudioPlayerPlayButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekBackwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekForwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.audio-player",
+      "componentId": "8633c2af-b930-8087-8008-879fd3a6f929",
+      "buttons": [
+        {
+          "name": "AudioPlayerPlayButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekBackwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekForwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.audio-player",
+      "componentId": "8633c2af-b930-8087-8008-879fd4d724a6",
+      "buttons": [
+        {
+          "name": "AudioPlayerPlayButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekBackwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekForwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.audio-player",
+      "componentId": "8633c2af-b930-8087-8008-879fd620d37b",
+      "buttons": [
+        {
+          "name": "AudioPlayerPlayButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekBackwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekForwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.audio-player",
+      "componentId": "8633c2af-b930-8087-8008-879fd759d76a",
+      "buttons": [
+        {
+          "name": "AudioPlayerPlayButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekBackwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekForwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.audio-player",
+      "componentId": "8633c2af-b930-8087-8008-879fd88f5604",
+      "buttons": [
+        {
+          "name": "AudioPlayerPlayButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekBackwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "AudioPlayerSeekForwardButton",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.message",
+      "componentId": "eed21ae3-9355-80a6-8008-864d03f15d69",
+      "buttons": [
+        {
+          "name": "MessageAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "MessageAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "MessageAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "MessageAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.message",
+      "componentId": "eed21ae3-9355-80a6-8008-864d042edcb4",
+      "buttons": [
+        {
+          "name": "MessageAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "MessageAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "MessageAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "MessageAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.question",
+      "componentId": "eed21ae3-9355-80a6-8008-864d0694500f",
+      "buttons": [
+        {
+          "name": "QuestionSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.question",
+      "componentId": "eed21ae3-9355-80a6-8008-864d06ce7198",
+      "buttons": [
+        {
+          "name": "QuestionSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.question",
+      "componentId": "eed21ae3-9355-80a6-8008-864d07141a0a",
+      "buttons": [
+        {
+          "name": "QuestionSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.question",
+      "componentId": "eed21ae3-9355-80a6-8008-864d0755f154",
+      "buttons": [
+        {
+          "name": "QuestionSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.question",
+      "componentId": "eed21ae3-9355-80a6-8008-864d077abb19",
+      "buttons": [
+        {
+          "name": "QuestionSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.question",
+      "componentId": "eed21ae3-9355-80a6-8008-864d07a0d1ab",
+      "buttons": [
+        {
+          "name": "QuestionSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.question",
+      "componentId": "eed21ae3-9355-80a6-8008-864d07f69d43",
+      "buttons": [
+        {
+          "name": "QuestionSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.question",
+      "componentId": "eed21ae3-9355-80a6-8008-864d0845616b",
+      "buttons": [
+        {
+          "name": "QuestionSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.suggestion",
+      "componentId": "eed21ae3-9355-80a6-8008-864d30dc84ab",
+      "buttons": [
+        {
+          "name": "Suggestion",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "Suggestion",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "Suggestion",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "Suggestion",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.suggestion",
+      "componentId": "eed21ae3-9355-80a6-8008-864d311f182f",
+      "buttons": [
+        {
+          "name": "Suggestion",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "Suggestion",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "Suggestion",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "Suggestion",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a14d22cb9b",
+      "buttons": [
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a14d70cc66",
+      "buttons": [
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a14fff3f72",
+      "buttons": [
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a150ad5266",
+      "buttons": [
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a1535a4643",
+      "buttons": [
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Loading",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a155f12885",
+      "buttons": [
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Playing",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a156314d0a",
+      "buttons": [
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a1567a8ee0",
+      "buttons": [
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a1592ac2af",
+      "buttons": [
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a159e0685f",
+      "buttons": [
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a15c7b4594",
+      "buttons": [
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Loading",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.voice-selector",
+      "componentId": "8633c2af-b930-8087-8008-87a15f0d3ab4",
+      "buttons": [
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Idle",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorPreview / Playing",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        },
+        {
+          "name": "VoiceSelectorTrigger",
+          "componentId": "e1b67a8d-678f-5830-9fe3-caa2fc1ae3df"
+        }
+      ]
+    },
+    {
+      "family": "ai.checkpoint",
+      "componentId": "471d208c-a0a6-80ee-8008-864c1634141d",
+      "buttons": [
+        {
+          "name": "CheckpointTrigger",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.checkpoint",
+      "componentId": "471d208c-a0a6-80ee-8008-864c163f411c",
+      "buttons": [
+        {
+          "name": "CheckpointTrigger",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.prompt-input",
+      "componentId": "eed21ae3-9355-80a6-8008-864d05ce99df",
+      "buttons": [
+        {
+          "name": "PromptInputActionAddAttachments",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "PromptInputButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "PromptInputSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.prompt-input",
+      "componentId": "eed21ae3-9355-80a6-8008-864d05f5b4d7",
+      "buttons": [
+        {
+          "name": "PromptInputActionAddAttachments",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "PromptInputButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "PromptInputSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.prompt-input",
+      "componentId": "eed21ae3-9355-80a6-8008-864d061cf3ca",
+      "buttons": [
+        {
+          "name": "PromptInputActionAddAttachments",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "PromptInputButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "PromptInputSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.prompt-input",
+      "componentId": "eed21ae3-9355-80a6-8008-864d06463b3b",
+      "buttons": [
+        {
+          "name": "PromptInputActionAddAttachments",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "PromptInputButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "PromptInputSubmit",
+          "componentId": "fee63096-a419-59d1-816a-a85e44efb097"
+        }
+      ]
+    },
+    {
+      "family": "ai.artifact",
+      "componentId": "cebd822e-5596-8078-8008-865788526afb",
+      "buttons": [
+        {
+          "name": "ArtifactAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "ArtifactAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "ArtifactAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.artifact",
+      "componentId": "cebd822e-5596-8078-8008-86578924d816",
+      "buttons": [
+        {
+          "name": "ArtifactAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "ArtifactAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "ArtifactAction",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.artifact",
+      "componentId": "cebd822e-5596-8078-8008-865789c88921",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.artifact",
+      "componentId": "cebd822e-5596-8078-8008-86578a61f7cb",
+      "buttons": [
+        {
+          "name": "CodeBlockCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.terminal",
+      "componentId": "cebd822e-5596-8078-8008-86564e824f1a",
+      "buttons": [
+        {
+          "name": "TerminalCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.terminal",
+      "componentId": "cebd822e-5596-8078-8008-86564ed82eff",
+      "buttons": [
+        {
+          "name": "TerminalCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.terminal",
+      "componentId": "cebd822e-5596-8078-8008-86564f4738a8",
+      "buttons": [
+        {
+          "name": "TerminalCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.terminal",
+      "componentId": "cebd822e-5596-8078-8008-86564fb83caf",
+      "buttons": [
+        {
+          "name": "TerminalCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.terminal",
+      "componentId": "cebd822e-5596-8078-8008-86565021fe26",
+      "buttons": [
+        {
+          "name": "TerminalClearButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "TerminalCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    },
+    {
+      "family": "ai.terminal",
+      "componentId": "cebd822e-5596-8078-8008-8656508b420f",
+      "buttons": [
+        {
+          "name": "TerminalClearButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        },
+        {
+          "name": "TerminalCopyButton",
+          "componentId": "73a47fcb-6346-5adc-905f-3b1ac615671d"
+        }
+      ]
+    }
+  ]
+}

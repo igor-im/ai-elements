@@ -1,0 +1,4391 @@
+{
+  "schemaVersion": 1,
+  "fileId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+  "components": [
+    {
+      "id": "ai.attachments",
+      "variants": [
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c14bd1430",
+          "variantProps": {
+            "Variant": "Grid",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c14fd1ba7",
+          "variantProps": {
+            "Variant": "Grid",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c15168744",
+          "variantProps": {
+            "Variant": "Inline",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c152f26e1",
+          "variantProps": {
+            "Variant": "Inline",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c1560d694",
+          "variantProps": {
+            "Variant": "List",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c1591c9bc",
+          "variantProps": {
+            "Variant": "List",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.attachments",
+          "framework": "react",
+          "module": "@repo/elements/attachments",
+          "export": "Attachments",
+          "exports": [
+            "getMediaCategory",
+            "getAttachmentLabel",
+            "useAttachmentsContext",
+            "useAttachmentContext",
+            "Attachments",
+            "Attachment",
+            "AttachmentPreview",
+            "AttachmentInfo",
+            "AttachmentRemove",
+            "AttachmentHoverCard",
+            "AttachmentHoverCardTrigger",
+            "AttachmentHoverCardContent",
+            "AttachmentEmpty"
+          ],
+          "typeExports": [
+            "AttachmentData",
+            "AttachmentMediaCategory",
+            "AttachmentVariant",
+            "AttachmentsProps",
+            "AttachmentProps",
+            "AttachmentPreviewProps",
+            "AttachmentInfoProps",
+            "AttachmentRemoveProps",
+            "AttachmentHoverCardProps",
+            "AttachmentHoverCardTriggerProps",
+            "AttachmentHoverCardContentProps",
+            "AttachmentEmptyProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/attachments.tsx",
+            "sha256": "91c42be9a592fe8ff2468352b8636f6bc364567779618ac3a075f1080b378fad"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/attachments.mdx",
+            "examples": [
+              "packages/examples/src/attachments.tsx",
+              "packages/examples/src/attachments-inline.tsx",
+              "packages/examples/src/attachments-list.tsx"
+            ]
+          },
+          "variantProperties": ["Variant", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.chain-of-thought",
+      "variants": [
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c15a8e02f",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c15b224e8",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c15ea7080",
+          "variantProps": {
+            "State": "Open",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c161e29ff",
+          "variantProps": {
+            "State": "Open",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.chain-of-thought",
+          "framework": "react",
+          "module": "@repo/elements/chain-of-thought",
+          "export": "ChainOfThought",
+          "exports": [
+            "ChainOfThought",
+            "ChainOfThoughtHeader",
+            "ChainOfThoughtStep",
+            "ChainOfThoughtSearchResults",
+            "ChainOfThoughtSearchResult",
+            "ChainOfThoughtContent",
+            "ChainOfThoughtImage"
+          ],
+          "typeExports": [
+            "ChainOfThoughtProps",
+            "ChainOfThoughtHeaderProps",
+            "ChainOfThoughtStepProps",
+            "ChainOfThoughtSearchResultsProps",
+            "ChainOfThoughtSearchResultProps",
+            "ChainOfThoughtContentProps",
+            "ChainOfThoughtImageProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/chain-of-thought.tsx",
+            "sha256": "ddc63b036299d636483b2041599248226e05ef01afd9c5e32724e3a849def8c4"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/chain-of-thought.mdx",
+            "examples": ["packages/examples/src/chain-of-thought.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.checkpoint",
+      "variants": [
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c1634141d",
+          "variantProps": {
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c163f411c",
+          "variantProps": {
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.checkpoint",
+          "framework": "react",
+          "module": "@repo/elements/checkpoint",
+          "export": "Checkpoint",
+          "exports": ["Checkpoint", "CheckpointIcon", "CheckpointTrigger"],
+          "typeExports": [
+            "CheckpointProps",
+            "CheckpointIconProps",
+            "CheckpointTriggerProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/checkpoint.tsx",
+            "sha256": "8649b28c7969c6c58bd9a8643279810c13da332198a4fcbc5b8a75000673eb5b"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/checkpoint.mdx",
+            "examples": ["packages/examples/src/checkpoint.tsx"]
+          },
+          "variantProperties": ["Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.confirmation",
+      "variants": [
+        {
+          "componentId": "a46a744a-db75-80c4-8008-85fc2b7972aa",
+          "variantProps": {
+            "State": "Request",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "a46a744a-db75-80c4-8008-85fc2b79db51",
+          "variantProps": {
+            "State": "Accepted",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "a46a744a-db75-80c4-8008-85fc2b7a2d49",
+          "variantProps": {
+            "State": "Rejected",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "42dae7f1-b943-80fb-8008-85fcaeb9ee17",
+          "variantProps": {
+            "State": "Request",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "42dae7f1-b943-80fb-8008-85fcaec560cc",
+          "variantProps": {
+            "State": "Accepted",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "42dae7f1-b943-80fb-8008-85fcaec8570b",
+          "variantProps": {
+            "State": "Rejected",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.confirmation",
+          "framework": "react",
+          "module": "@repo/elements/confirmation",
+          "export": "Confirmation",
+          "exports": [
+            "Confirmation",
+            "ConfirmationTitle",
+            "ConfirmationRequest",
+            "ConfirmationAccepted",
+            "ConfirmationRejected",
+            "ConfirmationActions",
+            "ConfirmationAction"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/confirmation.tsx",
+            "sha256": "7cc0befed99499ed9010643e7a90ec619180a3f6e79cba5668cfc84126b96a10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai.context",
+      "variants": [
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c164da3c8",
+          "variantProps": {
+            "State": "Trigger",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c1656d63c",
+          "variantProps": {
+            "State": "Trigger",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c168bde32",
+          "variantProps": {
+            "State": "Details",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c16c4ec11",
+          "variantProps": {
+            "State": "Details",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.context",
+          "framework": "react",
+          "module": "@repo/elements/context",
+          "export": "Context",
+          "exports": [
+            "Context",
+            "ContextTrigger",
+            "ContextContent",
+            "ContextContentHeader",
+            "ContextContentBody",
+            "ContextContentFooter",
+            "ContextInputUsage",
+            "ContextOutputUsage",
+            "ContextReasoningUsage",
+            "ContextCacheUsage"
+          ],
+          "typeExports": [
+            "ContextProps",
+            "ContextTriggerProps",
+            "ContextContentProps",
+            "ContextContentHeaderProps",
+            "ContextContentBodyProps",
+            "ContextContentFooterProps",
+            "ContextInputUsageProps",
+            "ContextOutputUsageProps",
+            "ContextReasoningUsageProps",
+            "ContextCacheUsageProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/context.tsx",
+            "sha256": "e511015bd0d58d4dcc179d672fe2de980ff923654a53541d4396f209bf02c243"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/context.mdx",
+            "examples": ["packages/examples/src/context.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.conversation",
+      "variants": [
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c16da8754",
+          "variantProps": {
+            "State": "Empty",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c16e746b3",
+          "variantProps": {
+            "State": "Empty",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c17048920",
+          "variantProps": {
+            "State": "Populated",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c1722b2d7",
+          "variantProps": {
+            "State": "Populated",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.conversation",
+          "framework": "react",
+          "module": "@repo/elements/conversation",
+          "export": "Conversation",
+          "exports": [
+            "Conversation",
+            "ConversationContent",
+            "ConversationEmptyState",
+            "ConversationScrollButton",
+            "messagesToMarkdown",
+            "ConversationDownload"
+          ],
+          "typeExports": [
+            "ConversationProps",
+            "ConversationContentProps",
+            "ConversationEmptyStateProps",
+            "ConversationScrollButtonProps",
+            "ConversationDownloadProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/conversation.tsx",
+            "sha256": "d7ac46f1e7bc8e46bc49f67c768fc93aebdf17d816397cb35a40deff7173e875"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/conversation.mdx",
+            "examples": ["packages/examples/src/conversation.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.inline-citation",
+      "variants": [
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c17390619",
+          "variantProps": {
+            "State": "Inline",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c1745a95b",
+          "variantProps": {
+            "State": "Inline",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c176467c0",
+          "variantProps": {
+            "State": "Card",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "471d208c-a0a6-80ee-8008-864c1783643e",
+          "variantProps": {
+            "State": "Card",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.inline-citation",
+          "framework": "react",
+          "module": "@repo/elements/inline-citation",
+          "export": "InlineCitation",
+          "exports": [
+            "InlineCitation",
+            "InlineCitationText",
+            "InlineCitationCard",
+            "InlineCitationCardTrigger",
+            "InlineCitationCardBody",
+            "InlineCitationCarousel",
+            "InlineCitationCarouselContent",
+            "InlineCitationCarouselItem",
+            "InlineCitationCarouselHeader",
+            "InlineCitationCarouselIndex",
+            "InlineCitationCarouselPrev",
+            "InlineCitationCarouselNext",
+            "InlineCitationSource",
+            "InlineCitationQuote"
+          ],
+          "typeExports": [
+            "InlineCitationProps",
+            "InlineCitationTextProps",
+            "InlineCitationCardProps",
+            "InlineCitationCardTriggerProps",
+            "InlineCitationCardBodyProps",
+            "InlineCitationCarouselProps",
+            "InlineCitationCarouselContentProps",
+            "InlineCitationCarouselItemProps",
+            "InlineCitationCarouselHeaderProps",
+            "InlineCitationCarouselIndexProps",
+            "InlineCitationCarouselPrevProps",
+            "InlineCitationCarouselNextProps",
+            "InlineCitationSourceProps",
+            "InlineCitationQuoteProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/inline-citation.tsx",
+            "sha256": "c7dc2a67386bc06d23fa42344f48f3b45e51f1f91b22e44801a2902acdf64018"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/inline-citation.mdx",
+            "examples": ["packages/examples/src/inline-citation.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.message",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d038ce6f8",
+          "variantProps": {
+            "Role": "User",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d03ac4777",
+          "variantProps": {
+            "Role": "User",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d03f15d69",
+          "variantProps": {
+            "Role": "Assistant",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d042edcb4",
+          "variantProps": {
+            "Role": "Assistant",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.message",
+          "framework": "react",
+          "module": "@repo/elements/message",
+          "export": "Message",
+          "exports": [
+            "Message",
+            "MessageContent",
+            "MessageActions",
+            "MessageAction",
+            "MessageBranch",
+            "MessageBranchContent",
+            "MessageBranchSelector",
+            "MessageBranchPrevious",
+            "MessageBranchNext",
+            "MessageBranchPage",
+            "MessageResponse",
+            "MessageToolbar"
+          ],
+          "typeExports": [
+            "MessageProps",
+            "MessageContentProps",
+            "MessageActionsProps",
+            "MessageActionProps",
+            "MessageBranchProps",
+            "MessageBranchContentProps",
+            "MessageBranchSelectorProps",
+            "MessageBranchPreviousProps",
+            "MessageBranchNextProps",
+            "MessageBranchPageProps",
+            "MessageResponseProps",
+            "MessageToolbarProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/message.tsx",
+            "sha256": "19c7755740e116f221e4247f7b6d4f20b57a44e4c4fcf66d2db5e1f111476509"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/message.mdx",
+            "examples": ["packages/examples/src/message.tsx"]
+          },
+          "variantProperties": ["Role", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.model-selector",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d044f0668",
+          "variantProps": {
+            "State": "Trigger",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d045f7b12",
+          "variantProps": {
+            "State": "Trigger",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d04a22dc3",
+          "variantProps": {
+            "State": "Dialog",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d04e21b48",
+          "variantProps": {
+            "State": "Dialog",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.model-selector",
+          "framework": "react",
+          "module": "@repo/elements/model-selector",
+          "export": "ModelSelector",
+          "exports": [
+            "ModelSelector",
+            "ModelSelectorTrigger",
+            "ModelSelectorContent",
+            "ModelSelectorDialog",
+            "ModelSelectorInput",
+            "ModelSelectorList",
+            "ModelSelectorEmpty",
+            "ModelSelectorGroup",
+            "ModelSelectorItem",
+            "ModelSelectorShortcut",
+            "ModelSelectorSeparator",
+            "ModelSelectorLogo",
+            "ModelSelectorLogoGroup",
+            "ModelSelectorName"
+          ],
+          "typeExports": [
+            "ModelSelectorProps",
+            "ModelSelectorTriggerProps",
+            "ModelSelectorContentProps",
+            "ModelSelectorDialogProps",
+            "ModelSelectorInputProps",
+            "ModelSelectorListProps",
+            "ModelSelectorEmptyProps",
+            "ModelSelectorGroupProps",
+            "ModelSelectorItemProps",
+            "ModelSelectorShortcutProps",
+            "ModelSelectorSeparatorProps",
+            "ModelSelectorLogoProps",
+            "ModelSelectorLogoGroupProps",
+            "ModelSelectorNameProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/model-selector.tsx",
+            "sha256": "a4d51f76ddf5197cb86b7f70ba62bd62327468a9acae1351a0b1adcb3710ec0a"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/model-selector.mdx",
+            "examples": ["packages/examples/src/model-selector.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.plan",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d0503ac94",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d0516adcb",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d0555c8da",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d0598c3af",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.plan",
+          "framework": "react",
+          "module": "@repo/elements/plan",
+          "export": "Plan",
+          "exports": [
+            "Plan",
+            "PlanHeader",
+            "PlanTitle",
+            "PlanDescription",
+            "PlanAction",
+            "PlanContent",
+            "PlanFooter",
+            "PlanTrigger"
+          ],
+          "typeExports": [
+            "PlanProps",
+            "PlanHeaderProps",
+            "PlanTitleProps",
+            "PlanDescriptionProps",
+            "PlanActionProps",
+            "PlanContentProps",
+            "PlanFooterProps",
+            "PlanTriggerProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/plan.tsx",
+            "sha256": "bfa20e90199fa40e5f714be131798406dc07b23051f8c48c590e91c65ade99d8"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/plan.mdx",
+            "examples": ["packages/examples/src/plan.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.prompt-input",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d05ce99df",
+          "variantProps": {
+            "Status": "Ready",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d05f5b4d7",
+          "variantProps": {
+            "Status": "Ready",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d061cf3ca",
+          "variantProps": {
+            "Status": "Streaming",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d06463b3b",
+          "variantProps": {
+            "Status": "Streaming",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.prompt-input",
+          "framework": "react",
+          "module": "@repo/elements/prompt-input",
+          "export": "PromptInput",
+          "exports": [
+            "usePromptInputController",
+            "useProviderAttachments",
+            "PromptInputProvider",
+            "usePromptInputAttachments",
+            "LocalReferencedSourcesContext",
+            "usePromptInputReferencedSources",
+            "PromptInputActionAddAttachments",
+            "PromptInputActionAddScreenshot",
+            "PromptInput",
+            "PromptInputBody",
+            "PromptInputTextarea",
+            "PromptInputHeader",
+            "PromptInputFooter",
+            "PromptInputTools",
+            "PromptInputButton",
+            "PromptInputActionMenu",
+            "PromptInputActionMenuTrigger",
+            "PromptInputActionMenuContent",
+            "PromptInputActionMenuItem",
+            "PromptInputSubmit",
+            "PromptInputSelect",
+            "PromptInputSelectTrigger",
+            "PromptInputSelectContent",
+            "PromptInputSelectItem",
+            "PromptInputSelectValue",
+            "PromptInputHoverCard",
+            "PromptInputHoverCardTrigger",
+            "PromptInputHoverCardContent",
+            "PromptInputTabsList",
+            "PromptInputTab",
+            "PromptInputTabLabel",
+            "PromptInputTabBody",
+            "PromptInputTabItem",
+            "PromptInputCommand",
+            "PromptInputCommandInput",
+            "PromptInputCommandList",
+            "PromptInputCommandEmpty",
+            "PromptInputCommandGroup",
+            "PromptInputCommandItem",
+            "PromptInputCommandSeparator"
+          ],
+          "typeExports": [
+            "AttachmentsContext",
+            "TextInputContext",
+            "PromptInputControllerProps",
+            "PromptInputProviderProps",
+            "ReferencedSourcesContext",
+            "PromptInputActionAddAttachmentsProps",
+            "PromptInputActionAddScreenshotProps",
+            "PromptInputMessage",
+            "PromptInputProps",
+            "PromptInputBodyProps",
+            "PromptInputTextareaProps",
+            "PromptInputHeaderProps",
+            "PromptInputFooterProps",
+            "PromptInputToolsProps",
+            "PromptInputButtonTooltip",
+            "PromptInputButtonProps",
+            "PromptInputActionMenuProps",
+            "PromptInputActionMenuTriggerProps",
+            "PromptInputActionMenuContentProps",
+            "PromptInputActionMenuItemProps",
+            "PromptInputSubmitProps",
+            "PromptInputSelectProps",
+            "PromptInputSelectTriggerProps",
+            "PromptInputSelectContentProps",
+            "PromptInputSelectItemProps",
+            "PromptInputSelectValueProps",
+            "PromptInputHoverCardProps",
+            "PromptInputHoverCardTriggerProps",
+            "PromptInputHoverCardContentProps",
+            "PromptInputTabsListProps",
+            "PromptInputTabProps",
+            "PromptInputTabLabelProps",
+            "PromptInputTabBodyProps",
+            "PromptInputTabItemProps",
+            "PromptInputCommandProps",
+            "PromptInputCommandInputProps",
+            "PromptInputCommandListProps",
+            "PromptInputCommandEmptyProps",
+            "PromptInputCommandGroupProps",
+            "PromptInputCommandItemProps",
+            "PromptInputCommandSeparatorProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/prompt-input.tsx",
+            "sha256": "cf43baf5baa444b4ae06d250643b3fb2efd329c85f9b31a43e3aaf481dd27305"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/prompt-input.mdx",
+            "examples": [
+              "packages/examples/src/prompt-input.tsx",
+              "packages/examples/src/prompt-input-cursor.tsx",
+              "packages/examples/src/prompt-input-tooltip.tsx"
+            ]
+          },
+          "variantProperties": ["Status", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.question",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d0694500f",
+          "variantProps": {
+            "Mode": "SingleSelect",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d06ce7198",
+          "variantProps": {
+            "Mode": "SingleSelect",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d07141a0a",
+          "variantProps": {
+            "Mode": "MultiSelect",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d0755f154",
+          "variantProps": {
+            "Mode": "MultiSelect",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d077abb19",
+          "variantProps": {
+            "Mode": "Freeform",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d07a0d1ab",
+          "variantProps": {
+            "Mode": "Freeform",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d07f69d43",
+          "variantProps": {
+            "Mode": "OptionsAndFreeform",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d0845616b",
+          "variantProps": {
+            "Mode": "OptionsAndFreeform",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.question",
+          "framework": "react",
+          "module": "@repo/elements/question",
+          "export": "Question",
+          "exports": [
+            "Question",
+            "QuestionPrompt",
+            "QuestionDescription",
+            "QuestionOptions",
+            "QuestionOption",
+            "QuestionInput",
+            "QuestionActions",
+            "QuestionSubmit"
+          ],
+          "typeExports": [
+            "QuestionValue",
+            "QuestionResponse",
+            "QuestionProps",
+            "QuestionPromptProps",
+            "QuestionDescriptionProps",
+            "QuestionOptionsProps",
+            "QuestionOptionProps",
+            "QuestionInputProps",
+            "QuestionActionsProps",
+            "QuestionSubmitProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/question.tsx",
+            "sha256": "47c69ba8f555734209bc9eae5d62d419fbd0cbe6089ec26c97d2ebcc9114fde3"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/question.mdx",
+            "examples": [
+              "packages/examples/src/question.tsx",
+              "packages/examples/src/question-single-select.tsx",
+              "packages/examples/src/question-multi-select.tsx",
+              "packages/examples/src/question-freeform.tsx"
+            ]
+          },
+          "variantProperties": ["Mode", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.queue",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d08a148dc",
+          "variantProps": {
+            "Content": "Messages",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d08e328d2",
+          "variantProps": {
+            "Content": "Messages",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d09301cea",
+          "variantProps": {
+            "Content": "Todos",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d097d3c49",
+          "variantProps": {
+            "Content": "Todos",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.queue",
+          "framework": "react",
+          "module": "@repo/elements/queue",
+          "export": "Queue",
+          "exports": [
+            "QueueItem",
+            "QueueItemIndicator",
+            "QueueItemContent",
+            "QueueItemDescription",
+            "QueueItemActions",
+            "QueueItemAction",
+            "QueueItemAttachment",
+            "QueueItemImage",
+            "QueueItemFile",
+            "QueueList",
+            "QueueSection",
+            "QueueSectionTrigger",
+            "QueueSectionLabel",
+            "QueueSectionContent",
+            "Queue"
+          ],
+          "typeExports": [
+            "QueueMessagePart",
+            "QueueMessage",
+            "QueueTodo",
+            "QueueItemProps",
+            "QueueItemIndicatorProps",
+            "QueueItemContentProps",
+            "QueueItemDescriptionProps",
+            "QueueItemActionsProps",
+            "QueueItemActionProps",
+            "QueueItemAttachmentProps",
+            "QueueItemImageProps",
+            "QueueItemFileProps",
+            "QueueListProps",
+            "QueueSectionProps",
+            "QueueSectionTriggerProps",
+            "QueueSectionLabelProps",
+            "QueueSectionContentProps",
+            "QueueProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/queue.tsx",
+            "sha256": "c823f565e0430749ba0b09db33e76eeb675eea4838bed10245bca392bffd6cfa"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/queue.mdx",
+            "examples": [
+              "packages/examples/src/queue.tsx",
+              "packages/examples/src/queue-prompt-input.tsx"
+            ]
+          },
+          "variantProperties": ["Content", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.reasoning",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d2ec52f2c",
+          "variantProps": {
+            "Status": "Streaming",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d2eef9904",
+          "variantProps": {
+            "Status": "Streaming",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d2f1407be",
+          "variantProps": {
+            "Status": "Complete",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d2f391e47",
+          "variantProps": {
+            "Status": "Complete",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.reasoning",
+          "framework": "react",
+          "module": "@repo/elements/reasoning",
+          "export": "Reasoning",
+          "exports": [
+            "useReasoning",
+            "Reasoning",
+            "ReasoningTrigger",
+            "ReasoningContent"
+          ],
+          "typeExports": [
+            "ReasoningProps",
+            "ReasoningTriggerProps",
+            "ReasoningContentProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/reasoning.tsx",
+            "sha256": "f138cddde35854f73632ff51d48230f8d6e16e0a49a74b44a93b51993a65550e"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/reasoning.mdx",
+            "examples": ["packages/examples/src/reasoning.tsx"]
+          },
+          "variantProperties": ["Status", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.shimmer",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d2f812e83",
+          "variantProps": {
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d2faba9a1",
+          "variantProps": {
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.shimmer",
+          "framework": "react",
+          "module": "@repo/elements/shimmer",
+          "export": "Shimmer",
+          "exports": ["Shimmer"],
+          "typeExports": ["TextShimmerProps"],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/shimmer.tsx",
+            "sha256": "89d2284ee165aa57fec960e17c6c71078d22ad3fb3798ca683d7e3d850919a46"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/shimmer.mdx",
+            "examples": [
+              "packages/examples/src/shimmer.tsx",
+              "packages/examples/src/shimmer-duration.tsx",
+              "packages/examples/src/shimmer-elements.tsx"
+            ]
+          },
+          "variantProperties": ["Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.sources",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d2fcb66c0",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d2fdac05e",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d302deefc",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d3082185c",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.sources",
+          "framework": "react",
+          "module": "@repo/elements/sources",
+          "export": "Sources",
+          "exports": ["Sources", "SourcesTrigger", "SourcesContent", "Source"],
+          "typeExports": [
+            "SourcesProps",
+            "SourcesTriggerProps",
+            "SourcesContentProps",
+            "SourceProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/sources.tsx",
+            "sha256": "1454af3ac2c58766a155a881d119d1f9321632a4922d3f74581ba37f52b4707a"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/sources.mdx",
+            "examples": [
+              "packages/examples/src/sources.tsx",
+              "packages/examples/src/sources-custom.tsx"
+            ]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.suggestion",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d30dc84ab",
+          "variantProps": {
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d311f182f",
+          "variantProps": {
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.suggestion",
+          "framework": "react",
+          "module": "@repo/elements/suggestion",
+          "export": "Suggestions",
+          "exports": ["Suggestions", "Suggestion"],
+          "typeExports": ["SuggestionsProps", "SuggestionProps"],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/suggestion.tsx",
+            "sha256": "0703d777b4153ae20e93514acb9e8327eb03dd2ed2fd0230e03cf22271c7a249"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/suggestion.mdx",
+            "examples": [
+              "packages/examples/src/suggestion.tsx",
+              "packages/examples/src/suggestion-input.tsx"
+            ]
+          },
+          "variantProperties": ["Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.task",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d313deb86",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d314d8297",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d31c52a49",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d32449958",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.task",
+          "framework": "react",
+          "module": "@repo/elements/task",
+          "export": "Task",
+          "exports": [
+            "TaskItemFile",
+            "TaskItem",
+            "Task",
+            "TaskTrigger",
+            "TaskContent"
+          ],
+          "typeExports": [
+            "TaskItemFileProps",
+            "TaskItemProps",
+            "TaskProps",
+            "TaskTriggerProps",
+            "TaskContentProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/task.tsx",
+            "sha256": "cc9fb7138ded75f17c37c28a2b23425c98f4d06bead436531ad6e65ae553507e"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/task.mdx",
+            "examples": ["packages/examples/src/task.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.tool",
+      "variants": [
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d32a027f4",
+          "variantProps": {
+            "State": "InputStreaming",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d32e133f5",
+          "variantProps": {
+            "State": "InputStreaming",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d331f1cde",
+          "variantProps": {
+            "State": "InputAvailable",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d335e54f6",
+          "variantProps": {
+            "State": "InputAvailable",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d33b4d7b3",
+          "variantProps": {
+            "State": "OutputAvailable",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d340cab29",
+          "variantProps": {
+            "State": "OutputAvailable",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d3464d977",
+          "variantProps": {
+            "State": "OutputError",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "eed21ae3-9355-80a6-8008-864d34bd16b2",
+          "variantProps": {
+            "State": "OutputError",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.tool",
+          "framework": "react",
+          "module": "@repo/elements/tool",
+          "export": "Tool",
+          "exports": [
+            "Tool",
+            "getStatusBadge",
+            "ToolHeader",
+            "ToolContent",
+            "ToolInput",
+            "ToolOutput"
+          ],
+          "typeExports": [
+            "ToolProps",
+            "ToolPart",
+            "ToolHeaderProps",
+            "ToolContentProps",
+            "ToolInputProps",
+            "ToolOutputProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/tool.tsx",
+            "sha256": "5b520e0c33792cba0ceb04e1cb18c69b212cffacdb52d7297e292c7af568dda4"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(chatbot)/tool.mdx",
+            "examples": [
+              "packages/examples/src/tool.tsx",
+              "packages/examples/src/tool-input-streaming.tsx",
+              "packages/examples/src/tool-input-available.tsx",
+              "packages/examples/src/tool-output-available.tsx",
+              "packages/examples/src/tool-output-error.tsx"
+            ]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.agent",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657a90b7c75",
+          "variantProps": {
+            "State": "Overview",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657aa0e50bf",
+          "variantProps": {
+            "State": "Overview",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657ab5f7ce8",
+          "variantProps": {
+            "State": "ToolExpanded",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657ac9c5baf",
+          "variantProps": {
+            "State": "ToolExpanded",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.agent",
+          "framework": "react",
+          "module": "@repo/elements/agent",
+          "export": "Agent",
+          "exports": [
+            "Agent",
+            "AgentHeader",
+            "AgentContent",
+            "AgentInstructions",
+            "AgentTools",
+            "AgentTool",
+            "AgentOutput"
+          ],
+          "typeExports": [
+            "AgentProps",
+            "AgentHeaderProps",
+            "AgentContentProps",
+            "AgentInstructionsProps",
+            "AgentToolsProps",
+            "AgentToolProps",
+            "AgentOutputProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/agent.tsx",
+            "sha256": "7d96005ace889eaa790b293ae75883d62546b6c7983aec3e7e6784c0392e30c7"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/agent.mdx",
+            "examples": ["packages/examples/src/agent.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.artifact",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-865788526afb",
+          "variantProps": {
+            "Header": "Actions",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86578924d816",
+          "variantProps": {
+            "Header": "Actions",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865789c88921",
+          "variantProps": {
+            "Header": "Close",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86578a61f7cb",
+          "variantProps": {
+            "Header": "Close",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.artifact",
+          "framework": "react",
+          "module": "@repo/elements/artifact",
+          "export": "Artifact",
+          "exports": [
+            "Artifact",
+            "ArtifactHeader",
+            "ArtifactClose",
+            "ArtifactTitle",
+            "ArtifactDescription",
+            "ArtifactActions",
+            "ArtifactAction",
+            "ArtifactContent"
+          ],
+          "typeExports": [
+            "ArtifactProps",
+            "ArtifactHeaderProps",
+            "ArtifactCloseProps",
+            "ArtifactTitleProps",
+            "ArtifactDescriptionProps",
+            "ArtifactActionsProps",
+            "ArtifactActionProps",
+            "ArtifactContentProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/artifact.tsx",
+            "sha256": "6e5017f85105164b95861b1d10a78c956c312682c5ecd17e2619870ba5993aba"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/artifact.mdx",
+            "examples": ["packages/examples/src/artifact.tsx"]
+          },
+          "variantProperties": ["Header", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.code-block",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-8655d16ba430",
+          "variantProps": {
+            "Variant": "Basic",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8655d1b9e3dc",
+          "variantProps": {
+            "Variant": "Basic",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8655d2294809",
+          "variantProps": {
+            "Variant": "Numbered",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8655d28fdfd3",
+          "variantProps": {
+            "Variant": "Numbered",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8655d3059eb7",
+          "variantProps": {
+            "Variant": "Selector",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8655d37ac3d0",
+          "variantProps": {
+            "Variant": "Selector",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.code-block",
+          "framework": "react",
+          "module": "@repo/elements/code-block",
+          "export": "CodeBlock",
+          "exports": [
+            "highlightCode",
+            "CodeBlockContainer",
+            "CodeBlockHeader",
+            "CodeBlockTitle",
+            "CodeBlockFilename",
+            "CodeBlockActions",
+            "CodeBlockContent",
+            "CodeBlock",
+            "CodeBlockCopyButton",
+            "CodeBlockLanguageSelector",
+            "CodeBlockLanguageSelectorTrigger",
+            "CodeBlockLanguageSelectorValue",
+            "CodeBlockLanguageSelectorContent",
+            "CodeBlockLanguageSelectorItem"
+          ],
+          "typeExports": [
+            "CodeBlockCopyButtonProps",
+            "CodeBlockLanguageSelectorProps",
+            "CodeBlockLanguageSelectorTriggerProps",
+            "CodeBlockLanguageSelectorValueProps",
+            "CodeBlockLanguageSelectorContentProps",
+            "CodeBlockLanguageSelectorItemProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/code-block.tsx",
+            "sha256": "5c7285171c5aa741749a1642a85f492a9b5e80dc4ccb704b5c3f58c45efebd04"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/code-block.mdx",
+            "examples": [
+              "packages/examples/src/code-block.tsx",
+              "packages/examples/src/code-block-dark.tsx"
+            ]
+          },
+          "variantProperties": ["Variant", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.commit",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656afda8b77",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b02d4990",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b0f420c7",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b1bbb0da",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.commit",
+          "framework": "react",
+          "module": "@repo/elements/commit",
+          "export": "Commit",
+          "exports": [
+            "Commit",
+            "CommitHeader",
+            "CommitHash",
+            "CommitMessage",
+            "CommitMetadata",
+            "CommitSeparator",
+            "CommitInfo",
+            "CommitAuthor",
+            "CommitAuthorAvatar",
+            "CommitTimestamp",
+            "CommitActions",
+            "CommitCopyButton",
+            "CommitContent",
+            "CommitFiles",
+            "CommitFile",
+            "CommitFileInfo",
+            "CommitFileStatus",
+            "CommitFileIcon",
+            "CommitFilePath",
+            "CommitFileChanges",
+            "CommitFileAdditions",
+            "CommitFileDeletions"
+          ],
+          "typeExports": [
+            "CommitProps",
+            "CommitHeaderProps",
+            "CommitHashProps",
+            "CommitMessageProps",
+            "CommitMetadataProps",
+            "CommitSeparatorProps",
+            "CommitInfoProps",
+            "CommitAuthorProps",
+            "CommitAuthorAvatarProps",
+            "CommitTimestampProps",
+            "CommitActionsProps",
+            "CommitCopyButtonProps",
+            "CommitContentProps",
+            "CommitFilesProps",
+            "CommitFileProps",
+            "CommitFileInfoProps",
+            "CommitFileStatusProps",
+            "CommitFileIconProps",
+            "CommitFilePathProps",
+            "CommitFileChangesProps",
+            "CommitFileAdditionsProps",
+            "CommitFileDeletionsProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/commit.tsx",
+            "sha256": "877708682428984f5776dafb774da222fbee837804f220ce699956e32938fa1b"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/commit.mdx",
+            "examples": ["packages/examples/src/commit.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.environment-variables",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b2c9f4f2",
+          "variantProps": {
+            "Visibility": "Masked",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b3bc25f7",
+          "variantProps": {
+            "Visibility": "Masked",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b4b213f8",
+          "variantProps": {
+            "Visibility": "Revealed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b5b30588",
+          "variantProps": {
+            "Visibility": "Revealed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.environment-variables",
+          "framework": "react",
+          "module": "@repo/elements/environment-variables",
+          "export": "EnvironmentVariables",
+          "exports": [
+            "EnvironmentVariables",
+            "EnvironmentVariablesHeader",
+            "EnvironmentVariablesTitle",
+            "EnvironmentVariablesToggle",
+            "EnvironmentVariablesContent",
+            "EnvironmentVariableGroup",
+            "EnvironmentVariableName",
+            "EnvironmentVariableValue",
+            "EnvironmentVariable",
+            "EnvironmentVariableCopyButton",
+            "EnvironmentVariableRequired"
+          ],
+          "typeExports": [
+            "EnvironmentVariablesProps",
+            "EnvironmentVariablesHeaderProps",
+            "EnvironmentVariablesTitleProps",
+            "EnvironmentVariablesToggleProps",
+            "EnvironmentVariablesContentProps",
+            "EnvironmentVariableGroupProps",
+            "EnvironmentVariableNameProps",
+            "EnvironmentVariableValueProps",
+            "EnvironmentVariableProps",
+            "EnvironmentVariableCopyButtonProps",
+            "EnvironmentVariableRequiredProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/environment-variables.tsx",
+            "sha256": "6b685aacb47e7bcb62e15b74b4e0b0bd7beffb892f3769ad7fc3580e00aae88b"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/environment-variables.mdx",
+            "examples": ["packages/examples/src/environment-variables.tsx"]
+          },
+          "variantProperties": ["Visibility", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.file-tree",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b641df04",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b6a9d9da",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b74e317c",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b7ec6d0e",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b89364bf",
+          "variantProps": {
+            "State": "Selected",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656b948f1cd",
+          "variantProps": {
+            "State": "Selected",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.file-tree",
+          "framework": "react",
+          "module": "@repo/elements/file-tree",
+          "export": "FileTree",
+          "exports": [
+            "FileTree",
+            "FileTreeIcon",
+            "FileTreeName",
+            "FileTreeFolder",
+            "FileTreeFile",
+            "FileTreeActions"
+          ],
+          "typeExports": [
+            "FileTreeProps",
+            "FileTreeIconProps",
+            "FileTreeNameProps",
+            "FileTreeFolderProps",
+            "FileTreeFileProps",
+            "FileTreeActionsProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/file-tree.tsx",
+            "sha256": "9b6946171369d224d5d10df686c3c18ce7608aa4a4792744fc5c313499cec0cb"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/file-tree.mdx",
+            "examples": [
+              "packages/examples/src/file-tree.tsx",
+              "packages/examples/src/file-tree-basic.tsx",
+              "packages/examples/src/file-tree-selection.tsx",
+              "packages/examples/src/file-tree-expanded.tsx"
+            ]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.jsx-preview",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657d3e9c611",
+          "variantProps": {
+            "State": "Success",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657d49959d6",
+          "variantProps": {
+            "State": "Success",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657d530bdc7",
+          "variantProps": {
+            "State": "Streaming",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657d5d7c4fe",
+          "variantProps": {
+            "State": "Streaming",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657d671bda3",
+          "variantProps": {
+            "State": "Error",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657d70ed5db",
+          "variantProps": {
+            "State": "Error",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.jsx-preview",
+          "framework": "react",
+          "module": "@repo/elements/jsx-preview",
+          "export": "JSXPreview",
+          "exports": [
+            "useJSXPreview",
+            "JSXPreview",
+            "JSXPreviewContent",
+            "JSXPreviewError"
+          ],
+          "typeExports": [
+            "JSXPreviewProps",
+            "JSXPreviewContentProps",
+            "JSXPreviewErrorProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/jsx-preview.tsx",
+            "sha256": "0701c0610bd651fbe1d8f2cf35ec3598571381d2641b5da6daac9c677eac5d8d"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/jsx-preview.mdx",
+            "examples": ["packages/examples/src/jsx-preview.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.package-info",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656ecfdbd5e",
+          "variantProps": {
+            "Change": "Major",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656ed928a6a",
+          "variantProps": {
+            "Change": "Major",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656ee2078a7",
+          "variantProps": {
+            "Change": "Minor",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656eebc6253",
+          "variantProps": {
+            "Change": "Minor",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656ef49dc53",
+          "variantProps": {
+            "Change": "Patch",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656efdf2cca",
+          "variantProps": {
+            "Change": "Patch",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656f0746317",
+          "variantProps": {
+            "Change": "Added",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656f1091b6b",
+          "variantProps": {
+            "Change": "Added",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656f19a50f0",
+          "variantProps": {
+            "Change": "Removed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656f2284bb4",
+          "variantProps": {
+            "Change": "Removed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.package-info",
+          "framework": "react",
+          "module": "@repo/elements/package-info",
+          "export": "PackageInfo",
+          "exports": [
+            "PackageInfoHeader",
+            "PackageInfoName",
+            "PackageInfoChangeType",
+            "PackageInfoVersion",
+            "PackageInfo",
+            "PackageInfoDescription",
+            "PackageInfoContent",
+            "PackageInfoDependencies",
+            "PackageInfoDependency"
+          ],
+          "typeExports": [
+            "PackageInfoHeaderProps",
+            "PackageInfoNameProps",
+            "PackageInfoChangeTypeProps",
+            "PackageInfoVersionProps",
+            "PackageInfoProps",
+            "PackageInfoDescriptionProps",
+            "PackageInfoContentProps",
+            "PackageInfoDependenciesProps",
+            "PackageInfoDependencyProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/package-info.tsx",
+            "sha256": "f6cb384a2f76acd7b305481e5a7b28a78c290e02fcda1867badf8801d29cf242"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/package-info.mdx",
+            "examples": ["packages/examples/src/package-info.tsx"]
+          },
+          "variantProperties": ["Change", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.sandbox",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-865870954488",
+          "variantProps": {
+            "State": "Pending",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8658718d4fed",
+          "variantProps": {
+            "State": "Pending",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8658728efc2e",
+          "variantProps": {
+            "State": "Running",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865873864f35",
+          "variantProps": {
+            "State": "Running",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865874dd1c2e",
+          "variantProps": {
+            "State": "Completed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865875eec4e2",
+          "variantProps": {
+            "State": "Completed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865876e4fe8a",
+          "variantProps": {
+            "State": "Error",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865877e7d66c",
+          "variantProps": {
+            "State": "Error",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86587880968c",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865879196901",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.sandbox",
+          "framework": "react",
+          "module": "@repo/elements/sandbox",
+          "export": "Sandbox",
+          "exports": [
+            "Sandbox",
+            "SandboxHeader",
+            "SandboxContent",
+            "SandboxTabs",
+            "SandboxTabsBar",
+            "SandboxTabsList",
+            "SandboxTabsTrigger",
+            "SandboxTabContent"
+          ],
+          "typeExports": [
+            "SandboxRootProps",
+            "SandboxHeaderProps",
+            "SandboxContentProps",
+            "SandboxTabsProps",
+            "SandboxTabsBarProps",
+            "SandboxTabsListProps",
+            "SandboxTabsTriggerProps",
+            "SandboxTabContentProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/sandbox.tsx",
+            "sha256": "0a7ceffac784fdcfcf137f6532f33723a7e8c9e3c54c1bd45c594d1322d4ac3c"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/sandbox.mdx",
+            "examples": ["packages/examples/src/sandbox.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.schema-display",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-86571aa21fa8",
+          "variantProps": {
+            "Variant": "Basic",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86571afb3625",
+          "variantProps": {
+            "Variant": "Basic",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86571bd1438c",
+          "variantProps": {
+            "Variant": "Parameters",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86571cb9c3e9",
+          "variantProps": {
+            "Variant": "Parameters",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86571dd58ec3",
+          "variantProps": {
+            "Variant": "RequestResponse",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86571edab827",
+          "variantProps": {
+            "Variant": "RequestResponse",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865720277cdf",
+          "variantProps": {
+            "Variant": "Nested",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657218851f6",
+          "variantProps": {
+            "Variant": "Nested",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.schema-display",
+          "framework": "react",
+          "module": "@repo/elements/schema-display",
+          "export": "SchemaDisplay",
+          "exports": [
+            "SchemaDisplayHeader",
+            "SchemaDisplayMethod",
+            "SchemaDisplayPath",
+            "SchemaDisplayDescription",
+            "SchemaDisplayContent",
+            "SchemaDisplayParameter",
+            "SchemaDisplayParameters",
+            "SchemaDisplayProperty",
+            "SchemaDisplayRequest",
+            "SchemaDisplayResponse",
+            "SchemaDisplay",
+            "SchemaDisplayBody",
+            "SchemaDisplayExample"
+          ],
+          "typeExports": [
+            "SchemaDisplayHeaderProps",
+            "SchemaDisplayMethodProps",
+            "SchemaDisplayPathProps",
+            "SchemaDisplayDescriptionProps",
+            "SchemaDisplayContentProps",
+            "SchemaDisplayParameterProps",
+            "SchemaDisplayParametersProps",
+            "SchemaDisplayPropertyProps",
+            "SchemaDisplayRequestProps",
+            "SchemaDisplayResponseProps",
+            "SchemaDisplayProps",
+            "SchemaDisplayBodyProps",
+            "SchemaDisplayExampleProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/schema-display.tsx",
+            "sha256": "805ca0b043ff5beb21f15b616df19df995fd4ecd3c48f8a9bc2ce588c86adfe7"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/schema-display.mdx",
+            "examples": [
+              "packages/examples/src/schema-display.tsx",
+              "packages/examples/src/schema-display-basic.tsx",
+              "packages/examples/src/schema-display-params.tsx",
+              "packages/examples/src/schema-display-body.tsx",
+              "packages/examples/src/schema-display-nested.tsx"
+            ]
+          },
+          "variantProperties": ["Variant", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.snippet",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-86564d162ef6",
+          "variantProps": {
+            "Variant": "Prefix",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86564d4dbb24",
+          "variantProps": {
+            "Variant": "Prefix",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86564d796df1",
+          "variantProps": {
+            "Variant": "Plain",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86564da7467f",
+          "variantProps": {
+            "Variant": "Plain",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86564dd215b9",
+          "variantProps": {
+            "Variant": "Copied",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86564dfd5efa",
+          "variantProps": {
+            "Variant": "Copied",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.snippet",
+          "framework": "react",
+          "module": "@repo/elements/snippet",
+          "export": "Snippet",
+          "exports": [
+            "Snippet",
+            "SnippetAddon",
+            "SnippetText",
+            "SnippetInput",
+            "SnippetCopyButton"
+          ],
+          "typeExports": [
+            "SnippetProps",
+            "SnippetAddonProps",
+            "SnippetTextProps",
+            "SnippetInputProps",
+            "SnippetCopyButtonProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/snippet.tsx",
+            "sha256": "2b4f1b9ebc82eb2e188d8f71246540446dd89ef9a89bd9e3946cfc6a018a6849"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/snippet.mdx",
+            "examples": [
+              "packages/examples/src/snippet.tsx",
+              "packages/examples/src/snippet-plain.tsx"
+            ]
+          },
+          "variantProperties": ["Variant", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.stack-trace",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-865650fa5e84",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656514af483",
+          "variantProps": {
+            "State": "Collapsed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865651f931ce",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865652b1a4f9",
+          "variantProps": {
+            "State": "Expanded",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86565340f414",
+          "variantProps": {
+            "State": "Filtered",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865653d49d08",
+          "variantProps": {
+            "State": "Filtered",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86565444921d",
+          "variantProps": {
+            "State": "Empty",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865654af2d67",
+          "variantProps": {
+            "State": "Empty",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.stack-trace",
+          "framework": "react",
+          "module": "@repo/elements/stack-trace",
+          "export": "StackTrace",
+          "exports": [
+            "StackTrace",
+            "StackTraceHeader",
+            "StackTraceError",
+            "StackTraceErrorType",
+            "StackTraceErrorMessage",
+            "StackTraceActions",
+            "StackTraceCopyButton",
+            "StackTraceExpandButton",
+            "StackTraceContent",
+            "StackTraceFrames"
+          ],
+          "typeExports": [
+            "StackTraceProps",
+            "StackTraceHeaderProps",
+            "StackTraceErrorProps",
+            "StackTraceErrorTypeProps",
+            "StackTraceErrorMessageProps",
+            "StackTraceActionsProps",
+            "StackTraceCopyButtonProps",
+            "StackTraceExpandButtonProps",
+            "StackTraceContentProps",
+            "StackTraceFramesProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/stack-trace.tsx",
+            "sha256": "a2d31824b2b09df91fc6fc5921f2a7610abe2c839655d51770d9c3072db7e546"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/stack-trace.mdx",
+            "examples": [
+              "packages/examples/src/stack-trace.tsx",
+              "packages/examples/src/stack-trace-collapsed.tsx",
+              "packages/examples/src/stack-trace-no-internal.tsx"
+            ]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.terminal",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-86564e824f1a",
+          "variantProps": {
+            "State": "Complete",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86564ed82eff",
+          "variantProps": {
+            "State": "Complete",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86564f4738a8",
+          "variantProps": {
+            "State": "Streaming",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86564fb83caf",
+          "variantProps": {
+            "State": "Streaming",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86565021fe26",
+          "variantProps": {
+            "State": "ClearAction",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8656508b420f",
+          "variantProps": {
+            "State": "ClearAction",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.terminal",
+          "framework": "react",
+          "module": "@repo/elements/terminal",
+          "export": "Terminal",
+          "exports": [
+            "TerminalHeader",
+            "TerminalTitle",
+            "TerminalStatus",
+            "TerminalActions",
+            "TerminalCopyButton",
+            "TerminalClearButton",
+            "TerminalContent",
+            "Terminal"
+          ],
+          "typeExports": [
+            "TerminalHeaderProps",
+            "TerminalTitleProps",
+            "TerminalStatusProps",
+            "TerminalActionsProps",
+            "TerminalCopyButtonProps",
+            "TerminalClearButtonProps",
+            "TerminalContentProps",
+            "TerminalProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/terminal.tsx",
+            "sha256": "04b9b534925054cfe67fdc3bc212eb7261b4912e6e970c4844a195907d3a9a93"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/terminal.mdx",
+            "examples": [
+              "packages/examples/src/terminal.tsx",
+              "packages/examples/src/terminal-basic.tsx",
+              "packages/examples/src/terminal-streaming.tsx",
+              "packages/examples/src/terminal-clear.tsx"
+            ]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.test-results",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-86575078cb47",
+          "variantProps": {
+            "State": "Summary",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865750ee5cc8",
+          "variantProps": {
+            "State": "Summary",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865751ed9468",
+          "variantProps": {
+            "State": "Suites",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865752f07e56",
+          "variantProps": {
+            "State": "Suites",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86575429921b",
+          "variantProps": {
+            "State": "MixedError",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865755522908",
+          "variantProps": {
+            "State": "MixedError",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8657565801c9",
+          "variantProps": {
+            "State": "Running",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865757596b95",
+          "variantProps": {
+            "State": "Running",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.test-results",
+          "framework": "react",
+          "module": "@repo/elements/test-results",
+          "export": "TestResults",
+          "exports": [
+            "TestResultsHeader",
+            "TestResultsDuration",
+            "TestResultsSummary",
+            "TestResults",
+            "TestResultsProgress",
+            "TestResultsContent",
+            "TestSuite",
+            "TestSuiteName",
+            "TestSuiteStats",
+            "TestSuiteContent",
+            "TestName",
+            "TestDuration",
+            "TestStatus",
+            "Test",
+            "TestError",
+            "TestErrorMessage",
+            "TestErrorStack"
+          ],
+          "typeExports": [
+            "TestResultsHeaderProps",
+            "TestResultsDurationProps",
+            "TestResultsSummaryProps",
+            "TestResultsProps",
+            "TestResultsProgressProps",
+            "TestResultsContentProps",
+            "TestSuiteProps",
+            "TestSuiteNameProps",
+            "TestSuiteStatsProps",
+            "TestSuiteContentProps",
+            "TestNameProps",
+            "TestDurationProps",
+            "TestStatusProps",
+            "TestProps",
+            "TestErrorProps",
+            "TestErrorMessageProps",
+            "TestErrorStackProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/test-results.tsx",
+            "sha256": "71fb2b77cfa34e6d7d3b1cc06a765622f755bcec193d3d539f4bead0e937f346"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/test-results.mdx",
+            "examples": [
+              "packages/examples/src/test-results.tsx",
+              "packages/examples/src/test-results-basic.tsx",
+              "packages/examples/src/test-results-suites.tsx",
+              "packages/examples/src/test-results-errors.tsx"
+            ]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.web-preview",
+      "variants": [
+        {
+          "componentId": "cebd822e-5596-8078-8008-865802e77777",
+          "variantProps": {
+            "State": "Loaded",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865804523e5e",
+          "variantProps": {
+            "State": "Loaded",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8658061ae809",
+          "variantProps": {
+            "State": "ConsoleLogs",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-865807c9f7f8",
+          "variantProps": {
+            "State": "ConsoleLogs",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-8658098026c7",
+          "variantProps": {
+            "State": "ConsoleEmpty",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86580b4bf787",
+          "variantProps": {
+            "State": "ConsoleEmpty",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86580c6be023",
+          "variantProps": {
+            "State": "Loading",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "cebd822e-5596-8078-8008-86580d74755e",
+          "variantProps": {
+            "State": "Loading",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.web-preview",
+          "framework": "react",
+          "module": "@repo/elements/web-preview",
+          "export": "WebPreview",
+          "exports": [
+            "WebPreview",
+            "WebPreviewNavigation",
+            "WebPreviewNavigationButton",
+            "WebPreviewUrl",
+            "WebPreviewBody",
+            "WebPreviewConsole"
+          ],
+          "typeExports": [
+            "WebPreviewContextValue",
+            "WebPreviewProps",
+            "WebPreviewNavigationProps",
+            "WebPreviewNavigationButtonProps",
+            "WebPreviewUrlProps",
+            "WebPreviewBodyProps",
+            "WebPreviewConsoleProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/web-preview.tsx",
+            "sha256": "7ae44586766db67c5341b36a30340b202e6f45c205457ad98f0817968d162d2c"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(code)/web-preview.mdx",
+            "examples": ["packages/examples/src/web-preview.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.audio-player",
+      "variants": [
+        {
+          "componentId": "8633c2af-b930-8087-8008-879fd265da08",
+          "variantProps": {
+            "State": "Paused",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-879fd3a6f929",
+          "variantProps": {
+            "State": "Playing",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-879fd4d724a6",
+          "variantProps": {
+            "State": "Muted",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-879fd620d37b",
+          "variantProps": {
+            "State": "Paused",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-879fd759d76a",
+          "variantProps": {
+            "State": "Playing",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-879fd88f5604",
+          "variantProps": {
+            "State": "Muted",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.audio-player",
+          "framework": "react",
+          "module": "@repo/elements/audio-player",
+          "export": "AudioPlayer",
+          "exports": [
+            "AudioPlayer",
+            "AudioPlayerElement",
+            "AudioPlayerControlBar",
+            "AudioPlayerPlayButton",
+            "AudioPlayerSeekBackwardButton",
+            "AudioPlayerSeekForwardButton",
+            "AudioPlayerTimeDisplay",
+            "AudioPlayerTimeRange",
+            "AudioPlayerDurationDisplay",
+            "AudioPlayerMuteButton",
+            "AudioPlayerVolumeRange"
+          ],
+          "typeExports": [
+            "AudioPlayerProps",
+            "AudioPlayerElementProps",
+            "AudioPlayerControlBarProps",
+            "AudioPlayerPlayButtonProps",
+            "AudioPlayerSeekBackwardButtonProps",
+            "AudioPlayerSeekForwardButtonProps",
+            "AudioPlayerTimeDisplayProps",
+            "AudioPlayerTimeRangeProps",
+            "AudioPlayerDurationDisplayProps",
+            "AudioPlayerMuteButtonProps",
+            "AudioPlayerVolumeRangeProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "e3292f6b2bb6c247fde4d74f716d3535a07f43e4",
+            "file": "packages/elements/src/audio-player.tsx",
+            "sha256": "99b4f7321aac91db54bb8dfa605c3f8326fdcd3f4f71c762a477aea332a4311c"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(voice)/audio-player.mdx",
+            "examples": [
+              "packages/examples/src/audio-player.tsx",
+              "packages/examples/src/audio-player-remote.tsx"
+            ]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.mic-selector",
+      "variants": [
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0ed57a311",
+          "variantProps": {
+            "State": "Placeholder",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0eda693a2",
+          "variantProps": {
+            "State": "Selected",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0eea684a4",
+          "variantProps": {
+            "State": "OpenDevices",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0ef555bee",
+          "variantProps": {
+            "State": "OpenEmpty",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0efaad06f",
+          "variantProps": {
+            "State": "Placeholder",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0eff811fc",
+          "variantProps": {
+            "State": "Selected",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0f0ec19a1",
+          "variantProps": {
+            "State": "OpenDevices",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0f1988bd2",
+          "variantProps": {
+            "State": "OpenEmpty",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.mic-selector",
+          "framework": "react",
+          "module": "@repo/elements/mic-selector",
+          "export": "MicSelector",
+          "exports": [
+            "useAudioDevices",
+            "MicSelector",
+            "MicSelectorTrigger",
+            "MicSelectorContent",
+            "MicSelectorInput",
+            "MicSelectorList",
+            "MicSelectorEmpty",
+            "MicSelectorItem",
+            "MicSelectorLabel",
+            "MicSelectorValue"
+          ],
+          "typeExports": [
+            "MicSelectorProps",
+            "MicSelectorTriggerProps",
+            "MicSelectorContentProps",
+            "MicSelectorInputProps",
+            "MicSelectorListProps",
+            "MicSelectorEmptyProps",
+            "MicSelectorItemProps",
+            "MicSelectorLabelProps",
+            "MicSelectorValueProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/mic-selector.tsx",
+            "sha256": "3b69b527315f81114fb99518f5078a183092f16ad4cf4105ef94861da1724dce"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(voice)/mic-selector.mdx",
+            "examples": ["packages/examples/src/mic-selector.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.persona",
+      "variants": [
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a408edec54",
+          "variantProps": {
+            "Variant": "Obsidian",
+            "State": "Idle",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a4126df7b3",
+          "variantProps": {
+            "Variant": "Obsidian",
+            "State": "Listening",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a412729911",
+          "variantProps": {
+            "Variant": "Obsidian",
+            "State": "Thinking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41275ce16",
+          "variantProps": {
+            "Variant": "Obsidian",
+            "State": "Speaking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41279f452",
+          "variantProps": {
+            "Variant": "Obsidian",
+            "State": "Asleep",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a4127d7e9d",
+          "variantProps": {
+            "Variant": "Obsidian",
+            "State": "Idle",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41280b3ef",
+          "variantProps": {
+            "Variant": "Obsidian",
+            "State": "Listening",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41283e0e6",
+          "variantProps": {
+            "Variant": "Obsidian",
+            "State": "Thinking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41287fba2",
+          "variantProps": {
+            "Variant": "Obsidian",
+            "State": "Speaking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a4128c3ebe",
+          "variantProps": {
+            "Variant": "Obsidian",
+            "State": "Asleep",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a415f4c11d",
+          "variantProps": {
+            "Variant": "Mana",
+            "State": "Idle",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a415f80a02",
+          "variantProps": {
+            "Variant": "Mana",
+            "State": "Listening",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a415fc41da",
+          "variantProps": {
+            "Variant": "Mana",
+            "State": "Thinking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a415ff135f",
+          "variantProps": {
+            "Variant": "Mana",
+            "State": "Speaking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a416035061",
+          "variantProps": {
+            "Variant": "Mana",
+            "State": "Asleep",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a4160654a0",
+          "variantProps": {
+            "Variant": "Mana",
+            "State": "Idle",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a416091639",
+          "variantProps": {
+            "Variant": "Mana",
+            "State": "Listening",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a4160c97c8",
+          "variantProps": {
+            "Variant": "Mana",
+            "State": "Thinking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a4160ff5db",
+          "variantProps": {
+            "Variant": "Mana",
+            "State": "Speaking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41613d06f",
+          "variantProps": {
+            "Variant": "Mana",
+            "State": "Asleep",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a418ac94b2",
+          "variantProps": {
+            "Variant": "Opal",
+            "State": "Idle",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a418afdfa5",
+          "variantProps": {
+            "Variant": "Opal",
+            "State": "Listening",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a418b36aa9",
+          "variantProps": {
+            "Variant": "Opal",
+            "State": "Thinking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a418b60b96",
+          "variantProps": {
+            "Variant": "Opal",
+            "State": "Speaking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a418b90f35",
+          "variantProps": {
+            "Variant": "Opal",
+            "State": "Asleep",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a418bc93d6",
+          "variantProps": {
+            "Variant": "Opal",
+            "State": "Idle",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a418bf4ba7",
+          "variantProps": {
+            "Variant": "Opal",
+            "State": "Listening",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a418c2f486",
+          "variantProps": {
+            "Variant": "Opal",
+            "State": "Thinking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a418c50134",
+          "variantProps": {
+            "Variant": "Opal",
+            "State": "Speaking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a418c81f96",
+          "variantProps": {
+            "Variant": "Opal",
+            "State": "Asleep",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41b8095d5",
+          "variantProps": {
+            "Variant": "Halo",
+            "State": "Idle",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41b839051",
+          "variantProps": {
+            "Variant": "Halo",
+            "State": "Listening",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41b870dc4",
+          "variantProps": {
+            "Variant": "Halo",
+            "State": "Thinking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41b89614c",
+          "variantProps": {
+            "Variant": "Halo",
+            "State": "Speaking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41b8cb8f3",
+          "variantProps": {
+            "Variant": "Halo",
+            "State": "Asleep",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41b8ef15e",
+          "variantProps": {
+            "Variant": "Halo",
+            "State": "Idle",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41b926d04",
+          "variantProps": {
+            "Variant": "Halo",
+            "State": "Listening",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41b950220",
+          "variantProps": {
+            "Variant": "Halo",
+            "State": "Thinking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41b97bdbe",
+          "variantProps": {
+            "Variant": "Halo",
+            "State": "Speaking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41b99a85e",
+          "variantProps": {
+            "Variant": "Halo",
+            "State": "Asleep",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41faf9796",
+          "variantProps": {
+            "Variant": "Glint",
+            "State": "Idle",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41fb2ffc6",
+          "variantProps": {
+            "Variant": "Glint",
+            "State": "Listening",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41fb612db",
+          "variantProps": {
+            "Variant": "Glint",
+            "State": "Thinking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41fb91a45",
+          "variantProps": {
+            "Variant": "Glint",
+            "State": "Speaking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41fbcbb05",
+          "variantProps": {
+            "Variant": "Glint",
+            "State": "Asleep",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41fbfa9e8",
+          "variantProps": {
+            "Variant": "Glint",
+            "State": "Idle",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41fc35029",
+          "variantProps": {
+            "Variant": "Glint",
+            "State": "Listening",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41fc55032",
+          "variantProps": {
+            "Variant": "Glint",
+            "State": "Thinking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41fc81a7c",
+          "variantProps": {
+            "Variant": "Glint",
+            "State": "Speaking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a41fcace69",
+          "variantProps": {
+            "Variant": "Glint",
+            "State": "Asleep",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a422c09922",
+          "variantProps": {
+            "Variant": "Command",
+            "State": "Idle",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a422c34183",
+          "variantProps": {
+            "Variant": "Command",
+            "State": "Listening",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a422c65c85",
+          "variantProps": {
+            "Variant": "Command",
+            "State": "Thinking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a422c96fef",
+          "variantProps": {
+            "Variant": "Command",
+            "State": "Speaking",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a422cbc87d",
+          "variantProps": {
+            "Variant": "Command",
+            "State": "Asleep",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a422cedd21",
+          "variantProps": {
+            "Variant": "Command",
+            "State": "Idle",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a422d0d7db",
+          "variantProps": {
+            "Variant": "Command",
+            "State": "Listening",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a422d3c0d5",
+          "variantProps": {
+            "Variant": "Command",
+            "State": "Thinking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a422d6883a",
+          "variantProps": {
+            "Variant": "Command",
+            "State": "Speaking",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a422d917c1",
+          "variantProps": {
+            "Variant": "Command",
+            "State": "Asleep",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.persona",
+          "framework": "react",
+          "module": "@repo/elements/persona",
+          "export": "Persona",
+          "exports": ["Persona"],
+          "typeExports": ["PersonaState"],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/persona.tsx",
+            "sha256": "5c649409c4c08408959eff5ec43a179ca6f585ec101ca7f8322348510b6b0375"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(voice)/persona.mdx",
+            "examples": [
+              "packages/examples/src/persona-obsidian.tsx",
+              "packages/examples/src/persona-mana.tsx",
+              "packages/examples/src/persona-opal.tsx",
+              "packages/examples/src/persona-halo.tsx",
+              "packages/examples/src/persona-glint.tsx",
+              "packages/examples/src/persona-command.tsx"
+            ]
+          },
+          "variantProperties": ["Variant", "State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.speech-input",
+      "variants": [
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0c55050b6",
+          "variantProps": {
+            "State": "Ready",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0c5c8994c",
+          "variantProps": {
+            "State": "Listening",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0c611c808",
+          "variantProps": {
+            "State": "Processing",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0c66ed9f9",
+          "variantProps": {
+            "State": "Disabled",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0c6c95eb6",
+          "variantProps": {
+            "State": "Ready",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0c73b9487",
+          "variantProps": {
+            "State": "Listening",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0c780aaf8",
+          "variantProps": {
+            "State": "Processing",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a0c7e05ccd",
+          "variantProps": {
+            "State": "Disabled",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.speech-input",
+          "framework": "react",
+          "module": "@repo/elements/speech-input",
+          "export": "SpeechInput",
+          "exports": ["SpeechInput"],
+          "typeExports": ["SpeechInputProps"],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/speech-input.tsx",
+            "sha256": "25747138c9c41cca6f96caf69faa9ff6e39910dabac534c84eba41cbd9ba54d3"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(voice)/speech-input.mdx",
+            "examples": ["packages/examples/src/speech-input.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.transcription",
+      "variants": [
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a00b804b87",
+          "variantProps": {
+            "State": "Beginning",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a00c3e71a7",
+          "variantProps": {
+            "State": "Playing",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a00cf2a19a",
+          "variantProps": {
+            "State": "Complete",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a00dc05446",
+          "variantProps": {
+            "State": "Beginning",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a00e896a5d",
+          "variantProps": {
+            "State": "Playing",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a00f3892c3",
+          "variantProps": {
+            "State": "Complete",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.transcription",
+          "framework": "react",
+          "module": "@repo/elements/transcription",
+          "export": "Transcription",
+          "exports": ["Transcription", "TranscriptionSegment"],
+          "typeExports": ["TranscriptionProps", "TranscriptionSegmentProps"],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/transcription.tsx",
+            "sha256": "c9edab6a677ec9fdd09fdd5657bf56fcc674457e52ab7c6f686107c6ba787e29"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(voice)/transcription.mdx",
+            "examples": ["packages/examples/src/transcription.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.voice-selector",
+      "variants": [
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a14d22cb9b",
+          "variantProps": {
+            "State": "ClosedPlaceholder",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a14d70cc66",
+          "variantProps": {
+            "State": "ClosedSelected",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a14fff3f72",
+          "variantProps": {
+            "State": "OpenVoices",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a150ad5266",
+          "variantProps": {
+            "State": "OpenEmpty",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a1535a4643",
+          "variantProps": {
+            "State": "PreviewLoading",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a155f12885",
+          "variantProps": {
+            "State": "PreviewPlaying",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a156314d0a",
+          "variantProps": {
+            "State": "ClosedPlaceholder",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a1567a8ee0",
+          "variantProps": {
+            "State": "ClosedSelected",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a1592ac2af",
+          "variantProps": {
+            "State": "OpenVoices",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a159e0685f",
+          "variantProps": {
+            "State": "OpenEmpty",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a15c7b4594",
+          "variantProps": {
+            "State": "PreviewLoading",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "8633c2af-b930-8087-8008-87a15f0d3ab4",
+          "variantProps": {
+            "State": "PreviewPlaying",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.voice-selector",
+          "framework": "react",
+          "module": "@repo/elements/voice-selector",
+          "export": "VoiceSelector",
+          "exports": [
+            "useVoiceSelector",
+            "VoiceSelector",
+            "VoiceSelectorTrigger",
+            "VoiceSelectorContent",
+            "VoiceSelectorDialog",
+            "VoiceSelectorInput",
+            "VoiceSelectorList",
+            "VoiceSelectorEmpty",
+            "VoiceSelectorGroup",
+            "VoiceSelectorItem",
+            "VoiceSelectorShortcut",
+            "VoiceSelectorSeparator",
+            "VoiceSelectorGender",
+            "VoiceSelectorAccent",
+            "VoiceSelectorAge",
+            "VoiceSelectorName",
+            "VoiceSelectorDescription",
+            "VoiceSelectorAttributes",
+            "VoiceSelectorBullet",
+            "VoiceSelectorPreview"
+          ],
+          "typeExports": [
+            "VoiceSelectorProps",
+            "VoiceSelectorTriggerProps",
+            "VoiceSelectorContentProps",
+            "VoiceSelectorDialogProps",
+            "VoiceSelectorInputProps",
+            "VoiceSelectorListProps",
+            "VoiceSelectorEmptyProps",
+            "VoiceSelectorGroupProps",
+            "VoiceSelectorItemProps",
+            "VoiceSelectorShortcutProps",
+            "VoiceSelectorSeparatorProps",
+            "VoiceSelectorGenderProps",
+            "VoiceSelectorAccentProps",
+            "VoiceSelectorAgeProps",
+            "VoiceSelectorNameProps",
+            "VoiceSelectorDescriptionProps",
+            "VoiceSelectorAttributesProps",
+            "VoiceSelectorBulletProps",
+            "VoiceSelectorPreviewProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/voice-selector.tsx",
+            "sha256": "c777aa17525ea3664880f52e762dc1f49d4e9b32f0b815cc839677bff406aa3d"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(voice)/voice-selector.mdx",
+            "examples": ["packages/examples/src/voice-selector.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.image",
+      "variants": [
+        {
+          "componentId": "ef8ecfcc-e8fd-8021-8008-a99cd9851df4",
+          "variantProps": {
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "ef8ecfcc-e8fd-8021-8008-a99cd9b88391",
+          "variantProps": {
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.image",
+          "framework": "react",
+          "module": "@repo/elements/image",
+          "export": "Image",
+          "exports": ["Image"],
+          "typeExports": ["ImageProps"],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/image.tsx",
+            "sha256": "91e305eda8139c5ee8024bec75576e0608d7fbf471e1c00395a2bdfda4a65747"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(utilities)/image.mdx",
+            "examples": ["packages/examples/src/image.tsx"]
+          },
+          "variantProperties": ["Theme"]
+        }
+      ]
+    },
+    {
+      "id": "ai.open-in-chat",
+      "variants": [
+        {
+          "componentId": "ef8ecfcc-e8fd-8021-8008-a99d711f1ed5",
+          "variantProps": {
+            "State": "Closed",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "ef8ecfcc-e8fd-8021-8008-a99d732938df",
+          "variantProps": {
+            "State": "Open",
+            "Theme": "Light"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "ef8ecfcc-e8fd-8021-8008-a99d737821eb",
+          "variantProps": {
+            "State": "Closed",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        },
+        {
+          "componentId": "ef8ecfcc-e8fd-8021-8008-a99d758528a1",
+          "variantProps": {
+            "State": "Open",
+            "Theme": "Dark"
+          },
+          "bindingIndex": 0
+        }
+      ],
+      "bindings": [
+        {
+          "id": "ai.open-in-chat",
+          "framework": "react",
+          "module": "@repo/elements/open-in-chat",
+          "export": "OpenIn",
+          "exports": [
+            "OpenIn",
+            "OpenInContent",
+            "OpenInItem",
+            "OpenInLabel",
+            "OpenInSeparator",
+            "OpenInTrigger",
+            "OpenInChatGPT",
+            "OpenInClaude",
+            "OpenInT3",
+            "OpenInScira",
+            "OpenInv0",
+            "OpenInCursor"
+          ],
+          "typeExports": [
+            "OpenInProps",
+            "OpenInContentProps",
+            "OpenInItemProps",
+            "OpenInLabelProps",
+            "OpenInSeparatorProps",
+            "OpenInTriggerProps",
+            "OpenInChatGPTProps",
+            "OpenInClaudeProps",
+            "OpenInT3Props",
+            "OpenInSciraProps",
+            "OpenInv0Props",
+            "OpenInCursorProps"
+          ],
+          "contractVersion": 1,
+          "sourcePin": {
+            "kind": "git-commit+sha256",
+            "repository": "https://github.com/vercel/ai-elements.git",
+            "revision": "6a9d5b1822ffb10bba4bd97175f01edd7d8651cd",
+            "file": "packages/elements/src/open-in-chat.tsx",
+            "sha256": "0370a813ed09e9b23857717cff0704a028049d2cf014dbd11e5f56d05db6db33"
+          },
+          "documentation": {
+            "page": "apps/docs/content/components/(utilities)/open-in-chat.mdx",
+            "examples": ["packages/examples/src/open-in-chat.tsx"]
+          },
+          "variantProperties": ["State", "Theme"]
+        }
+      ]
+    }
+  ]
+}

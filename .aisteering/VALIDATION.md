@@ -109,3 +109,38 @@ The full Elements suite now uses explicitly sized Canvas fixtures in `controls.t
 6. Verify `Code Component Lab` (`cebd822e-5596-8078-8008-865a8fdf6abb`) contains 98 linked instances: 49 Light, 49 Dark, 15 families, zero detached proof shapes, and no foreign-library roots.
 7. Verify `Voice Component Lab` (`8633c2af-b930-8087-8008-87a4b8475c0f`) contains 100 linked instances across six families, zero detached proof shapes, no foreign-library roots, and no file validation errors.
 8. Verify `Utilities Component Lab` (`ef8ecfcc-e8fd-8021-8008-a99e412158e1`) contains six linked instances across Image and Open in Chat, three Light and three Dark, no detached proof shapes, no foreign-library roots, and no file validation errors.
+
+## Full library metadata snapshot
+
+`penpot/fixtures/library-bindings.json` records live metadata from all 286
+variants. The binding test command compares every record against the manifest,
+including family identity, variant axes and UUID, binding module/version,
+source pin, and runtime exports. This catches non-root drift such as the five
+stale Audio Player pins repaired on 2026-10-01.
+
+After editing bindings in Penpot, re-export from the owned library, checking
+its file UUID first. For each `penpot.library.local.components` family, read
+`variants.variantComponents()` and each variant's actual
+`getSharedPluginData("ai-elements", "code-binding")` JSON. Store the family
+binding ID, every variant's component UUID and property object, and an index
+into the family's deduplicated array of actual binding records. Use snapshot
+schemaVersion 1 and the live fileId. Never generate the records from the
+manifest: doing so would hide the drift this check is intended to catch.
+Run the snapshot tests and manifest validator before committing the export.
+
+This is deterministic saved evidence, not a live Penpot monitor. Live release
+validation still requires re-reading the library and its consumer instances.
+
+## Primitive composition
+
+`pnpm penpot:bindings:test` also compares `penpot/primitive-contract.json` with
+independently exported library and consumer snapshots. Every expected Button
+must remain a linked vendor instance, and all 286 consumer variants must have
+the same named primitive inventory as the owned library. A shared-library
+update that has not reached the lab fails this comparison.
+
+The two Button migration baseline fixtures additionally check 114 replacements
+for preserved geometry/paint and 94 visible labels for position/typography.
+The remaining first-batch replacements have visual and linkage evidence but
+no saved full pre-change geometry fixture. Re-export live evidence after every
+composition change; CI validates saved evidence and does not poll Penpot.
