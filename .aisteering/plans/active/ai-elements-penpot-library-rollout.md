@@ -110,4 +110,11 @@ Utilities adds two component families, six mapped variants, six linked consumer 
 
 ## Execution order
 
+As of 2026-10-01, pause Workflow until the shadcn dependency is verified, the
+Penpot binding checks run in CI, and repository integration is resolved. The
+user prioritized these foundations because corrections could affect Workflow.
+The live Penpot dependency audit requires the owned library's MCP connection.
+Upstream PR #495 is closed without merging; fork PR #1 remains open. Preserve
+the binding branch's history when integrating its repository-local source pins.
+
 Chatbot → Code → Voice → Utilities → Workflow. Chatbot, Code, Voice, and Utilities are accepted. On 2026-09-19, the user requested that Utilities be finished ahead of Workflow. Utilities is the completed writer slot; Workflow is next after the Utilities commit handoff and must revalidate the 42-binding baseline before writing.

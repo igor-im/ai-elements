@@ -10,6 +10,17 @@ Open `http://localhost:3000/en/components/<component-slug>`. The explicit Englis
 
 ## Penpot binding tooling
 
+The `Validate Penpot Bindings` job in `.github/workflows/test.yml` runs the
+binding tests and manifest validator on pull requests to `main` and pushes to
+`main`. Its checkout fetches complete Git history because validation checks
+that every immutable source pin exists and is an ancestor of the tested commit.
+The resolver tests cover every declared variant and all checked-in consumer
+fixtures. A missing pin, changed source checksum, or unresolved instance fails CI.
+
+Integrate the binding branch with a merge commit. Squashing or rebasing its
+history would remove the repository-local Audio Player source revision from
+the ancestry of `main` and invalidate its existing Penpot binding.
+
 ```bash
 pnpm penpot:bindings:test
 pnpm penpot:bindings:validate

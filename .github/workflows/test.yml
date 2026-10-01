@@ -9,6 +9,35 @@ on:
       - main
 
 jobs:
+  penpot-bindings:
+    name: Validate Penpot Bindings
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout Repo with Source Pin History
+        uses: actions/checkout@v6
+        with:
+          # Binding validation verifies immutable source commits are ancestors.
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Test Binding Validation and Consumer Resolution
+        run: pnpm penpot:bindings:test
+
+      - name: Validate Pinned Component Manifest
+        run: pnpm penpot:bindings:validate
+
   build:
     name: Build Packages
     runs-on: ubuntu-latest
