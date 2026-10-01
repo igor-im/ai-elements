@@ -5,7 +5,7 @@ import { translations } from "@/geistdocs";
 
 export const i18n = defineI18n({
   defaultLanguage: "en",
-  hideLocale: "default-locale",
+  hideLocale: "never",
   languages: Object.keys(translations),
 });
 

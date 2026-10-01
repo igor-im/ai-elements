@@ -1,0 +1,4 @@
+interface:
+  display_name: "Implement Penpot Design"
+  short_description: "Translate bound Penpot pages into React"
+  default_prompt: "Use $implement-penpot-design to implement the supplied Penpot MCP export in the target React project."

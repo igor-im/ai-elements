@@ -1,0 +1,1067 @@
+{
+  "fileId": "f9c80ed1-fe5b-8098-8008-8618092b66d2",
+  "pageId": "f9c80ed1-fe5b-8098-8008-8618092b66d3",
+  "galleryId": "8633c2af-b930-8087-8008-87a4b8475c0f",
+  "instances": [
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c429725f",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-879fd265da08",
+      "variantSetId": "8633c2af-b930-8087-8008-879fd8921d81",
+      "variantProps": {
+        "State": "Paused",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c4359e32",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-879fd3a6f929",
+      "variantSetId": "8633c2af-b930-8087-8008-879fd8921d81",
+      "variantProps": {
+        "State": "Playing",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c442460b",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-879fd4d724a6",
+      "variantSetId": "8633c2af-b930-8087-8008-879fd8921d81",
+      "variantProps": {
+        "State": "Muted",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c44d59c8",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-879fd620d37b",
+      "variantSetId": "8633c2af-b930-8087-8008-879fd8921d81",
+      "variantProps": {
+        "State": "Paused",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c45b7133",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-879fd759d76a",
+      "variantSetId": "8633c2af-b930-8087-8008-879fd8921d81",
+      "variantProps": {
+        "State": "Playing",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c467a646",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-879fd88f5604",
+      "variantSetId": "8633c2af-b930-8087-8008-879fd8921d81",
+      "variantProps": {
+        "State": "Muted",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c4719752",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0ed57a311",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0f19c1bb3",
+      "variantProps": {
+        "State": "Placeholder",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c478c833",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0eda693a2",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0f19c1bb3",
+      "variantProps": {
+        "State": "Selected",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c47efcbb",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0eea684a4",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0f19c1bb3",
+      "variantProps": {
+        "State": "OpenDevices",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c48701c1",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0ef555bee",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0f19c1bb3",
+      "variantProps": {
+        "State": "OpenEmpty",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c49033ba",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0efaad06f",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0f19c1bb3",
+      "variantProps": {
+        "State": "Placeholder",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c4966ace",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0eff811fc",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0f19c1bb3",
+      "variantProps": {
+        "State": "Selected",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c49df943",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0f0ec19a1",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0f19c1bb3",
+      "variantProps": {
+        "State": "OpenDevices",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c4a71acf",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0f1988bd2",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0f19c1bb3",
+      "variantProps": {
+        "State": "OpenEmpty",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c4b1cbbc",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a408edec54",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Obsidian",
+        "State": "Idle",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c4b943cd",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a4126df7b3",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Obsidian",
+        "State": "Listening",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c4c00b7d",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a412729911",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Obsidian",
+        "State": "Thinking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c4c7049c",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41275ce16",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Obsidian",
+        "State": "Speaking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c4cd505c",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41279f452",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Obsidian",
+        "State": "Asleep",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c4d40b14",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a4127d7e9d",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Obsidian",
+        "State": "Idle",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c8b07acb",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41280b3ef",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Obsidian",
+        "State": "Listening",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c8b85779",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41283e0e6",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Obsidian",
+        "State": "Thinking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c8bec622",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41287fba2",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Obsidian",
+        "State": "Speaking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c8c8f8a8",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a4128c3ebe",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Obsidian",
+        "State": "Asleep",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c8d15196",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a415f4c11d",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Mana",
+        "State": "Idle",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c8d7b090",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a415f80a02",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Mana",
+        "State": "Listening",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c8df31eb",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a415fc41da",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Mana",
+        "State": "Thinking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c8e56b0a",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a415ff135f",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Mana",
+        "State": "Speaking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c8ed321f",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a416035061",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Mana",
+        "State": "Asleep",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c8f3f4e4",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a4160654a0",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Mana",
+        "State": "Idle",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c8fa1a27",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a416091639",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Mana",
+        "State": "Listening",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c900e718",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a4160c97c8",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Mana",
+        "State": "Thinking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c90be723",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a4160ff5db",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Mana",
+        "State": "Speaking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c914345d",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41613d06f",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Mana",
+        "State": "Asleep",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c91bbf17",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a418ac94b2",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Opal",
+        "State": "Idle",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c922d848",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a418afdfa5",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Opal",
+        "State": "Listening",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c928922f",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a418b36aa9",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Opal",
+        "State": "Thinking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c92f379e",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a418b60b96",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Opal",
+        "State": "Speaking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c935472b",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a418b90f35",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Opal",
+        "State": "Asleep",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4c93c7229",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a418bc93d6",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Opal",
+        "State": "Idle",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cbfa4a9d",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a418bf4ba7",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Opal",
+        "State": "Listening",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc03dbfc",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a418c2f486",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Opal",
+        "State": "Thinking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc0b8b7c",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a418c50134",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Opal",
+        "State": "Speaking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc137f57",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a418c81f96",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Opal",
+        "State": "Asleep",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc1b64aa",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41b8095d5",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Halo",
+        "State": "Idle",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc247505",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41b839051",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Halo",
+        "State": "Listening",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc2afef7",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41b870dc4",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Halo",
+        "State": "Thinking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc314d30",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41b89614c",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Halo",
+        "State": "Speaking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc38e33f",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41b8cb8f3",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Halo",
+        "State": "Asleep",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc406b7f",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41b8ef15e",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Halo",
+        "State": "Idle",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc4717e3",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41b926d04",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Halo",
+        "State": "Listening",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc4d904a",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41b950220",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Halo",
+        "State": "Thinking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc54ffe3",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41b97bdbe",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Halo",
+        "State": "Speaking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc5aaede",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41b99a85e",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Halo",
+        "State": "Asleep",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc61636e",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41faf9796",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Glint",
+        "State": "Idle",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc674e0b",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41fb2ffc6",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Glint",
+        "State": "Listening",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc6dcc57",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41fb612db",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Glint",
+        "State": "Thinking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc734f90",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41fb91a45",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Glint",
+        "State": "Speaking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc798ce9",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41fbcbb05",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Glint",
+        "State": "Asleep",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cc80cd60",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41fbfa9e8",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Glint",
+        "State": "Idle",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cef5a147",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41fc35029",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Glint",
+        "State": "Listening",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cefcb1c9",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41fc55032",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Glint",
+        "State": "Thinking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf047133",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41fc81a7c",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Glint",
+        "State": "Speaking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf0c41a7",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a41fcace69",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Glint",
+        "State": "Asleep",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf14351a",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a422c09922",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Command",
+        "State": "Idle",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf1b546a",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a422c34183",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Command",
+        "State": "Listening",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf217ff9",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a422c65c85",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Command",
+        "State": "Thinking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf2a0c34",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a422c96fef",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Command",
+        "State": "Speaking",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf32dc5f",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a422cbc87d",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Command",
+        "State": "Asleep",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf3ae1b6",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a422cedd21",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Command",
+        "State": "Idle",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf41d8ca",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a422d0d7db",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Command",
+        "State": "Listening",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf4849f7",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a422d3c0d5",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Command",
+        "State": "Thinking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf50ba50",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a422d6883a",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Command",
+        "State": "Speaking",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf597d4c",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a422d917c1",
+      "variantSetId": "8633c2af-b930-8087-8008-87a4401f5784",
+      "variantProps": {
+        "Variant": "Command",
+        "State": "Asleep",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf609182",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0c55050b6",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0c7e3522b",
+      "variantProps": {
+        "State": "Ready",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf66f952",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0c5c8994c",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0c7e3522b",
+      "variantProps": {
+        "State": "Listening",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf6f630d",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0c611c808",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0c7e3522b",
+      "variantProps": {
+        "State": "Processing",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf7684c9",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0c66ed9f9",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0c7e3522b",
+      "variantProps": {
+        "State": "Disabled",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf7eee56",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0c6c95eb6",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0c7e3522b",
+      "variantProps": {
+        "State": "Ready",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4cf85ba97",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0c73b9487",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0c7e3522b",
+      "variantProps": {
+        "State": "Listening",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d1d0d2de",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0c780aaf8",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0c7e3522b",
+      "variantProps": {
+        "State": "Processing",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d1d9d75f",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a0c7e05ccd",
+      "variantSetId": "8633c2af-b930-8087-8008-87a0c7e3522b",
+      "variantProps": {
+        "State": "Disabled",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d1e285c8",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a00b804b87",
+      "variantSetId": "8633c2af-b930-8087-8008-87a00f3b64f5",
+      "variantProps": {
+        "State": "Beginning",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d1eca8be",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a00c3e71a7",
+      "variantSetId": "8633c2af-b930-8087-8008-87a00f3b64f5",
+      "variantProps": {
+        "State": "Playing",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d1f6f5a2",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a00cf2a19a",
+      "variantSetId": "8633c2af-b930-8087-8008-87a00f3b64f5",
+      "variantProps": {
+        "State": "Complete",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d2014628",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a00dc05446",
+      "variantSetId": "8633c2af-b930-8087-8008-87a00f3b64f5",
+      "variantProps": {
+        "State": "Beginning",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d20c3d84",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a00e896a5d",
+      "variantSetId": "8633c2af-b930-8087-8008-87a00f3b64f5",
+      "variantProps": {
+        "State": "Playing",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d216b31b",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a00f3892c3",
+      "variantSetId": "8633c2af-b930-8087-8008-87a00f3b64f5",
+      "variantProps": {
+        "State": "Complete",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d2210144",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a14d22cb9b",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "ClosedPlaceholder",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d227cbce",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a14d70cc66",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "ClosedSelected",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d22edc97",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a14fff3f72",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "OpenVoices",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d23e5cf5",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a150ad5266",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "OpenEmpty",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d24758c8",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a1535a4643",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "PreviewLoading",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d25495ab",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a155f12885",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "PreviewPlaying",
+        "Theme": "Light"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d263c895",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a156314d0a",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "ClosedPlaceholder",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d26c7602",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a1567a8ee0",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "ClosedSelected",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d274f412",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a1592ac2af",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "OpenVoices",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d285031d",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a159e0685f",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "OpenEmpty",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d28df7b4",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a15c7b4594",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "PreviewLoading",
+        "Theme": "Dark"
+      }
+    },
+    {
+      "id": "8633c2af-b930-8087-8008-87a4d29cc8e9",
+      "componentLibraryId": "f9c80ed1-fe5b-8098-8008-85f67c505174",
+      "componentId": "8633c2af-b930-8087-8008-87a15f0d3ab4",
+      "variantSetId": "8633c2af-b930-8087-8008-87a15f10ca8e",
+      "variantProps": {
+        "State": "PreviewPlaying",
+        "Theme": "Dark"
+      }
+    }
+  ]
+}

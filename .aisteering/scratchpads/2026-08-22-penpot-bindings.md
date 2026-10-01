@@ -1,0 +1,57 @@
+# Penpot binding scratchpad
+
+Date: 2026-08-22
+
+- Repository cloned from `https://github.com/vercel/ai-elements.git`.
+- Feature branch: `codex/penpot-design-bindings`.
+- Upstream source pin: `6a9d5b1822ffb10bba4bd97175f01edd7d8651cd`.
+- Confirmation source SHA-256: `7cc0befed99499ed9010643e7a90ec619180a3f6e79cba5668cfc84126b96a10`.
+- Bound source: `packages/elements/src/confirmation.tsx`.
+- Package import inside the monorepo: `@repo/elements/confirmation`.
+- Penpot file UUID: `f9c80ed1-fe5b-8098-8008-85f67c505174`.
+- Penpot component UUID: `a46a744a-db75-80c4-8008-85fc2b7972aa`.
+- Shared metadata: namespace `ai-elements`, key `code-binding`.
+- Exact Git commit is authoritative; semantic release labels may be added later without weakening the pin.
+- Penpot library file was renamed `AI Elements` and published.
+- Penpot file version label: `ai.confirmation @ 6a9d5b1`.
+- Consumer file: `AI Elements Component Lab` (`f9c80ed1-fe5b-8098-8008-8618092b66d2`), page `f9c80ed1-fe5b-8098-8008-8618092b66d3`.
+- Component-lab gallery: `15a57ee0-be05-809c-8008-8618768ee905`.
+- Instantiate concrete `LibraryVariantComponent` objects in consumer files. `switchVariant()` silently left new copies on `Request/Light` during this pilot.
+- Binding validation: 9 focused tooling tests pass; Confirmation behavior: 17 tests pass.
+- Full Elements baseline currently has eight unrelated React Flow zero-size failures in `controls.test.tsx` and `panel.test.tsx`.
+- The docs app must use explicit locale routes such as `/en/components/confirmation`; `hideLocale: "default-locale"` loops between the hidden path and `[lang]` route with the pinned Next.js/Fumadocs runtime.
+- Implementation-test page: `Implementation Test` (`15a57ee0-be05-809c-8008-86250cb64c01`), board `Approval Workspace` (`15a57ee0-be05-809c-8008-86250cc51d90`).
+- Raw page artifact: `penpot/exports/approval-workspace.penpot.json`; implementation skill: `skills/implement-penpot-design`; demo: `apps/penpot-demo`.
+- The blind run reproduced exact major geometry and correct bindings but missed compound-content color/alignment without a reference raster. The skill now requires agents to export the board PNG through MCP themselves.
+- Source Sans Pro 400/600/700 assets were copied from the local Penpot frontend into the demo, with the Adobe OFL-1.1 license.
+- Full library rollout is section-sequenced in `.aisteering/plans/active/ai-elements-penpot-library-rollout.md`: Chatbot, Code, Voice, Workflow, then Utilities. Only one section task may mutate the shared Penpot file or binding manifest at a time.
+- Chatbot rollout adds 18 component families and 76 variants to the preserved Confirmation family, for 19 bindings and 82 mapped variants total.
+- The new consumer proof is `Chatbot Component Lab` (`fdc5d385-a945-806e-8008-864e7d404d82`): 76 linked instances, 38 Light and 38 Dark, no variant errors or detached copies.
+- Question is included from pinned `packages/elements/src/question.tsx` and its repository docs even though it is source-ahead of the deployed public sidebar.
+- Every new variant carries shared `ai-elements/code-binding` metadata with exact source SHA-256, complete runtime/type export inventory, docs/examples, and explicit variant axes.
+- Attachments and Checkpoint gained focused component tests; all 19 Chatbot suites pass with 430 tests. Binding tooling passes 17 tests and validates all 19 entries.
+- Chatbot visuals were accepted by the user after Light/Dark reference exports; Attachments and Suggestion were corrected before acceptance.
+- The already-published `AI Elements` library was verified in published state and saved as explicit version `Chatbot @ 6a9d5b1` after all section gates passed.
+- Chatbot is the completed writer slot. Code is next and must revalidate the current 19-binding baseline before mutating the shared file or manifest.
+- Code rollout adds 15 families and 98 Light/Dark variants, bringing the manifest to 34 bindings and 180 mapped variants without changing the canonical hash of the first 19 entries (`5a8f01e461e89540d0536d8422cab75947dffac639f187b57ffd28c68a6681a4`).
+- Code variant axes are component-owned: `State`, `Variant`, `Header`, `Visibility`, or `Change`, plus the required `Theme` axis. The generalized validator/resolver remains contract version 1 and rejects incomplete Cartesian mappings.
+- Code consumer proof is `Code Component Lab` (`cebd822e-5596-8078-8008-865a8fdf6abb`): 98 linked instances, 49 Light and 49 Dark, zero detached proof shapes, and all roots from the shared library.
+- Sandbox embeds linked Code Block or Stack Trace dependencies for representative execution states; nested components remain attached.
+- Code reference PNG matrices are stored under `penpot/exports/code/`. Focused Code behavior passes 15 files and 256 tests; binding tooling passes 18 tests and validates 34 entries.
+- The docs production build requires `NODE_ENV=production`; the host session exports `NODE_ENV=development`, which makes Next.js production validation fail on `/_global-error` before route generation.
+- Voice is the next serialized writer slot after the verified Code commit handoff. Do not begin Voice from the Code task.
+- The already-published `AI Elements` library was verified in published state and saved as explicit version `Code @ 6a9d5b1` after every Code gate passed.
+- 2026-08-23: Corrected all Code Block filename and code-content layers to `Geist Mono`, matching the pinned React `font-mono` contract. Published version `Code Block Geist Mono @ 6a9d5b1`; all six direct consumer proofs and nested Sandbox code content updated in place without detaching or changing component identities.
+- 2026-08-23: Rebuilt all four Artifact variants around linked Light/Dark Numbered Code Block instances, matching the example's `ArtifactContent > CodeBlock` composition. The remaining Code examples declare no other cross-family dependencies beyond Sandbox, which already links Code Block and Stack Trace. Published version `Artifact composes Code Block @ 6a9d5b1`; consumer proofs remain linked at both levels.
+- 2026-08-23: Voice adds six families and 100 variants, bringing the manifest to 40 bindings and 280 mapped variants. Persona contributes 60 source-faithful Rive snapshots across six styles, five states, and Light/Dark; device selectors use deterministic synthetic device/voice data.
+- Voice consumer proof is `Voice Component Lab` (`8633c2af-b930-8087-8008-87a4b8475c0f`): 100 linked instances, zero detached or foreign roots, and no file validation errors. Six reference matrices are stored under `penpot/exports/voice/`.
+- Voice focused behavior passes six files and 220 tests; binding tooling passes 19 tests and validates 40 entries. The first 34 manifest entries and the existing Confirmation binding retain their pre-Voice canonical hashes.
+- The already-published `AI Elements` library remains published and the validated file state is pinned as version `Voice @ 6a9d5b1`.
+- 2026-08-25: Audio Player now pins `e3292f6b2bb6c247fde4d74f716d3535a07f43e4` / SHA-256 `99b4f7321aac91db54bb8dfa605c3f8326fdcd3f4f71c762a477aea332a4311c`. The server markup emits `tabindex="-1"` before `media-chrome` initializes, closing the observed React hydration mismatch while preserving explicit consumer overrides.
+- 2026-08-25: Applied the consumer lab's complete shared-library update queue, reconnected MCP to the current task, and verified the consumer reads the updated Audio Player shared binding from library `f9c80ed1-fe5b-8098-8008-85f67c505174` with zero file validation errors.
+- 2026-09-19: Utilities adds Image and Open in Chat as two component families, six mapped variants, and six linked consumer instances in `Utilities Component Lab` (`ef8ecfcc-e8fd-8021-8008-a99e412158e1`). Image has Light/Dark; Open in Chat has Closed/Open × Light/Dark and depicts the six exported provider links. Both reference matrices were exported, inspected, and stored under `penpot/exports/utilities/`.
+- The six variants carry shared `ai-elements/code-binding` metadata. The consumer gallery uses library-linked concrete variants, with zero file validation errors and no detached or foreign roots. The library remains published; named version `Utilities @ 6a9d5b1` was saved after validation.
+- Image and Open in Chat source files retain upstream revision `6a9d5b1822ffb10bba4bd97175f01edd7d8651cd` and SHA-256 values `91e305eda8139c5ee8024bec75576e0608d7fbf471e1c00395a2bdfda4a65747` and `0370a813ed09e9b23857717cff0704a028049d2cf014dbd11e5f56d05db6db33`. The Confirmation binding hash is unchanged from pre-Utilities HEAD.
+- Corrected the repository and skill Open in Chat examples to put the required query on the parent `OpenIn`, not provider items. The focused browser test now renders the example, opens the menu, and checks the encoded ChatGPT prompt.
+- Utilities focused behavior passes two files and 19 tests. The full Elements suite passes 49 files and 968 tests; the Penpot demo passes six tests. Binding tooling passes 20 tests and validates 42 entries / 286 mapped variants. The `image` and `open-in-chat` docs routes returned HTTP 200 and displayed their previews; the latter opened all six provider links. Standalone examples TypeScript checking still reports unrelated existing errors in other examples and component files, none in `open-in-chat.tsx`.
+- Utilities is the completed writer slot. Workflow is next, after this branch's commit/PR handoff; it should revalidate the 42-binding baseline before mutating the shared library or manifest.
